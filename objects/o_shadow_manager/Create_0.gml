@@ -1,0 +1,1 @@
+shadow_surface_create()

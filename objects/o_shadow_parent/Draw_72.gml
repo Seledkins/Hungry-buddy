@@ -1,0 +1,1 @@
+draw_shadow(x + xoffset, y + yoffset, shadow_width);

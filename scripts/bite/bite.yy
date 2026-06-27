@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"bite",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"bite",
+  "parent":{
+    "name":"holes",
+    "path":"folders/creatures/holes.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

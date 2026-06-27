@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"default_spawn_pattern",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"default_spawn_pattern",
+  "parent":{
+    "name":"enemies",
+    "path":"folders/creatures/enemies.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

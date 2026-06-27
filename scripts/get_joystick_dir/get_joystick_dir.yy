@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"get_joystick_dir",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"get_joystick_dir",
+  "parent":{
+    "name":"Joystick",
+    "path":"folders/UI/Joystick.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

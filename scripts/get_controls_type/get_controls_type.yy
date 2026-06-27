@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"get_controls_type",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"get_controls_type",
+  "parent":{
+    "name":"UI",
+    "path":"folders/UI.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}
