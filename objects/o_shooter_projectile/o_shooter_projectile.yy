@@ -6,6 +6,8 @@
   "name":"o_shooter_projectile",
   "overriddenProperties":[
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"o_projectile_parent","path":"objects/o_projectile_parent/o_projectile_parent.yy",},"propertyId":{"name":"target","path":"objects/o_projectile_parent/o_projectile_parent.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"o_peaceful_parent",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"o_projectile_parent","path":"objects/o_projectile_parent/o_projectile_parent.yy",},"propertyId":{"name":"damage","path":"objects/o_projectile_parent/o_projectile_parent.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"1",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"o_projectile_parent","path":"objects/o_projectile_parent/o_projectile_parent.yy",},"propertyId":{"name":"max_life_time","path":"objects/o_projectile_parent/o_projectile_parent.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"50",},
   ],
   "parent":{
     "name":"shooter",
@@ -32,10 +34,7 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":{
-    "name":"sp_projectile_shooter",
-    "path":"sprites/sp_projectile_shooter/sp_projectile_shooter.yy",
-  },
+  "spriteId":null,
   "spriteMaskId":null,
   "visible":true,
 }

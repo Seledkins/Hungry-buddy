@@ -1,0 +1,1 @@
+alarm[0] = max_life_time

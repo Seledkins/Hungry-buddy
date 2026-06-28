@@ -10,4 +10,6 @@ function collision_rectangle_foreach(x1, y1, x2, y2, obj, notme, prec, ordered, 
 		
 	}
 	
+	return rect_list_size
+	
 }

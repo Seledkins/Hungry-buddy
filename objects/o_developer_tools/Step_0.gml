@@ -19,7 +19,7 @@ if (keyboard_check_pressed(ord("3")) || global.show_all_developer_params_flag) {
 }
 
 if (keyboard_check_pressed(ord("4")) || global.show_all_developer_params_flag) {
-		
+	global.show_hidden_variables = !global.show_hidden_variables
 }
 
 if (keyboard_check_pressed(ord("5")) || global.show_all_developer_params_flag) {

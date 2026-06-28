@@ -34,7 +34,7 @@
 	#macro sprite_speed_to_image_index_changing_ratio 0.017
 	#macro current_projectile other
 	
-	global.shadow_alpha = 0.5;
+	global.shadow_alpha = 0.4;
 	global.shadow_color = c_black;
 	
 	global.white_elements_alpha = 0.6;
@@ -47,11 +47,10 @@
 	global.show_all_developer_params_flag = false;
 	
 	global.show_mouse_cord = false;
-
 	global.show_projectile_1px = false;
 	global.show_enemies_params = false;
-	
 	global.spawner_stop = false;
+	global.show_hidden_variables = false;
 	
 	instance_create_depth(0, 0, 0, o_developer_tools);
 

@@ -9,4 +9,6 @@ function collision_circle_foreach(x1, y1, r, obj, notme, prec, ordered, callback
 		
 	}
 	
+	return circle_list_size
+	
 }

@@ -33,7 +33,7 @@
     {"$GMObjectProperty":"v2","%Name":"play_time","filters":[],"listItems":[],"multiselect":false,"name":"play_time","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"0.0","varType":0,},
     {"$GMObjectProperty":"v2","%Name":"damage_geted","filters":[],"listItems":[],"multiselect":false,"name":"damage_geted","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"0.0","varType":0,},
     {"$GMObjectProperty":"v2","%Name":"complexity","filters":[],"listItems":[],"multiselect":false,"name":"complexity","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"0.0","varType":0,},
-    {"$GMObjectProperty":"v2","%Name":"complexity_increase","filters":[],"listItems":[],"multiselect":false,"name":"complexity_increase","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"0.1","varType":0,},
+    {"$GMObjectProperty":"v2","%Name":"complexity_increase","filters":[],"listItems":[],"multiselect":false,"name":"complexity_increase","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"0.01","varType":0,},
   ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
