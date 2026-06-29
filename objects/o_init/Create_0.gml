@@ -34,8 +34,7 @@
 	#macro sprite_speed_to_image_index_changing_ratio 0.017
 	#macro current_projectile other
 	
-	global.shadow_alpha = 0.4;
-	global.shadow_color = c_black;
+	shadows_system_init()
 	
 	global.white_elements_alpha = 0.6;
 	

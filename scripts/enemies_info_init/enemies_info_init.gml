@@ -24,9 +24,14 @@ function enemies_info_init(){
 		
 		array_push(global.enemies_info, {
 			enemy_index : current_enemy.object_index,
+			array_index : e,
 			chance_to_spawn : current_enemy_chance,
-			min_complexity_to_spawn : current_enemy.min_complexity_to_spawn,
+			min_killed_enemy_to_spawn : current_enemy.min_killed_enemy_to_spawn,
 			spawn_pattern_function : current_enemy.spawn_pattern_function, 
+			current_count : current_enemy.current_count,
+			enemy_count_increase : current_enemy.enemy_count_increase,
+			max_enemy_count : current_enemy.max_enemy_count,
+			
 		})
 		
 		global.total_enemies_chances += current_enemy_chance;

@@ -22,6 +22,6 @@ function default_spawn_pattern(){
 	
 	}
 	
-	show_debug_message(iterate_amount)
+	//show_debug_message(iterate_amount)
 	
 }

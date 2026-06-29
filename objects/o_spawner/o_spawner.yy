@@ -27,7 +27,7 @@
   "physicsShapePoints":[],
   "physicsStartAwake":true,
   "properties":[
-    {"$GMObjectProperty":"v2","%Name":"spawn_delay","filters":[],"listItems":[],"multiselect":false,"name":"spawn_delay","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"140","varType":0,},
+    {"$GMObjectProperty":"v2","%Name":"spawn_delay","filters":[],"listItems":[],"multiselect":false,"name":"spawn_delay","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"10","varType":0,},
     {"$GMObjectProperty":"v2","%Name":"spawn_delay_decr","filters":[],"listItems":[],"multiselect":false,"name":"spawn_delay_decr","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"3","varType":0,},
     {"$GMObjectProperty":"v2","%Name":"spawn_delay_min","filters":[],"listItems":[],"multiselect":false,"name":"spawn_delay_min","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"100","varType":0,},
     {"$GMObjectProperty":"v2","%Name":"spawn_dir_spread","filters":[],"listItems":[],"multiselect":false,"name":"spawn_dir_spread","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"60","varType":0,},

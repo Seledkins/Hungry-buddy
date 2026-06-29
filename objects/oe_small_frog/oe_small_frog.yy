@@ -21,6 +21,9 @@
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"o_shadow_parent","path":"objects/o_shadow_parent/o_shadow_parent.yy",},"propertyId":{"name":"shadow_width","path":"objects/o_shadow_parent/o_shadow_parent.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"sprite_get_width(sprite_index)",},
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"o_shadow_parent","path":"objects/o_shadow_parent/o_shadow_parent.yy",},"propertyId":{"name":"yoffset","path":"objects/o_shadow_parent/o_shadow_parent.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"-2",},
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"oe_parent","path":"objects/oe_parent/oe_parent.yy",},"propertyId":{"name":"chance_to_spawn","path":"objects/oe_parent/oe_parent.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"40",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"oe_parent","path":"objects/oe_parent/oe_parent.yy",},"propertyId":{"name":"current_count","path":"objects/oe_parent/oe_parent.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"3",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"oe_parent","path":"objects/oe_parent/oe_parent.yy",},"propertyId":{"name":"enemy_count_increase","path":"objects/oe_parent/oe_parent.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"0.2",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"oe_parent","path":"objects/oe_parent/oe_parent.yy",},"propertyId":{"name":"max_enemy_count","path":"objects/oe_parent/oe_parent.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"9",},
   ],
   "parent":{
     "name":"small frog enemy",

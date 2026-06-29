@@ -1,11 +1,11 @@
 {
   "$GMSprite":"v2",
   "%Name":"sp_shooter_idle",
-  "bboxMode":0,
+  "bboxMode":2,
   "bbox_bottom":31,
   "bbox_left":4,
   "bbox_right":29,
-  "bbox_top":3,
+  "bbox_top":13,
   "collisionKind":1,
   "collisionTolerance":0,
   "DynamicTexturePage":false,

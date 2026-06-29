@@ -1,1 +1,1 @@
-draw_shadow(x + xoffset, y + yoffset, shadow_width);
+shadow_drop_function(x + xoffset, y + yoffset, shadow_width, skewx, skewy);

@@ -28,8 +28,11 @@
   "properties":[
     {"$GMObjectProperty":"v2","%Name":"drop_shadow","filters":[],"listItems":[],"multiselect":false,"name":"drop_shadow","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"true","varType":3,},
     {"$GMObjectProperty":"v2","%Name":"shadow_width","filters":[],"listItems":[],"multiselect":false,"name":"shadow_width","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"sprite_get_width(sprite_index)","varType":4,},
-    {"$GMObjectProperty":"v2","%Name":"xoffset","filters":[],"listItems":[],"multiselect":false,"name":"xoffset","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"0.0","varType":0,},
-    {"$GMObjectProperty":"v2","%Name":"yoffset","filters":[],"listItems":[],"multiselect":false,"name":"yoffset","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"-3","varType":0,},
+    {"$GMObjectProperty":"v2","%Name":"xoffset","filters":[],"listItems":[],"multiselect":false,"name":"xoffset","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"0.0","varType":4,},
+    {"$GMObjectProperty":"v2","%Name":"yoffset","filters":[],"listItems":[],"multiselect":false,"name":"yoffset","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"-3","varType":4,},
+    {"$GMObjectProperty":"v2","%Name":"shadow_drop_function","filters":[],"listItems":[],"multiselect":false,"name":"shadow_drop_function","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"draw_shadow_circle","varType":4,},
+    {"$GMObjectProperty":"v2","%Name":"skewx","filters":[],"listItems":[],"multiselect":false,"name":"skewx","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"global.shadow_xoffset","varType":4,},
+    {"$GMObjectProperty":"v2","%Name":"skewy","filters":[],"listItems":[],"multiselect":false,"name":"skewy","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"global.shadow_yoffset","varType":4,},
   ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
