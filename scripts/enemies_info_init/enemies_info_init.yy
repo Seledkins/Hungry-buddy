@@ -5,8 +5,8 @@
   "isDnD":false,
   "name":"enemies_info_init",
   "parent":{
-    "name":"enemies",
-    "path":"folders/creatures/enemies.yy",
+    "name":"inits",
+    "path":"folders/inits.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

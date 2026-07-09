@@ -8,7 +8,9 @@
   ],
   "managed":true,
   "name":"oe_parent",
-  "overriddenProperties":[],
+  "overriddenProperties":[
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"o_outline_parent","path":"objects/o_outline_parent/o_outline_parent.yy",},"propertyId":{"name":"outline_color","path":"objects/o_outline_parent/o_outline_parent.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"global.color_dark_purple",},
+  ],
   "parent":{
     "name":"enemies",
     "path":"folders/creatures/enemies.yy",

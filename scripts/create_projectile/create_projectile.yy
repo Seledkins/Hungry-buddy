@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"create_projectile",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"create_projectile",
+  "parent":{
+    "name":"enemies",
+    "path":"folders/creatures/enemies.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

@@ -31,6 +31,7 @@ function enemies_info_init(){
 			current_count : current_enemy.current_count,
 			enemy_count_increase : current_enemy.enemy_count_increase,
 			max_enemy_count : current_enemy.max_enemy_count,
+			max_distance_to_border : current_enemy.max_distance_to_border,
 			
 		})
 		

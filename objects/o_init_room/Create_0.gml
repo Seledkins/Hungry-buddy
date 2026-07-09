@@ -1,4 +1,4 @@
-room_width = global.device_widht
+room_width = global.device_width
 room_height = global.device_height
 
 instance_create_layer(room_width / 2, room_height / 2, "WhiteElements", o_arena)

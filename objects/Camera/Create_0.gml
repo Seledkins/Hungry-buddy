@@ -7,10 +7,10 @@ var arena_height = global.arena_height_scale * global.sprite_arena_height;
 
 var margin = 64;
 var scale_acceleration = 1.1;
-view_width = global.device_widht;
+view_width = global.device_width;
 view_height = global.device_height;
 
-var flag_to_scale_h = global.device_widht > arena_width + margin;
+var flag_to_scale_h = global.device_width > arena_width + margin;
 var flag_to_scale_v = global.device_height > arena_height + margin;
 
 
@@ -48,6 +48,7 @@ global.gui_width = view_width;
 global.gui_height = view_height;
 surface_resize(application_surface, view_width, view_height);
 
+
 port_height = view_height;
 
 // ==============================================================
@@ -71,8 +72,6 @@ view_x = primitive_view_x;
 view_y = primitive_view_y;
 
 // Here we apply the size of the window and the surface where we will be drawing the game.
-window_set_size(port_width, port_height);
-surface_resize(application_surface, port_width, port_height);
 uc_window_center();
 
 // Here we are saying all the values we are setting in this code

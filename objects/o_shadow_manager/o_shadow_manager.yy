@@ -10,7 +10,7 @@
   "overriddenProperties":[],
   "parent":{
     "name":"shadows system",
-    "path":"folders/shadows system.yy",
+    "path":"folders/graphics system/shadows system.yy",
   },
   "parentObjectId":null,
   "persistent":false,

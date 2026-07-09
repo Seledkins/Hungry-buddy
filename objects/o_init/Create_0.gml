@@ -2,12 +2,12 @@
 
 	var w = display_get_width()
 	var h = display_get_height()
-	global.device_widht = max(w, h)
+	global.device_width = max(w, h)
 	global.device_height = min(w, h)
 
 	global.shadow_surface = undefined
 
-	room_width = global.device_widht
+	room_width = global.device_width
 	room_height = global.device_height
 	
 	global.sprite_arena_width = sprite_get_width(sp_arena)
@@ -16,7 +16,15 @@
 	global.arena_width_scale = 5
 	global.arena_height_scale = 2.5
 	
-	window_set_fullscreen(true)
+	if (os_type != os_windows) {
+		window_set_fullscreen(true);
+	}
+	else
+	{
+		window_set_size(global.device_width / 2, global.device_height / 2);
+		show_debug_overlay(true);
+	}
+	 
 
 #endregion
 
@@ -37,6 +45,8 @@
 	shadows_system_init()
 	
 	global.white_elements_alpha = 0.6;
+	global.color_dark_purple = #180B21
+	global.color_red = #A81C1B
 	
 #endregion
 

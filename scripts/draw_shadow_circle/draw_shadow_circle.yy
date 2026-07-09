@@ -6,7 +6,7 @@
   "name":"draw_shadow_circle",
   "parent":{
     "name":"shadows system",
-    "path":"folders/shadows system.yy",
+    "path":"folders/graphics system/shadows system.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",
