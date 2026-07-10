@@ -1,11 +1,18 @@
-function create_projectile(_x, _y, prejectile, damage, _speed, _direction, _image_speed){
+function create_projectile(_x, _y, projectile, _damage, _target, _speed, _direction, _image_speed, addition_variables = {}){
 	
-	instance_create_depth(_x, _y, depth - 50 , prejectile, {
-			damage : damage,
+	var variables_struct = {
+			damage : _damage,
 			speed : _speed,
 			direction : _direction,
 			image_speed : _image_speed,
 			image_xscale : other.image_xscale,
-		
-			});
+			target : _target, 
+			
+			}
+			
+	variables_struct = struct_merge(variables_struct, addition_variables)
+	
+	var cur_projectile = instance_create_depth(_x, _y, depth - 50 , projectile, variables_struct);
+			
+	return cur_projectile
 }

@@ -47,8 +47,8 @@
   },
   "origin":4,
   "parent":{
-    "name":"sprites",
-    "path":"folders/creatures/enemies/shooter/sprites.yy",
+    "name":"projectile system",
+    "path":"folders/projectile system.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

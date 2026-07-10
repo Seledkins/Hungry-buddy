@@ -11,12 +11,12 @@
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"o_projectile_parent","path":"objects/o_projectile_parent/o_projectile_parent.yy",},"propertyId":{"name":"damage","path":"objects/o_projectile_parent/o_projectile_parent.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"1",},
   ],
   "parent":{
-    "name":"shooter",
-    "path":"folders/creatures/enemies/shooter.yy",
+    "name":"projectile system",
+    "path":"folders/projectile system.yy",
   },
   "parentObjectId":{
-    "name":"o_projectile_parent",
-    "path":"objects/o_projectile_parent/o_projectile_parent.yy",
+    "name":"o_projectile_flew_parent",
+    "path":"objects/o_projectile_flew_parent/o_projectile_flew_parent.yy",
   },
   "persistent":false,
   "physicsAngularDamping":0.1,

@@ -10,14 +10,14 @@
   "managed":true,
   "name":"o_projectile_parent",
   "overriddenProperties":[
-    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"o_outline_parent","path":"objects/o_outline_parent/o_outline_parent.yy",},"propertyId":{"name":"outline_color","path":"objects/o_outline_parent/o_outline_parent.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"global.color_red",},
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"o_shadow_parent","path":"objects/o_shadow_parent/o_shadow_parent.yy",},"propertyId":{"name":"shadow_drop_function","path":"objects/o_shadow_parent/o_shadow_parent.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"draw_shadow",},
-    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"o_shadow_parent","path":"objects/o_shadow_parent/o_shadow_parent.yy",},"propertyId":{"name":"shadow_width","path":"objects/o_shadow_parent/o_shadow_parent.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"sprite_get_width(sprite_index)",},
-    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"o_shadow_parent","path":"objects/o_shadow_parent/o_shadow_parent.yy",},"propertyId":{"name":"yoffset","path":"objects/o_shadow_parent/o_shadow_parent.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"4",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"o_outline_parent","path":"objects/o_outline_parent/o_outline_parent.yy",},"propertyId":{"name":"draw_outline","path":"objects/o_outline_parent/o_outline_parent.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"False",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"o_shadow_parent","path":"objects/o_shadow_parent/o_shadow_parent.yy",},"propertyId":{"name":"drop_shadow","path":"objects/o_shadow_parent/o_shadow_parent.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"False",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"o_shadow_parent","path":"objects/o_shadow_parent/o_shadow_parent.yy",},"propertyId":{"name":"yoffset","path":"objects/o_shadow_parent/o_shadow_parent.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"0",},
   ],
   "parent":{
-    "name":"Hungry buddy",
-    "path":"Hungry buddy.yyp",
+    "name":"projectile system",
+    "path":"folders/projectile system.yy",
   },
   "parentObjectId":{
     "name":"o_shadow_parent",
@@ -39,8 +39,8 @@
   "properties":[
     {"$GMObjectProperty":"v2","%Name":"damage","filters":[],"listItems":[],"multiselect":false,"name":"damage","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"0.0","varType":0,},
     {"$GMObjectProperty":"v2","%Name":"target","filters":[],"listItems":[],"multiselect":false,"name":"target","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"o_hole_parent","varType":4,},
-    {"$GMObjectProperty":"v2","%Name":"margin_outside_room","filters":[],"listItems":[],"multiselect":false,"name":"margin_outside_room","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"32","varType":0,},
     {"$GMObjectProperty":"v2","%Name":"max_life_time","filters":[],"listItems":[],"multiselect":false,"name":"max_life_time","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"-1","varType":0,},
+    {"$GMObjectProperty":"v2","%Name":"margin_outside_room","filters":[],"listItems":[],"multiselect":false,"name":"margin_outside_room","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"32","varType":0,},
   ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",

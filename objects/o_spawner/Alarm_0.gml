@@ -4,11 +4,11 @@ if (!instance_exists(o_hole_parent)) {
 
 var enemy_info = get_random_enemy_info(enemies_info_array);
 var enemy = enemy_info.enemy_index;
-var enemy_amount_room = instance_number(enemy_info.enemy_index);
+var enemy_amount_in_room = instance_number(enemy_info.enemy_index);
 var current_count = floor(enemy_info.current_count);
 previous_enemy = enemy;
 
-if (enemy_amount_room >= current_count) {
+if (enemy_amount_in_room >= current_count) {
 	alarm[0] = spawn_delay;
 	exit
 }

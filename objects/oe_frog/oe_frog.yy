@@ -27,8 +27,8 @@
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"o_creature","path":"objects/o_creature/o_creature.yy",},"propertyId":{"name":"max_distance_to_border","path":"objects/o_creature/o_creature.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"70",},
   ],
   "parent":{
-    "name":"small frog enemy",
-    "path":"folders/creatures/enemies/small frog enemy.yy",
+    "name":"small frog",
+    "path":"folders/creatures/enemies/frogs/small frog.yy",
   },
   "parentObjectId":{
     "name":"oe_parent",
@@ -51,6 +51,8 @@
     {"$GMObjectProperty":"v2","%Name":"jump_anim_curve","filters":[],"listItems":[],"multiselect":false,"name":"jump_anim_curve","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"animcurve_get_channel(jump_curve, \"jump\")","varType":4,},
     {"$GMObjectProperty":"v2","%Name":"jump_up_ratio","filters":[],"listItems":[],"multiselect":false,"name":"jump_up_ratio","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"20","varType":0,},
     {"$GMObjectProperty":"v2","%Name":"spd_ratio","filters":[],"listItems":[],"multiselect":false,"name":"spd_ratio","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"3","varType":0,},
+    {"$GMObjectProperty":"v2","%Name":"index_to_attack_start","filters":[],"listItems":[],"multiselect":false,"name":"index_to_attack_start","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"3","varType":0,},
+    {"$GMObjectProperty":"v2","%Name":"index_to_attack_end","filters":[],"listItems":[],"multiselect":false,"name":"index_to_attack_end","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"3","varType":0,},
   ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",

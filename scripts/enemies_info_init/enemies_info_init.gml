@@ -15,11 +15,16 @@ function enemies_info_init(){
 		var enemy = all_enemies_array[e]
 		var current_enemy = instance_create_layer(0, 0, "instances", asset_get_index(enemy));
 		var current_enemy_chance = current_enemy.chance_to_spawn;
-		var test_obly_this_enemy = current_enemy.test_only_this_enemy
+		var test_obly_this_enemy = current_enemy.test_only_this_enemy;
+		
+		global.enemies_amount++
+		global.total_enemies_chances += current_enemy_chance;
 		
 		if (test_obly_this_enemy){
 			global.enemies_info = [];
-			e = all_enemies_array_length
+			e = all_enemies_array_length;
+			global.enemies_amount = 1;
+			global.total_enemies_chances = current_enemy_chance;
 		}
 		
 		array_push(global.enemies_info, {
@@ -35,12 +40,11 @@ function enemies_info_init(){
 			
 		})
 		
-		global.total_enemies_chances += current_enemy_chance;
-		global.enemies_amount++
+		
 		
 		instance_destroy(current_enemy);
 	}
 	
-	
+	show_debug_message("----------------------------------------------\n" + string(global.enemies_info) + "\nEnemies amount:" + string(global.enemies_amount) + "\nTotal enemies chances: " + string(global.total_enemies_chances) + "\n----------------------------------------------");
 	
 }

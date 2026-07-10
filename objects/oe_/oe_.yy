@@ -15,7 +15,7 @@
   ],
   "parent":{
     "name":"enemy sample",
-    "path":"folders/creatures/enemy sample.yy",
+    "path":"folders/creatures/enemies/enemy sample.yy",
   },
   "parentObjectId":{
     "name":"oe_parent",

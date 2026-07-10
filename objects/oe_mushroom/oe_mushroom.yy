@@ -21,8 +21,8 @@
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"o_creature","path":"objects/o_creature/o_creature.yy",},"propertyId":{"name":"max_distance_to_border","path":"objects/o_creature/o_creature.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"100",},
   ],
   "parent":{
-    "name":"shooter",
-    "path":"folders/creatures/enemies/shooter.yy",
+    "name":"mushroom",
+    "path":"folders/creatures/enemies/mushroom.yy",
   },
   "parentObjectId":{
     "name":"oe_parent",

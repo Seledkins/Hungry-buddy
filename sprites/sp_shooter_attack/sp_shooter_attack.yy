@@ -32,7 +32,7 @@
   "origin":9,
   "parent":{
     "name":"sprites",
-    "path":"folders/creatures/enemies/shooter/sprites.yy",
+    "path":"folders/creatures/enemies/mushroom/sprites.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

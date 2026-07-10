@@ -5,8 +5,8 @@
   "isDnD":false,
   "name":"create_projectile",
   "parent":{
-    "name":"enemies",
-    "path":"folders/creatures/enemies.yy",
+    "name":"projectile system",
+    "path":"folders/projectile system.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

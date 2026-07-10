@@ -9,7 +9,7 @@ if (sprite_index == sprite_attack)
 	
     linear_step(cur_spd, targetx, targety);
     
-    if (image_index > 2 && image_index < 4)
+    if (image_index >= index_to_attack_start && image_index < index_to_attack_end)
         take_damage_circle(x, y - y_attack_ratio, distance_to_attack, o_peaceful_parent, damage);
     
     if (animation_end())

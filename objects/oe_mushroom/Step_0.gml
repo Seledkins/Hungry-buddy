@@ -1,6 +1,6 @@
 target_get_required_info(target);
 
-if (point_distance(x, y, targetx, targety) < distance_to_attack) {
+if (distance_to_target < distance_to_attack) {
 	
 	alarm[0] = -1;
 	image_speed = 1; 
@@ -18,9 +18,11 @@ if (image_index_equals(4)) {
 	
 	create_projectile(x + projectile_xoffset, y + projectile_yoffset, projectile,
 		damage,
+		target,
 		projectile_spd,
 		point_direction(x + projectile_xoffset, y + projectile_yoffset, targetx, targety),
-		(distance_to_attack) / 200
+		(distance_to_attack) / 200,
+		1
 	)
 	
 }

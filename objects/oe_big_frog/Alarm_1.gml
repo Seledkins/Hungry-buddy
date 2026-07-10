@@ -1,0 +1,1 @@
+outline_color = global.color_dark_purple
