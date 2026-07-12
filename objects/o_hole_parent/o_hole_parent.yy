@@ -3,13 +3,16 @@
   "%Name":"o_hole_parent",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":73,"eventType":10,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":2,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":1,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":2,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":2,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
   "name":"o_hole_parent",
-  "overriddenProperties":[],
+  "overriddenProperties":[
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"o_outline_parent","path":"objects/o_outline_parent/o_outline_parent.yy",},"propertyId":{"name":"sprite_draw","path":"objects/o_outline_parent/o_outline_parent.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"sprite_index",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"o_shadow_parent","path":"objects/o_shadow_parent/o_shadow_parent.yy",},"propertyId":{"name":"shadow_drop_function","path":"objects/o_shadow_parent/o_shadow_parent.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"draw_shadow",},
+  ],
   "parent":{
     "name":"holes",
     "path":"folders/creatures/holes.yy",

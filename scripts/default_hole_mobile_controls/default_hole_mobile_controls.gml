@@ -12,8 +12,6 @@ function default_hole_mobile_controls(){
 
 	xspd = lengthdir_x(cur_spd, move_dir)
 	yspd = lengthdir_y(cur_spd, move_dir)
-	
-	default_hole_bite()
 
 	move_and_collide(xspd, yspd, other)
 	

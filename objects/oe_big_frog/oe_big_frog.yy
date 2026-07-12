@@ -8,7 +8,6 @@
   "managed":true,
   "name":"oe_big_frog",
   "overriddenProperties":[
-    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"o_creature","path":"objects/o_creature/o_creature.yy",},"propertyId":{"name":"hp","path":"objects/o_creature/o_creature.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"2",},
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"o_creature","path":"objects/o_creature/o_creature.yy",},"propertyId":{"name":"max_spd","path":"objects/o_creature/o_creature.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"1",},
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"oe_parent","path":"objects/oe_parent/oe_parent.yy",},"propertyId":{"name":"damage","path":"objects/oe_parent/oe_parent.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"1",},
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"oe_parent","path":"objects/oe_parent/oe_parent.yy",},"propertyId":{"name":"target","path":"objects/oe_parent/oe_parent.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"o_hole_parent",},
@@ -23,8 +22,10 @@
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"oe_parent","path":"objects/oe_parent/oe_parent.yy",},"propertyId":{"name":"max_enemy_count","path":"objects/oe_parent/oe_parent.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"2",},
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"oe_frog","path":"objects/oe_frog/oe_frog.yy",},"propertyId":{"name":"index_to_attack_start","path":"objects/oe_frog/oe_frog.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"2",},
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"oe_frog","path":"objects/oe_frog/oe_frog.yy",},"propertyId":{"name":"index_to_attack_end","path":"objects/oe_frog/oe_frog.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"4",},
-    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"o_creature","path":"objects/o_creature/o_creature.yy",},"propertyId":{"name":"prev_hp","path":"objects/o_creature/o_creature.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"hp",},
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"oe_parent","path":"objects/oe_parent/oe_parent.yy",},"propertyId":{"name":"chance_to_spawn","path":"objects/oe_parent/oe_parent.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"10",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"o_creature","path":"objects/o_creature/o_creature.yy",},"propertyId":{"name":"max_hp","path":"objects/o_creature/o_creature.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"2",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"o_creature","path":"objects/o_creature/o_creature.yy",},"propertyId":{"name":"hp","path":"objects/o_creature/o_creature.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"max_hp",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"o_creature","path":"objects/o_creature/o_creature.yy",},"propertyId":{"name":"prev_hp","path":"objects/o_creature/o_creature.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"hp",},
   ],
   "parent":{
     "name":"big frog",

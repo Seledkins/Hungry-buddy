@@ -19,7 +19,6 @@
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"oe_parent","path":"objects/oe_parent/oe_parent.yy",},"propertyId":{"name":"enemy_count_increase","path":"objects/oe_parent/oe_parent.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"0",},
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"oe_parent","path":"objects/oe_parent/oe_parent.yy",},"propertyId":{"name":"current_count","path":"objects/oe_parent/oe_parent.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"1",},
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"oe_parent","path":"objects/oe_parent/oe_parent.yy",},"propertyId":{"name":"chance_to_spawn","path":"objects/oe_parent/oe_parent.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"15",},
-    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"o_creature","path":"objects/o_creature/o_creature.yy",},"propertyId":{"name":"hp","path":"objects/o_creature/o_creature.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"1",},
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"o_creature","path":"objects/o_creature/o_creature.yy",},"propertyId":{"name":"acceleration","path":"objects/o_creature/o_creature.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"0.05",},
   ],
   "parent":{

@@ -14,16 +14,10 @@ else if (cur_spd > 0)
 }
 
 if (sprite_index == sprite_attack && animation_end()) {
-	create_expolosion(x, y - y_attack_ratio, damage, distance_to_attack, o_creature);
-	instance_destroy();
+	create_expolosion(x, y - y_attack_ratio, damage, distance_to_attack, o_creature, -1);
+	//kill_creature(id);
 }
 
 linear_step(cur_spd, targetx, targety);
-
-
-
-
-
-
 
 close_creature_in_arena();

@@ -5,8 +5,8 @@
   "isDnD":false,
   "name":"instance_enemy_create",
   "parent":{
-    "name":"ingame system",
-    "path":"folders/ingame system.yy",
+    "name":"enemy spawner",
+    "path":"folders/ingame system/enemy spawner.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

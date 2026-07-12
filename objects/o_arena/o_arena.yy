@@ -32,7 +32,7 @@
   ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
-  "solid":false,
+  "solid":true,
   "spriteId":{
     "name":"sp_arena",
     "path":"sprites/sp_arena/sp_arena.yy",

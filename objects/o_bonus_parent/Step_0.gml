@@ -1,0 +1,1 @@
+drawy = drawy + cos(current_time / floating_strength)

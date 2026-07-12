@@ -1,7 +1,5 @@
-
-outline_set_sprite(sprite_index, image_index, ol_config(1, outline_color));
-	draw_sprite_ext(sprite_draw, image_index, drawx, drawy, image_xscale, image_yscale, 0, c_white, 1);
-outline_end();
+///@description outline and debuging
+event_inherited();
 
 if (global.show_projectile_1px) {
 	

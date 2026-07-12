@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"bonus_info_init",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"bonus_info_init",
+  "parent":{
+    "name":"inits",
+    "path":"folders/inits.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

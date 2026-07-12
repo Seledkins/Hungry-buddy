@@ -1,0 +1,1 @@
+show_deb_mes_var(nameof(image_index), image_index)

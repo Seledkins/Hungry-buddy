@@ -9,7 +9,7 @@ function take_damage(creature, damage){
 	//show_debug_message($"{creature.object_index} hp: {creature.hp} ---------------------------");
 	
 	if (creature.hp <= 0) {
-		kill_creature(creature);
+		kill_creature(creature)
 	}
 	
 	return creature;

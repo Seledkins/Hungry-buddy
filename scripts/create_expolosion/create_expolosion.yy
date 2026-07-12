@@ -5,8 +5,8 @@
   "isDnD":false,
   "name":"create_expolosion",
   "parent":{
-    "name":"projectile system",
-    "path":"folders/projectile system.yy",
+    "name":"explosion",
+    "path":"folders/projectile system/explosion.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

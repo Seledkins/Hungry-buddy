@@ -1,2 +1,2 @@
-play_time ++
-complexity += complexity_increase
+play_time++
+complexity += complexity_increase;

@@ -5,7 +5,7 @@
   "bbox_bottom":31,
   "bbox_left":0,
   "bbox_right":31,
-  "bbox_top":0,
+  "bbox_top":8,
   "collisionKind":1,
   "collisionTolerance":0,
   "DynamicTexturePage":false,
@@ -92,9 +92,6 @@
   },
   "swatchColours":null,
   "swfPrecision":0.5,
-  "tags":[
-    "s",
-  ],
   "textureGroupId":{
     "name":"Default",
     "path":"texturegroups/Default",

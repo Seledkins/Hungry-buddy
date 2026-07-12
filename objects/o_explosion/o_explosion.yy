@@ -5,16 +5,18 @@
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":1,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":7,"eventType":7,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
   "name":"o_explosion",
   "overriddenProperties":[
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"o_projectile_parent","path":"objects/o_projectile_parent/o_projectile_parent.yy",},"propertyId":{"name":"damage","path":"objects/o_projectile_parent/o_projectile_parent.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"1",},
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"o_projectile_parent","path":"objects/o_projectile_parent/o_projectile_parent.yy",},"propertyId":{"name":"max_life_time","path":"objects/o_projectile_parent/o_projectile_parent.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"60",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"o_outline_parent","path":"objects/o_outline_parent/o_outline_parent.yy",},"propertyId":{"name":"sprite_draw","path":"objects/o_outline_parent/o_outline_parent.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"sprite_index",},
   ],
   "parent":{
-    "name":"projectile system",
-    "path":"folders/projectile system.yy",
+    "name":"explosion",
+    "path":"folders/projectile system/explosion.yy",
   },
   "parentObjectId":{
     "name":"o_projectile_parent",
@@ -39,7 +41,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"sp_explosion_test_3",
+    "path":"sprites/sp_explosion_test_3/sp_explosion_test_3.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }

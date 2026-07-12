@@ -11,8 +11,8 @@
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"o_projectile_parent","path":"objects/o_projectile_parent/o_projectile_parent.yy",},"propertyId":{"name":"damage","path":"objects/o_projectile_parent/o_projectile_parent.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"1",},
   ],
   "parent":{
-    "name":"projectile system",
-    "path":"folders/projectile system.yy",
+    "name":"eye",
+    "path":"folders/projectile system/eye.yy",
   },
   "parentObjectId":{
     "name":"o_projectile_flew_parent",

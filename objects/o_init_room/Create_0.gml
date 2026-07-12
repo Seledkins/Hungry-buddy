@@ -1,13 +1,14 @@
-room_width = global.device_width
-room_height = global.device_height
+room_width = global.device_width;
+room_height = global.device_height;
 
-instance_create_layer(room_width / 2, room_height / 2, "WhiteElements", o_arena)
-instance_create_depth(0, 0, 0, o_ingame_trash_deleter)
-instance_create_depth(0, 0, 0, o_play_values_manager)
+instance_create_layer(room_width / 2, room_height / 2, "WhiteElements", o_arena);
+instance_create_depth(0, 0, 0, o_ingame_trash_deleter);
+instance_create_depth(0, 0, 0, o_play_values_manager);
 
-instance_create_layer(0, 0, "ShadowManager", o_shadow_manager)
+instance_create_layer(0, 0, "ShadowManager", o_shadow_manager);
 
-instance_create_layer(room_width / 2, room_height / 2, "Player", o_default_hole)
-instance_create_depth(0, 0, 0, o_spawner)
+instance_create_layer(room_width / 2, room_height / 2, "Player", o_default_hole);
+instance_create_depth(0, 0, 0, o_enemy_spawner);
+instance_create_depth(0, 0, 0, o_bonus_spawner);
 
-instance_destroy()
+instance_destroy();

@@ -5,8 +5,8 @@
   "isDnD":false,
   "name":"increase_enemies_count",
   "parent":{
-    "name":"arena",
-    "path":"folders/ingame system/arena.yy",
+    "name":"enemy spawner",
+    "path":"folders/ingame system/enemy spawner.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

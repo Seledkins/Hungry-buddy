@@ -1,6 +1,4 @@
-// drawx and drawy inherit
+// Inherit the parent event
 event_inherited();
 
-depth = -bbox_bottom;
-sprite_draw = sprite_index;
-prev_hp = hp; 
+prev_hp = hp;
