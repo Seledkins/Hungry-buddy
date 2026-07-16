@@ -7,15 +7,25 @@ if (distance_to_target > distance_to_attack && sprite_index == sprite_run) {
 	}
 	
 }
-else if (cur_spd > 0)
+else
 {
-	change_sprite(sprite_attack);
-	cur_spd -= acceleration / 2;
+	boom_flag = true;
 }
 
-if (sprite_index == sprite_attack && animation_end()) {
-	create_expolosion(x, y - y_attack_ratio, damage, distance_to_attack, o_creature, -1);
-	//kill_creature(id);
+if (boom_flag) {
+	
+	cur_spd = clamp(cur_spd - acceleration / 2, 0, infinity);
+	
+	var anim_end = animation_end()
+	
+	if (anim_end && sprite_index == sprite_run) {
+		change_sprite(sprite_attack);
+	}
+	else if (anim_end && sprite_index == sprite_attack)
+	{
+		create_expolosion(x, y - y_attack_ratio, damage, distance_to_attack, o_creature, -1);
+	}
+	
 }
 
 linear_step(cur_spd, targetx, targety);

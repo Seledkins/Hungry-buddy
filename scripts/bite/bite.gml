@@ -1,4 +1,4 @@
-function bite(bite_width, bite_height, callback_for_creatures){
+function bite(bite_width, bite_height, delay_time, callback_for_creatures){
 	
 	var half_bite_width = bite_width / 2;
 	var half_bite_height = bite_height / 2;
@@ -23,6 +23,8 @@ function bite(bite_width, bite_height, callback_for_creatures){
 		}
 		
 	}
+	
+	alarm[1] = delay_time;
 	
 	
 }

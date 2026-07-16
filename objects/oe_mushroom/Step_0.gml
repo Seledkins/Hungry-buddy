@@ -14,14 +14,14 @@ else {
 	}
 }
 
-if (image_index_equals(4)) {
+if (image_index_equals(image_index_to_attack)) {
 	
 	create_projectile(x + projectile_xoffset, y + projectile_yoffset, projectile,
 		damage,
 		target,
 		projectile_spd,
 		point_direction(x + projectile_xoffset, y + projectile_yoffset, targetx, targety),
-		(distance_to_attack) / 200,
+		(distance_to_attack) / 180,
 		1
 	)
 	

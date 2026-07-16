@@ -1,1 +1,0 @@
-// it should be deliting pariticle system there
