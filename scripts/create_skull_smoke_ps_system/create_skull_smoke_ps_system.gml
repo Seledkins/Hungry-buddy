@@ -20,6 +20,8 @@ function create_skull_smoke_ps_system(_layer, emitter_region_size){
 	pemit_skull_smoke = part_emitter_create(ps_skull_smoke);
 	part_emitter_region(ps_skull_smoke, pemit_skull_smoke, -emitter_region_size, emitter_region_size, -emitter_region_size, emitter_region_size, ps_shape_rectangle, ps_distr_invgaussian);
 	part_emitter_burst(ps_skull_smoke, pemit_skull_smoke, ptype_skull_smoke, 10);
-
+	
+	
+	
 	
 }

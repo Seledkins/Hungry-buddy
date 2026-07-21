@@ -5,9 +5,9 @@ if (!drop_shadow) {
 }
 
 
-if(surface_exists(global.shadow_surface)){
+if(surface_exists(o_shadow_manager.shadow_surface)){
 	
-	surface_set_target(global.shadow_surface);
+	surface_set_target(o_shadow_manager.shadow_surface);
 		gpu_set_fog(true, global.shadow_color, 0, 1);
 		
 		draw_sprite_ext(sprite_index, image_index, x_, y_, 1, 1, 0, c_white, 1)

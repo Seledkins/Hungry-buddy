@@ -5,13 +5,13 @@ if (!drop_shadow) {
 }
 
 
-if(surface_exists(global.shadow_surface)){
+if(surface_exists(o_shadow_manager.shadow_surface)){
 	
 	var r = shadow_width / 2;
 	var dist_to_floor = y - drawy;
 	var descr_default_shadow_r = 1;
 	
-	surface_set_target(global.shadow_surface);
+	surface_set_target(o_shadow_manager.shadow_surface);
 		gpu_set_fog(true, global.shadow_color, 0, 1);
 		
 		draw_circle(x_, y_, r - (clamp(dist_to_floor * 0.3 + descr_default_shadow_r, descr_default_shadow_r, shadow_width)), false);

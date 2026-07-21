@@ -1,3 +1,3 @@
-if(room == rm_init){
+if(room == rm_init || !eater){
 	exit	
 }

@@ -8,13 +8,13 @@ if (sprite_index == sprite_attack)
     drawy -= sprite_index_percent * jump_up_ratio;
 	
     linear_step(cur_spd, targetx, targety);
-    
-    if (image_index >= index_to_attack_start && image_index < index_to_attack_end)
-        take_damage_circle(x, y - y_attack_ratio, distance_to_attack, o_peaceful_parent, damage);
+        
     
     if (animation_end())
     {
         change_sprite(sprite_prepare);
+		create_fluctuation(x, y, distance_to_attack / 27, sprite_width_main / 8, 4, distance_to_attack / 270);
+		take_damage_circle(x, y - y_attack_ratio, distance_to_attack, o_peaceful_parent, damage);
     }
 }
 else if (animation_end())

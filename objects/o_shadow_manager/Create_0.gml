@@ -1,1 +1,1 @@
-shadow_surface_create()
+shadow_surface = shadow_surface_create();

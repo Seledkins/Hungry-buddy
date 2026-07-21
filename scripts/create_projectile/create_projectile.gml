@@ -12,7 +12,7 @@ function create_projectile(_x, _y, projectile, _damage, _target, _speed, _direct
 			
 	variables_struct = struct_merge(variables_struct, addition_variables)
 	
-	var cur_projectile = instance_create_depth(_x, _y, depth - 50 , projectile, variables_struct);
+	var cur_projectile = instance_create_layer(_x, _y, o_play_values_manager.layid_projectiles, projectile, variables_struct);
 			
 	return cur_projectile
 }

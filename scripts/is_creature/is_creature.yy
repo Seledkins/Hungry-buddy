@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"is_creature",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"is_creature",
+  "parent":{
+    "name":"creatures",
+    "path":"folders/creatures.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

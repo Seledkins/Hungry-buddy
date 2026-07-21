@@ -29,6 +29,7 @@
   "properties":[
     {"$GMObjectProperty":"v2","%Name":"draw_outline","filters":[],"listItems":[],"multiselect":false,"name":"draw_outline","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"true","varType":3,},
     {"$GMObjectProperty":"v2","%Name":"outline_color","filters":[],"listItems":[],"multiselect":false,"name":"outline_color","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"c_black","varType":4,},
+    {"$GMObjectProperty":"v2","%Name":"outline_width","filters":[],"listItems":[],"multiselect":false,"name":"outline_width","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"1","varType":1,},
     {"$GMObjectProperty":"v2","%Name":"drawx","filters":[],"listItems":[],"multiselect":false,"name":"drawx","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"x","varType":4,},
     {"$GMObjectProperty":"v2","%Name":"drawy","filters":[],"listItems":[],"multiselect":false,"name":"drawy","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"y","varType":4,},
     {"$GMObjectProperty":"v2","%Name":"sprite_draw","filters":[],"listItems":[],"multiselect":false,"name":"sprite_draw","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"sprite_index","varType":4,},

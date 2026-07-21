@@ -13,7 +13,7 @@
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"oe_parent","path":"objects/oe_parent/oe_parent.yy",},"propertyId":{"name":"sprite_attack","path":"objects/oe_parent/oe_parent.yy",},"resource":{"name":"sp_small_frog_jump","path":"sprites/sp_small_frog_jump/sp_small_frog_jump.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"sp_small_frog_jump",},
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"oe_parent","path":"objects/oe_parent/oe_parent.yy",},"propertyId":{"name":"damage","path":"objects/oe_parent/oe_parent.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"1",},
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"oe_parent","path":"objects/oe_parent/oe_parent.yy",},"propertyId":{"name":"target","path":"objects/oe_parent/oe_parent.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"o_hole_parent",},
-    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"oe_parent","path":"objects/oe_parent/oe_parent.yy",},"propertyId":{"name":"distance_to_attack","path":"objects/oe_parent/oe_parent.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"sprite_get_width(sprite_index) / 4",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"oe_parent","path":"objects/oe_parent/oe_parent.yy",},"propertyId":{"name":"distance_to_attack","path":"objects/oe_parent/oe_parent.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"sprite_get_width(sprite_index) / 3",},
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"oe_parent","path":"objects/oe_parent/oe_parent.yy",},"propertyId":{"name":"y_attack_ratio","path":"objects/oe_parent/oe_parent.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"10",},
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"oe_parent","path":"objects/oe_parent/oe_parent.yy",},"propertyId":{"name":"sprite_prepare","path":"objects/oe_parent/oe_parent.yy",},"resource":{"name":"sp_small_frog_prepare","path":"sprites/sp_small_frog_prepare/sp_small_frog_prepare.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"sp_small_frog_prepare",},
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"oe_parent","path":"objects/oe_parent/oe_parent.yy",},"propertyId":{"name":"array_params","path":"objects/oe_parent/oe_parent.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"[ \"hp\", \"cur_spd\", \"image_index\", \"sprite_index\"]",},
@@ -26,8 +26,8 @@
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"o_creature","path":"objects/o_creature/o_creature.yy",},"propertyId":{"name":"max_distance_to_border","path":"objects/o_creature/o_creature.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"70",},
   ],
   "parent":{
-    "name":"small frog",
-    "path":"folders/creatures/enemies/frogs/small frog.yy",
+    "name":"frog",
+    "path":"folders/creatures/enemies/frogs/frog.yy",
   },
   "parentObjectId":{
     "name":"oe_parent",
@@ -47,7 +47,7 @@
   "physicsShapePoints":[],
   "physicsStartAwake":true,
   "properties":[
-    {"$GMObjectProperty":"v2","%Name":"jump_anim_curve","filters":[],"listItems":[],"multiselect":false,"name":"jump_anim_curve","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"animcurve_get_channel(jump_curve, \"jump\")","varType":4,},
+    {"$GMObjectProperty":"v2","%Name":"jump_anim_curve","filters":[],"listItems":[],"multiselect":false,"name":"jump_anim_curve","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"animcurve_get_channel(curve_jump, \"jump\")","varType":4,},
     {"$GMObjectProperty":"v2","%Name":"jump_up_ratio","filters":[],"listItems":[],"multiselect":false,"name":"jump_up_ratio","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"20","varType":0,},
     {"$GMObjectProperty":"v2","%Name":"spd_ratio","filters":[],"listItems":[],"multiselect":false,"name":"spd_ratio","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"3","varType":0,},
     {"$GMObjectProperty":"v2","%Name":"index_to_attack_start","filters":[],"listItems":[],"multiselect":false,"name":"index_to_attack_start","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"3","varType":0,},

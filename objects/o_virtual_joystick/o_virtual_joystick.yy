@@ -30,7 +30,7 @@
   "physicsShapePoints":[],
   "physicsStartAwake":true,
   "properties":[
-    {"$GMObjectProperty":"v2","%Name":"scale","filters":[],"listItems":[],"multiselect":false,"name":"scale","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"1","varType":4,},
+    {"$GMObjectProperty":"v2","%Name":"scale","filters":[],"listItems":[],"multiselect":false,"name":"scale","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"0.8","varType":4,},
     {"$GMObjectProperty":"v2","%Name":"sprite_bg","filters":[],"listItems":[],"multiselect":false,"name":"sprite_bg","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resource":{"name":"sp_virtual_joystick","path":"sprites/sp_virtual_joystick/sp_virtual_joystick.yy",},"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"sp_virtual_joystick","varType":5,},
     {"$GMObjectProperty":"v2","%Name":"sprite_joystick","filters":[],"listItems":[],"multiselect":false,"name":"sprite_joystick","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resource":{"name":"sp_joystick","path":"sprites/sp_joystick/sp_joystick.yy",},"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"sp_joystick","varType":5,},
     {"$GMObjectProperty":"v2","%Name":"padding","filters":[],"listItems":[],"multiselect":false,"name":"padding","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"global.gui_width / 7","varType":4,},

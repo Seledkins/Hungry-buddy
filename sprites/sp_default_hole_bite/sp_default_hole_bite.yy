@@ -63,7 +63,7 @@
     },
     "name":"sp_default_hole_bite",
     "playback":1,
-    "playbackSpeed":10.0,
+    "playbackSpeed":12.5,
     "playbackSpeedType":0,
     "resourceType":"GMSequence",
     "resourceVersion":"2.0",

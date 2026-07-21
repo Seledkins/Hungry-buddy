@@ -29,7 +29,7 @@
   "origin":7,
   "parent":{
     "name":"sprites",
-    "path":"folders/creatures/enemies/frogs/small frog/sprites.yy",
+    "path":"folders/creatures/enemies/frogs/frog/sprites.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

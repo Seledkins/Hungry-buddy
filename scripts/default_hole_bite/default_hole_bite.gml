@@ -15,7 +15,7 @@ function default_hole_bite(){
 	
 		if (animation_end()) {
 			sprite_index = sprite_idle;
-			
+			ds_list_clear(memory_bite_list);
 		}
 	
 	}

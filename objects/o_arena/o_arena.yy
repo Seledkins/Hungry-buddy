@@ -28,7 +28,6 @@
   "physicsStartAwake":true,
   "properties":[
     {"$GMObjectProperty":"v2","%Name":"closer_arena_ratio","filters":[],"listItems":[],"multiselect":false,"name":"closer_arena_ratio","rangeEnabled":false,"rangeMax":14.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"14","varType":0,},
-    {"$GMObjectProperty":"v2","%Name":"image_alpha","filters":[],"listItems":[],"multiselect":false,"name":"image_alpha","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"global.white_elements_alpha","varType":4,},
   ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",

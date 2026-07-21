@@ -5,7 +5,7 @@
 	global.device_width = max(w, h)
 	global.device_height = min(w, h)
 
-	global.shadow_surface = undefined
+	shadow_surface = undefined
 
 	room_width = global.device_width
 	room_height = global.device_height
@@ -44,7 +44,7 @@
 	
 	shadows_system_init()
 	
-	global.white_elements_alpha = 0.6;
+	global.fluctuations_alpha = 0.6;
 	global.color_dark_purple = #180B21
 	global.color_red = #A81C1B
 	

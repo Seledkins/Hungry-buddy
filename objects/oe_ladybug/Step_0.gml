@@ -23,7 +23,7 @@ if (boom_flag) {
 	}
 	else if (anim_end && sprite_index == sprite_attack)
 	{
-		create_expolosion(x, y - y_attack_ratio, damage, distance_to_attack, o_creature, -1);
+		create_expolosion(x, y - y_attack_ratio, damage, distance_to_attack, -1);
 	}
 	
 }
