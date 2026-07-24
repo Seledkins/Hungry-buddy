@@ -59,7 +59,8 @@
 	global.show_projectile_1px = false;
 	global.show_enemies_params = false;
 	global.spawner_stop = false;
-	global.show_hidden_variables = false;
+	global.show_hidden_variables = true;
+	global.show_fps = true;
 	
 	instance_create_depth(0, 0, 0, o_developer_tools);
 

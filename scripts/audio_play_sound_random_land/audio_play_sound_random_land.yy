@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"audio_play_sound_random_land",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"audio_play_sound_random_land",
+  "parent":{
+    "name":"frogs",
+    "path":"folders/creatures/enemies/frogs.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

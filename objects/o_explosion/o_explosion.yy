@@ -42,6 +42,7 @@
   "properties":[
     {"$GMObjectProperty":"v2","%Name":"radius","filters":[],"listItems":[],"multiselect":false,"name":"radius","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"0.0","varType":0,},
     {"$GMObjectProperty":"v2","%Name":"image_xscale","filters":[],"listItems":[],"multiselect":false,"name":"image_xscale","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"choose(-1, 1)","varType":4,},
+    {"$GMObjectProperty":"v2","%Name":"index_to_take_damage","filters":[],"listItems":[],"multiselect":false,"name":"index_to_take_damage","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"2","varType":0,},
   ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",

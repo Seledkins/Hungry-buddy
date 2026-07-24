@@ -10,6 +10,7 @@
   "name":"oe_parent",
   "overriddenProperties":[
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"o_outline_parent","path":"objects/o_outline_parent/o_outline_parent.yy",},"propertyId":{"name":"outline_color","path":"objects/o_outline_parent/o_outline_parent.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"global.color_dark_purple",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"o_etable_parent","path":"objects/o_etable_parent/o_etable_parent.yy",},"propertyId":{"name":"snd_dead","path":"objects/o_etable_parent/o_etable_parent.yy",},"resource":{"name":"snd_frog_dead","path":"sounds/snd_frog_dead/snd_frog_dead.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"snd_frog_dead",},
   ],
   "parent":{
     "name":"enemies",

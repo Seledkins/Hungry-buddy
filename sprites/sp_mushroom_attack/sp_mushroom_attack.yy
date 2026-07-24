@@ -2,9 +2,9 @@
   "$GMSprite":"v2",
   "%Name":"sp_mushroom_attack",
   "bboxMode":2,
-  "bbox_bottom":31,
+  "bbox_bottom":44,
   "bbox_left":4,
-  "bbox_right":29,
+  "bbox_right":27,
   "bbox_top":13,
   "collisionKind":1,
   "collisionTolerance":0,
@@ -12,8 +12,8 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
+    {"$GMSpriteFrame":"v1","%Name":"1f20ea0e-60e8-4930-967a-43663507629a","name":"1f20ea0e-60e8-4930-967a-43663507629a","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
     {"$GMSpriteFrame":"v1","%Name":"4cc0594e-9a09-4e2a-86ad-dc3c6f153e07","name":"4cc0594e-9a09-4e2a-86ad-dc3c6f153e07","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"v1","%Name":"c97ccd68-1b0b-4551-9500-3e077a696f5b","name":"c97ccd68-1b0b-4551-9500-3e077a696f5b","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
     {"$GMSpriteFrame":"v1","%Name":"fc180743-12e8-4ad5-a9e6-568fd67b282a","name":"fc180743-12e8-4ad5-a9e6-568fd67b282a","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
     {"$GMSpriteFrame":"v1","%Name":"a17f37fd-2bfa-4142-b434-9c5af04c87a8","name":"a17f37fd-2bfa-4142-b434-9c5af04c87a8","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
     {"$GMSpriteFrame":"v1","%Name":"2ea5fe66-2a88-48ec-bcff-fe286f2165da","name":"2ea5fe66-2a88-48ec-bcff-fe286f2165da","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
@@ -32,6 +32,7 @@
     {"$GMSpriteFrame":"v1","%Name":"9021fa00-352a-4059-aaef-47c687d29a5b","name":"9021fa00-352a-4059-aaef-47c687d29a5b","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
     {"$GMSpriteFrame":"v1","%Name":"b0ce2885-3853-4000-b30c-356b551eb6a6","name":"b0ce2885-3853-4000-b30c-356b551eb6a6","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
     {"$GMSpriteFrame":"v1","%Name":"6f79b4a9-4989-4a72-8f2e-90a1f70d96be","name":"6f79b4a9-4989-4a72-8f2e-90a1f70d96be","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"c97ccd68-1b0b-4551-9500-3e077a696f5b","name":"c97ccd68-1b0b-4551-9500-3e077a696f5b","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
@@ -68,7 +69,7 @@
     },
     "eventStubScript":null,
     "eventToFunction":{},
-    "length":20.0,
+    "length":22.0,
     "lockOrigin":false,
     "moments":{
       "$KeyframeStore<MomentsEventKeyframe>":"",
@@ -88,11 +89,11 @@
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"4cc0594e-9a09-4e2a-86ad-dc3c6f153e07","path":"sprites/sp_mushroom_attack/sp_mushroom_attack.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"04202a6e-3f9c-40aa-9de8-af10314961ce","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"1f20ea0e-60e8-4930-967a-43663507629a","path":"sprites/sp_mushroom_attack/sp_mushroom_attack.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"5a6c3071-cfb3-40c6-a30d-350245110af0","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"c97ccd68-1b0b-4551-9500-3e077a696f5b","path":"sprites/sp_mushroom_attack/sp_mushroom_attack.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"297d3e86-c59a-41c1-a553-45ad2e21217b","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"4cc0594e-9a09-4e2a-86ad-dc3c6f153e07","path":"sprites/sp_mushroom_attack/sp_mushroom_attack.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"04202a6e-3f9c-40aa-9de8-af10314961ce","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
                 "0":{"$SpriteFrameKeyframe":"","Id":{"name":"fc180743-12e8-4ad5-a9e6-568fd67b282a","path":"sprites/sp_mushroom_attack/sp_mushroom_attack.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
               },"Disabled":false,"id":"c086a29b-5c31-4c2a-bdae-5d7e334dbafb","IsCreationKey":false,"Key":2.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
@@ -110,43 +111,46 @@
               },"Disabled":false,"id":"fff2ffca-3b94-4e0e-8f89-e53604926d54","IsCreationKey":false,"Key":6.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
                 "0":{"$SpriteFrameKeyframe":"","Id":{"name":"f13d7fe7-b61a-4b4c-a829-a5d88a85a71d","path":"sprites/sp_mushroom_attack/sp_mushroom_attack.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"68a3052e-a2fc-45d3-8117-899ef237010b","IsCreationKey":false,"Key":7.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+              },"Disabled":false,"id":"68a3052e-a2fc-45d3-8117-899ef237010b","IsCreationKey":false,"Key":7.0,"Length":2.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
                 "0":{"$SpriteFrameKeyframe":"","Id":{"name":"bb6e00da-6758-4ed9-8e15-b1bff3993617","path":"sprites/sp_mushroom_attack/sp_mushroom_attack.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"5e058c18-5490-483c-9449-c21abaea440f","IsCreationKey":false,"Key":8.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+              },"Disabled":false,"id":"5e058c18-5490-483c-9449-c21abaea440f","IsCreationKey":false,"Key":9.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
                 "0":{"$SpriteFrameKeyframe":"","Id":{"name":"56a28b52-09b9-43a8-8f95-d29f6dba3fe4","path":"sprites/sp_mushroom_attack/sp_mushroom_attack.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"e2220166-bada-497b-9fbe-18b1b607e11f","IsCreationKey":false,"Key":9.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+              },"Disabled":false,"id":"e2220166-bada-497b-9fbe-18b1b607e11f","IsCreationKey":false,"Key":10.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
                 "0":{"$SpriteFrameKeyframe":"","Id":{"name":"e32515a0-9d80-48f9-9398-181e2fb758e8","path":"sprites/sp_mushroom_attack/sp_mushroom_attack.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"21c7b8c1-47b8-4613-8f6d-70bfdb00e7f1","IsCreationKey":false,"Key":10.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+              },"Disabled":false,"id":"21c7b8c1-47b8-4613-8f6d-70bfdb00e7f1","IsCreationKey":false,"Key":11.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
                 "0":{"$SpriteFrameKeyframe":"","Id":{"name":"05cae7c0-627f-4beb-a535-c828c9c2d884","path":"sprites/sp_mushroom_attack/sp_mushroom_attack.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"1131e854-9a5f-4d6f-ba95-87272e7e6175","IsCreationKey":false,"Key":11.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+              },"Disabled":false,"id":"1131e854-9a5f-4d6f-ba95-87272e7e6175","IsCreationKey":false,"Key":12.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
                 "0":{"$SpriteFrameKeyframe":"","Id":{"name":"f8d316d5-a887-429d-a0a5-68804a9872c1","path":"sprites/sp_mushroom_attack/sp_mushroom_attack.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"1779c1c9-8804-4bda-9c2e-325931eaf8ad","IsCreationKey":false,"Key":12.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+              },"Disabled":false,"id":"1779c1c9-8804-4bda-9c2e-325931eaf8ad","IsCreationKey":false,"Key":13.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
                 "0":{"$SpriteFrameKeyframe":"","Id":{"name":"801c2440-d420-4ae1-bfdd-851cb86ff0cb","path":"sprites/sp_mushroom_attack/sp_mushroom_attack.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"c60c6ca5-f78a-4ec1-b66e-f8ee5f7adb64","IsCreationKey":false,"Key":13.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+              },"Disabled":false,"id":"c60c6ca5-f78a-4ec1-b66e-f8ee5f7adb64","IsCreationKey":false,"Key":14.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
                 "0":{"$SpriteFrameKeyframe":"","Id":{"name":"41765296-60ff-4287-aea0-49428d08a4b6","path":"sprites/sp_mushroom_attack/sp_mushroom_attack.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"93655008-bd82-4521-8b7a-b68fe686d405","IsCreationKey":false,"Key":14.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+              },"Disabled":false,"id":"93655008-bd82-4521-8b7a-b68fe686d405","IsCreationKey":false,"Key":15.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
                 "0":{"$SpriteFrameKeyframe":"","Id":{"name":"5bedb95c-d7c0-45c3-b991-3d5fd16ace16","path":"sprites/sp_mushroom_attack/sp_mushroom_attack.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"7bda58ba-e937-4697-ad47-a67c93860f5b","IsCreationKey":false,"Key":15.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+              },"Disabled":false,"id":"7bda58ba-e937-4697-ad47-a67c93860f5b","IsCreationKey":false,"Key":16.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
                 "0":{"$SpriteFrameKeyframe":"","Id":{"name":"cea2ddc1-c3a8-40a7-9de2-ce23b714316f","path":"sprites/sp_mushroom_attack/sp_mushroom_attack.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"9535f847-da5e-4bc8-8e92-0d355e78ee0d","IsCreationKey":false,"Key":16.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+              },"Disabled":false,"id":"9535f847-da5e-4bc8-8e92-0d355e78ee0d","IsCreationKey":false,"Key":17.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
                 "0":{"$SpriteFrameKeyframe":"","Id":{"name":"9021fa00-352a-4059-aaef-47c687d29a5b","path":"sprites/sp_mushroom_attack/sp_mushroom_attack.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"507287be-bf96-44fc-8bad-56b2a86761c5","IsCreationKey":false,"Key":17.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+              },"Disabled":false,"id":"507287be-bf96-44fc-8bad-56b2a86761c5","IsCreationKey":false,"Key":18.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
                 "0":{"$SpriteFrameKeyframe":"","Id":{"name":"b0ce2885-3853-4000-b30c-356b551eb6a6","path":"sprites/sp_mushroom_attack/sp_mushroom_attack.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"7c87a9fa-0a3b-4828-b94f-7b967a6c395f","IsCreationKey":false,"Key":18.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+              },"Disabled":false,"id":"7c87a9fa-0a3b-4828-b94f-7b967a6c395f","IsCreationKey":false,"Key":19.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
                 "0":{"$SpriteFrameKeyframe":"","Id":{"name":"6f79b4a9-4989-4a72-8f2e-90a1f70d96be","path":"sprites/sp_mushroom_attack/sp_mushroom_attack.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"5976f3cc-860a-4b42-9e94-0e059a8b951f","IsCreationKey":false,"Key":19.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+              },"Disabled":false,"id":"5976f3cc-860a-4b42-9e94-0e059a8b951f","IsCreationKey":false,"Key":20.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"c97ccd68-1b0b-4551-9500-3e077a696f5b","path":"sprites/sp_mushroom_attack/sp_mushroom_attack.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"297d3e86-c59a-41c1-a553-45ad2e21217b","IsCreationKey":false,"Key":21.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,

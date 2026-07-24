@@ -6,4 +6,3 @@ var size_increment = dispersal_force * channel_evaluate;
 image_xscale += size_increment;
 image_yscale += size_increment;
 
-

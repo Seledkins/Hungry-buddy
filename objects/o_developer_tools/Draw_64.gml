@@ -1,4 +1,10 @@
-if(!global.show_hidden_variables){
+
+
+if (global.show_fps) {
+	draw_text_transformed(15, Camera.view_height - 20,$"fps: {fps_once_per_half_second}", 0.5, 0.5, 0);	
+}
+
+if (!global.show_hidden_variables) {
 	exit
 }
 
@@ -40,6 +46,8 @@ for(i = 0; i < array_length(hidden_variables); i++){
 	
 	height_ratio += array_length(variables_info.variables);
 }
+
+
 
 
 draw_set_valign(fa_left);

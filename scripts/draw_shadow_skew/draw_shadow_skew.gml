@@ -8,7 +8,6 @@ if (!drop_shadow) {
 if(surface_exists(o_shadow_manager.shadow_surface)){
 	
 	surface_set_target(o_shadow_manager.shadow_surface);
-		gpu_set_fog(true, global.shadow_color, 0, 1);
 		
 		draw_sprite_pos(sprite_index, image_index,
 		x_ - (_sprite_width / 2) - skewx,
@@ -22,7 +21,6 @@ if(surface_exists(o_shadow_manager.shadow_surface)){
 		1
 		)
 		
-		gpu_set_fog(false, c_white, 0, 0);
 	surface_reset_target();
 }
 else

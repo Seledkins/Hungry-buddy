@@ -1,3 +1,3 @@
-if(take_damage_place(x, y, target, damage)){
-	instance_destroy()	
+if (take_damage_place(x, y, target, damage)) {
+	dead_function();
 }

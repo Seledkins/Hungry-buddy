@@ -3,15 +3,16 @@ if (!instance_exists(o_hole_parent)) {
 }
 
 var enemy_info = get_random_enemy_info(enemies_info_array);
-var enemy = enemy_info.enemy_index;
-var enemy_amount_in_room = instance_number(enemy_info.enemy_index);
-var current_count = floor(enemy_info.current_count);
-previous_enemy = enemy;
 
-if (enemy_amount_in_room >= current_count) {
+if (enemy_info == undefined) {
 	alarm[0] = spawn_delay;
 	exit
 }
+
+var enemy = enemy_info.enemy_index;
+previous_enemy = enemy;
+
+
 
 var enemy_spawn_pattern_function = enemy_info.spawn_pattern_function;
 enemy_spawn_pattern_function(enemy_info.max_distance_to_border);

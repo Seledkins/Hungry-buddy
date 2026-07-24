@@ -1,0 +1,26 @@
+{
+  "$GMSound":"v2",
+  "%Name":"snd_default_hole_dead",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "channelFormat":0,
+  "compression":0,
+  "compressionQuality":4,
+  "conversionMode":0,
+  "duration":1.4826984,
+  "exportDir":"",
+  "name":"snd_default_hole_dead",
+  "parent":{
+    "name":"default hole",
+    "path":"folders/creatures/holes/default hole.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"snd_default_hole_dead.wav",
+  "volume":0.1,
+}

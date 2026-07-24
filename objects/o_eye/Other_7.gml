@@ -1,1 +1,3 @@
-instance_destroy()
+if (sprite_index == sprite_dead) {
+	instance_destroy();	
+}

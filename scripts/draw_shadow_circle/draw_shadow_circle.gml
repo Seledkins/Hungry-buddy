@@ -12,11 +12,9 @@ if(surface_exists(o_shadow_manager.shadow_surface)){
 	var descr_default_shadow_r = 1;
 	
 	surface_set_target(o_shadow_manager.shadow_surface);
-		gpu_set_fog(true, global.shadow_color, 0, 1);
 		
 		draw_circle(x_, y_, r - (clamp(dist_to_floor * 0.3 + descr_default_shadow_r, descr_default_shadow_r, shadow_width)), false);
 		
-		gpu_set_fog(false, c_white, 0, 0);
 	surface_reset_target();
 }
 else

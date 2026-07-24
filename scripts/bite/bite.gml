@@ -10,8 +10,8 @@ function bite(bite_width, bite_height, delay_time, callback_for_creatures){
 		var cur_bite_li_item = bite_list[| i];
 		var cur_bite_li_item_obj_index = cur_bite_li_item.object_index;
 		
-		if (ds_list_find_index(memory_bite_list, cur_bite_li_item) >= 0) {
-			continue;	
+		if (ds_list_find_index(memory_bite_list, cur_bite_li_item) != -1) {
+			continue;
 		}
 		
 		if (is_creature(cur_bite_li_item_obj_index)) {
@@ -27,15 +27,14 @@ function bite(bite_width, bite_height, delay_time, callback_for_creatures){
 			}
 		}
 		
-		
-		ds_list_foreach(bite_list, function(inst) {
+	}
+	
+	ds_list_foreach(bite_list, function(inst) {
 		
 			if (ds_list_find_index(memory_bite_list, inst) == -1) {
-				ds_list_add(memory_bite_list, inst);	
+				ds_list_add(memory_bite_list, inst);
 			}
 		})
-		
-	}
 	
 	alarm[1] = delay_time;
 	
