@@ -1,12 +1,12 @@
 {
   "$GMScript":"v1",
-  "%Name":"instance_enemy_create",
+  "%Name":"objs_spawn_info_init",
   "isCompatibility":false,
   "isDnD":false,
-  "name":"instance_enemy_create",
+  "name":"objs_spawn_info_init",
   "parent":{
-    "name":"spawners",
-    "path":"folders/ingame system/spawners.yy",
+    "name":"inits",
+    "path":"folders/inits.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

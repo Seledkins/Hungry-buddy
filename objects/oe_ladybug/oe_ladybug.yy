@@ -21,6 +21,7 @@
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"oe_parent","path":"objects/oe_parent/oe_parent.yy",},"propertyId":{"name":"chance_to_spawn","path":"objects/oe_parent/oe_parent.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"15",},
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"o_creature","path":"objects/o_creature/o_creature.yy",},"propertyId":{"name":"acceleration","path":"objects/o_creature/o_creature.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"0.05",},
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"oe_parent","path":"objects/oe_parent/oe_parent.yy",},"propertyId":{"name":"min_killed_enemies_to_spawn","path":"objects/oe_parent/oe_parent.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"25",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"o_spawn_parent","path":"objects/o_spawn_parent/o_spawn_parent.yy",},"propertyId":{"name":"min_killed_enemies_to_spawn","path":"objects/o_spawn_parent/o_spawn_parent.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"40",},
   ],
   "parent":{
     "name":"ladybug",

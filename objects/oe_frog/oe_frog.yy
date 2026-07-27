@@ -22,8 +22,8 @@
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"oe_parent","path":"objects/oe_parent/oe_parent.yy",},"propertyId":{"name":"current_count","path":"objects/oe_parent/oe_parent.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"3",},
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"oe_parent","path":"objects/oe_parent/oe_parent.yy",},"propertyId":{"name":"enemy_count_increase","path":"objects/oe_parent/oe_parent.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"0",},
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"oe_parent","path":"objects/oe_parent/oe_parent.yy",},"propertyId":{"name":"max_enemy_count","path":"objects/oe_parent/oe_parent.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"3",},
-    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"o_creature","path":"objects/o_creature/o_creature.yy",},"propertyId":{"name":"max_distance_to_border","path":"objects/o_creature/o_creature.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"70",},
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"oe_parent","path":"objects/oe_parent/oe_parent.yy",},"propertyId":{"name":"test_only_this_enemy","path":"objects/oe_parent/oe_parent.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"False",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"o_spawn_parent","path":"objects/o_spawn_parent/o_spawn_parent.yy",},"propertyId":{"name":"max_distance_to_border","path":"objects/o_spawn_parent/o_spawn_parent.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"70",},
   ],
   "parent":{
     "name":"frog",

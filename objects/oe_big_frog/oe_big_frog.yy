@@ -33,6 +33,7 @@
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"o_etable_parent","path":"objects/o_etable_parent/o_etable_parent.yy",},"propertyId":{"name":"snd_dead","path":"objects/o_etable_parent/o_etable_parent.yy",},"resource":{"name":"snd_big_frog_dead","path":"sounds/snd_big_frog_dead/snd_big_frog_dead.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"snd_big_frog_dead",},
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"oe_parent","path":"objects/oe_parent/oe_parent.yy",},"propertyId":{"name":"shake_force_max","path":"objects/oe_parent/oe_parent.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"5.6",},
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"oe_parent","path":"objects/oe_parent/oe_parent.yy",},"propertyId":{"name":"shake_friction","path":"objects/oe_parent/oe_parent.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"0.40",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"o_spawn_parent","path":"objects/o_spawn_parent/o_spawn_parent.yy",},"propertyId":{"name":"min_killed_enemies_to_spawn","path":"objects/o_spawn_parent/o_spawn_parent.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"35",},
   ],
   "parent":{
     "name":"big frog",

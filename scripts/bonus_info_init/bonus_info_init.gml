@@ -47,5 +47,6 @@ function bonus_info_init(){
 	
 	show_debug_message("----------------------------------------------\n" + string(global.bonuses_info) + "\nbonuses amount:" + string(global.bonuses_amount) + "\nTotal bonuses chances: " + string(global.total_bonuses_chances) + "\n----------------------------------------------");
 	
+	return global.bonuses_info
 
 }

@@ -5,8 +5,8 @@
   "isDnD":false,
   "name":"add_spawn_edit_enemy",
   "parent":{
-    "name":"enemy spawner",
-    "path":"folders/ingame system/enemy spawner.yy",
+    "name":"spawners",
+    "path":"folders/ingame system/spawners.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

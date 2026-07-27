@@ -1,12 +1,12 @@
 {
   "$GMScript":"v1",
-  "%Name":"instance_enemy_create",
+  "%Name":"array_merge_deep",
   "isCompatibility":false,
   "isDnD":false,
-  "name":"instance_enemy_create",
+  "name":"array_merge_deep",
   "parent":{
-    "name":"spawners",
-    "path":"folders/ingame system/spawners.yy",
+    "name":"different scripts",
+    "path":"folders/different scripts.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

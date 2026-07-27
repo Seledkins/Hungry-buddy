@@ -49,4 +49,6 @@ function enemies_info_init(){
 	
 	show_debug_message("----------------------------------------------\n" + string(global.enemies_info) + "\nEnemies amount:" + string(global.enemies_amount) + "\nTotal enemies chances: " + string(global.total_enemies_chances) + "\n----------------------------------------------");
 	
+	return global.enemies_info
+	
 }

@@ -20,8 +20,8 @@
     "path":"folders/ingame system/bonus system.yy",
   },
   "parentObjectId":{
-    "name":"o_etable_parent",
-    "path":"objects/o_etable_parent/o_etable_parent.yy",
+    "name":"o_spawn_parent",
+    "path":"objects/o_spawn_parent/o_spawn_parent.yy",
   },
   "persistent":false,
   "physicsAngularDamping":0.1,

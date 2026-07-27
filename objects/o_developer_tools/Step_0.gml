@@ -15,7 +15,7 @@ if (keyboard_check_pressed(ord("2")) || global.show_all_developer_params_flag) {
 
 if (keyboard_check_pressed(ord("3")) || global.show_all_developer_params_flag) {
 	global.spawner_stop = !global.spawner_stop;
-	o_spawner.alarm[0] = !global.spawner_stop * o_spawner.spawn_delay;
+	o_spawner_parent.alarm[0] = !global.spawner_stop * o_spawner_parent.spawn_delay;
 }
 
 if (keyboard_check_pressed(ord("4")) || global.show_all_developer_params_flag) {

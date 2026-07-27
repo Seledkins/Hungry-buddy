@@ -1,4 +1,4 @@
-array_sort(obj_info_array, function(current, next) { return current.min_killed_enemies_to_spawn - next.min_killed_enemies_to_spawn });
+array_sort(enemies_info_array, function(current, next) { return current.min_killed_enemies_to_spawn - next.min_killed_enemies_to_spawn });
 border_right = o_arena.bbox_right;
 border_left = o_arena.bbox_left;
 border_top = o_arena.bbox_top;

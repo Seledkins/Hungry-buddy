@@ -2,7 +2,7 @@ if(room == rm_init){
 	exit	
 }
 
-increase_enemies_count(o_spawner.obj_info_array)
+increase_enemies_count(o_spawner_parent.enemies_info_array)
 o_play_values_manager.killed_enemies_amount++
 o_play_values_manager.points++
 

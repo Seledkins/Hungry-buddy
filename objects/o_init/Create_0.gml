@@ -69,8 +69,8 @@
 #endregion
 
 
-//enemies init
-enemies_info_init();
+//objs init
+objs_spawn_info_init();
 
 instance_destroy();
 room_goto(rm_play);

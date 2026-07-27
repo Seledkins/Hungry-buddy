@@ -6,10 +6,13 @@
   "name":"o_bonus_spawner",
   "overriddenProperties":[],
   "parent":{
-    "name":"bonus system",
-    "path":"folders/ingame system/bonus system.yy",
+    "name":"spawners",
+    "path":"folders/ingame system/spawners.yy",
   },
-  "parentObjectId":null,
+  "parentObjectId":{
+    "name":"o_spawner_parent",
+    "path":"objects/o_spawner_parent/o_spawner_parent.yy",
+  },
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
@@ -23,7 +26,10 @@
   "physicsShape":1,
   "physicsShapePoints":[],
   "physicsStartAwake":true,
-  "properties":[],
+  "properties":[
+    {"$GMObjectProperty":"v2","%Name":"previous_bonus","filters":[],"listItems":[],"multiselect":false,"name":"previous_bonus","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"noone","varType":4,},
+    {"$GMObjectProperty":"v2","%Name":"bonuses_info_array","filters":[],"listItems":[],"multiselect":false,"name":"bonuses_info_array","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"","varType":4,},
+  ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
