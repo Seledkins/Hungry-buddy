@@ -24,6 +24,8 @@
 		window_set_size(global.device_width / 2, global.device_height / 2);
 		show_debug_overlay(true);
 	}
+	
+	#macro next_enemy_min_killed_enemies_to_edit "next_enemy_min_killed_enemies_to_edit"
 	 
 
 #endregion
@@ -38,7 +40,7 @@
 	os_lock_orientation(true);
 	gml_pragma("MarkTagAsUsed", "enemy");
 	global.controls_type = get_controls_type();
-	global.mobile_sensitivity = 0.10
+	global.mobile_sensitivity = 0.3
 	#macro sprite_speed_to_image_index_changing_ratio 0.017
 	#macro current_projectile other
 	
@@ -59,8 +61,8 @@
 	global.show_projectile_1px = false;
 	global.show_enemies_params = false;
 	global.spawner_stop = false;
-	global.show_hidden_variables = true;
-	global.show_fps = true;
+	global.show_hidden_variables = false;
+	global.show_fps = false;
 	
 	instance_create_depth(0, 0, 0, o_developer_tools);
 

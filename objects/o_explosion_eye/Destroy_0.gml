@@ -1,0 +1,1 @@
+create_expolosion(x, y, damage, explosion_radius);

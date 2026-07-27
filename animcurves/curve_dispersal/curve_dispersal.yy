@@ -10,8 +10,8 @@
   "function":0,
   "name":"curve_dispersal",
   "parent":{
-    "name":"Hungry buddy",
-    "path":"Hungry buddy.yyp",
+    "name":"fluctuations system",
+    "path":"folders/graphics system/fluctuations system.yy",
   },
   "resourceType":"GMAnimCurve",
   "resourceVersion":"2.0",

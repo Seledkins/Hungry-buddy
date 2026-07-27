@@ -4,10 +4,8 @@
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":7,"eventType":7,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":2,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":1,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":2,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
   "name":"o_eye",
@@ -15,10 +13,11 @@
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"o_projectile_parent","path":"objects/o_projectile_parent/o_projectile_parent.yy",},"propertyId":{"name":"target","path":"objects/o_projectile_parent/o_projectile_parent.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"o_peaceful_parent",},
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"o_projectile_parent","path":"objects/o_projectile_parent/o_projectile_parent.yy",},"propertyId":{"name":"damage","path":"objects/o_projectile_parent/o_projectile_parent.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"1",},
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"o_projectile_parent","path":"objects/o_projectile_parent/o_projectile_parent.yy",},"propertyId":{"name":"sprite_dead","path":"objects/o_projectile_parent/o_projectile_parent.yy",},"resource":{"name":"sp_eye_dead","path":"sprites/sp_eye_dead/sp_eye_dead.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"sp_eye_dead",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"o_projectile_parent","path":"objects/o_projectile_parent/o_projectile_parent.yy",},"propertyId":{"name":"dead_function","path":"objects/o_projectile_parent/o_projectile_parent.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"eye_dead",},
   ],
   "parent":{
-    "name":"eye",
-    "path":"folders/projectile system/eye.yy",
+    "name":"eyes",
+    "path":"folders/projectile system/eyes.yy",
   },
   "parentObjectId":{
     "name":"o_projectile_flew_parent",

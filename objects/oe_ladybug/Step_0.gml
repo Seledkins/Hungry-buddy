@@ -1,6 +1,6 @@
 target_get_required_info(target);
 
-if (distance_to_target > distance_to_attack && sprite_index == sprite_run) {
+if (distance_to_target > distance_to_prepare && sprite_index == sprite_run) {
 	
 	if(cur_spd < max_spd) {
 		cur_spd += acceleration;
@@ -23,7 +23,7 @@ if (boom_flag) {
 	}
 	else if (anim_end && sprite_index == sprite_attack)
 	{
-		create_expolosion(x, y - y_attack_ratio, damage, distance_to_attack, -1);
+		create_expolosion(x, y - y_attack_ratio, damage, distance_to_attack);
 	}
 	
 }

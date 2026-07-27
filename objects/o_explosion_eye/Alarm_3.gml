@@ -1,0 +1,1 @@
+outline_width = 2;

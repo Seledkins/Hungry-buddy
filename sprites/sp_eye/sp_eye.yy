@@ -57,8 +57,8 @@
   },
   "origin":4,
   "parent":{
-    "name":"eye",
-    "path":"folders/projectile system/eye.yy",
+    "name":"eyes",
+    "path":"folders/projectile system/eyes.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

@@ -1,7 +1,7 @@
-function default_hole_bite(){
+function default_hole_bite() {
 	
-	
-	if (o_bite_button.is_pressed && sprite_index == sprite_idle && alarm[1] = -1) {
+	if (sprite_index == sprite_idle && (o_bite_button.any_finger_is_pressed)) {
+		image_index = 0;
 		sprite_index = sprite_bite;
 	}
 	
@@ -11,7 +11,7 @@ function default_hole_bite(){
 			bite(bite_width, bite_height, bite_delay, function(creature){
 				take_damage(creature, damage);
 			})
-		}	
+		}
 	
 		if (animation_end()) {
 			sprite_index = sprite_idle;

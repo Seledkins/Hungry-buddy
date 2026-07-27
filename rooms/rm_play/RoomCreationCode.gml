@@ -1,1 +1,0 @@
-instance_create_layer(o_arena.x, o_arena.y, "Bonuses", o_bonus_mushroom)

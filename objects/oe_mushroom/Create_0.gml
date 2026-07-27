@@ -1,0 +1,1 @@
+projectile_life_time = distance_to_attack / 1.35;

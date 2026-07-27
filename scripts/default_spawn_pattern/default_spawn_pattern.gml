@@ -1,10 +1,11 @@
-function default_spawn_pattern(max_distance_to_border){
+function default_spawn_pattern(min_distance_to_border, max_distance_to_border){
 	
 	var nearby_enemies_count = 1
 	var max_iterate_amount = 30
 	radius_to_check_nearest = 80
 	var iterate_amount = 0
-	var distance_to_border = random(max_distance_to_border)
+	var distance_to_border = irandom_range(min_distance_to_border, max_distance_to_border)
+	
 	
 	while(nearby_enemies_count > 0 && iterate_amount < max_iterate_amount){
 		

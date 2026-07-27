@@ -45,7 +45,7 @@
   "origin":9,
   "parent":{
     "name":"sprites",
-    "path":"folders/creatures/enemies/mushroom/sprites.yy",
+    "path":"folders/creatures/enemies/mushrooms/mushroom/sprites.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

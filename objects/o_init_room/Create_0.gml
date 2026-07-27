@@ -10,7 +10,7 @@ instance_create_layer(0, 0, "Fluctuations", o_fluctuations_manager);
 instance_create_layer(0, 0, "ShadowManager", o_shadow_manager);
 
 instance_create_layer(room_width / 2, room_height / 2, "Player", o_default_hole);
-instance_create_depth(0, 0, 0, o_enemy_spawner);
+instance_create_depth(0, 0, 0, o_spawner);
 instance_create_depth(0, 0, 0, o_bonus_spawner);
 
 instance_create_depth(0, 0, 0, o_snd_manager);

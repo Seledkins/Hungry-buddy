@@ -11,8 +11,8 @@
   "function":2,
   "name":"curve_jump",
   "parent":{
-    "name":"Hungry buddy",
-    "path":"Hungry buddy.yyp",
+    "name":"frogs",
+    "path":"folders/creatures/enemies/frogs.yy",
   },
   "resourceType":"GMAnimCurve",
   "resourceVersion":"2.0",

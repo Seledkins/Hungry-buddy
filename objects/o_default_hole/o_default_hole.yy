@@ -10,7 +10,7 @@
   "managed":true,
   "name":"o_default_hole",
   "overriddenProperties":[
-    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"o_creature","path":"objects/o_creature/o_creature.yy",},"propertyId":{"name":"max_spd","path":"objects/o_creature/o_creature.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"2.5",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"o_creature","path":"objects/o_creature/o_creature.yy",},"propertyId":{"name":"max_spd","path":"objects/o_creature/o_creature.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"2.2",},
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"o_creature","path":"objects/o_creature/o_creature.yy",},"propertyId":{"name":"acceleration","path":"objects/o_creature/o_creature.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"0.3",},
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"o_hole_parent","path":"objects/o_hole_parent/o_hole_parent.yy",},"propertyId":{"name":"sprite_bite","path":"objects/o_hole_parent/o_hole_parent.yy",},"resource":{"name":"sp_default_hole_bite","path":"sprites/sp_default_hole_bite/sp_default_hole_bite.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"sp_default_hole_bite",},
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"o_hole_parent","path":"objects/o_hole_parent/o_hole_parent.yy",},"propertyId":{"name":"image_index_start_to_bite","path":"objects/o_hole_parent/o_hole_parent.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"2",},
@@ -25,6 +25,7 @@
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"o_outline_parent","path":"objects/o_outline_parent/o_outline_parent.yy",},"propertyId":{"name":"drawx","path":"objects/o_outline_parent/o_outline_parent.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"x",},
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"o_outline_parent","path":"objects/o_outline_parent/o_outline_parent.yy",},"propertyId":{"name":"drawy","path":"objects/o_outline_parent/o_outline_parent.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"y",},
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"o_hole_parent","path":"objects/o_hole_parent/o_hole_parent.yy",},"propertyId":{"name":"bite_delay","path":"objects/o_hole_parent/o_hole_parent.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"15",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"o_creature","path":"objects/o_creature/o_creature.yy",},"propertyId":{"name":"hp","path":"objects/o_creature/o_creature.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"max_hp",},
   ],
   "parent":{
     "name":"default hole",
