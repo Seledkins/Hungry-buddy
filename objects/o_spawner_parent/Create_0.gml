@@ -1,0 +1,1 @@
+spawner_init(spawn_objs_info);

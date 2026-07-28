@@ -8,8 +8,8 @@
   "name":"o_init",
   "overriddenProperties":[],
   "parent":{
-    "name":"inits",
-    "path":"folders/inits.yy",
+    "name":"game inits",
+    "path":"folders/game inits.yy",
   },
   "parentObjectId":null,
   "persistent":false,

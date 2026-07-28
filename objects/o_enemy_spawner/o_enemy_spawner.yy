@@ -3,11 +3,12 @@
   "%Name":"o_enemy_spawner",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":2,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
   "name":"o_enemy_spawner",
-  "overriddenProperties":[],
+  "overriddenProperties":[
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"o_spawner_parent","path":"objects/o_spawner_parent/o_spawner_parent.yy",},"propertyId":{"name":"spawn_objs_info","path":"objects/o_spawner_parent/o_spawner_parent.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"variable_clone(global.enemies_info)",},
+  ],
   "parent":{
     "name":"spawners",
     "path":"folders/ingame system/spawners.yy",
@@ -29,10 +30,7 @@
   "physicsShape":1,
   "physicsShapePoints":[],
   "physicsStartAwake":true,
-  "properties":[
-    {"$GMObjectProperty":"v2","%Name":"enemies_info_array","filters":[],"listItems":[],"multiselect":false,"name":"enemies_info_array","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"variable_clone(global.enemies_info)","varType":4,},
-    {"$GMObjectProperty":"v2","%Name":"previous_enemy","filters":[],"listItems":[],"multiselect":false,"name":"previous_enemy","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"noone","varType":4,},
-  ],
+  "properties":[],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,

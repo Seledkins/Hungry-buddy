@@ -30,4 +30,4 @@ if (boom_flag) {
 
 linear_step(cur_spd, targetx, targety);
 
-close_creature_in_arena();
+close_obj_in_arena();

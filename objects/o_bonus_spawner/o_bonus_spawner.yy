@@ -1,10 +1,20 @@
 {
   "$GMObject":"",
   "%Name":"o_bonus_spawner",
-  "eventList":[],
+  "eventList":[
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":2,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+  ],
   "managed":true,
   "name":"o_bonus_spawner",
-  "overriddenProperties":[],
+  "overriddenProperties":[
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"o_spawner_parent","path":"objects/o_spawner_parent/o_spawner_parent.yy",},"propertyId":{"name":"spawn_objs_info","path":"objects/o_spawner_parent/o_spawner_parent.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"variable_clone(global.bonuses_info)",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"o_spawner_parent","path":"objects/o_spawner_parent/o_spawner_parent.yy",},"propertyId":{"name":"previous_obj","path":"objects/o_spawner_parent/o_spawner_parent.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"noone",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"o_spawner_parent","path":"objects/o_spawner_parent/o_spawner_parent.yy",},"propertyId":{"name":"spawn_delay","path":"objects/o_spawner_parent/o_spawner_parent.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"500",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"o_spawner_parent","path":"objects/o_spawner_parent/o_spawner_parent.yy",},"propertyId":{"name":"limitx_to_spawn","path":"objects/o_spawner_parent/o_spawner_parent.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"o_arena.arena_width / 2 + o_arena.x",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"o_spawner_parent","path":"objects/o_spawner_parent/o_spawner_parent.yy",},"propertyId":{"name":"limity_to_spawn","path":"objects/o_spawner_parent/o_spawner_parent.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"o_arena.arena_height / 2 + o_arena.y",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"o_spawner_parent","path":"objects/o_spawner_parent/o_spawner_parent.yy",},"propertyId":{"name":"max_distance_to_spawn","path":"objects/o_spawner_parent/o_spawner_parent.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"o_arena.arena_width / 2",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"o_spawner_parent","path":"objects/o_spawner_parent/o_spawner_parent.yy",},"propertyId":{"name":"spawn_dir_spread","path":"objects/o_spawner_parent/o_spawner_parent.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"60",},
+  ],
   "parent":{
     "name":"spawners",
     "path":"folders/ingame system/spawners.yy",
@@ -26,10 +36,7 @@
   "physicsShape":1,
   "physicsShapePoints":[],
   "physicsStartAwake":true,
-  "properties":[
-    {"$GMObjectProperty":"v2","%Name":"previous_bonus","filters":[],"listItems":[],"multiselect":false,"name":"previous_bonus","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"noone","varType":4,},
-    {"$GMObjectProperty":"v2","%Name":"bonuses_info_array","filters":[],"listItems":[],"multiselect":false,"name":"bonuses_info_array","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"","varType":4,},
-  ],
+  "properties":[],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,

@@ -1,3 +1,5 @@
 if(room == rm_init || !eater){
-	exit	
+	exit;	
 }
+
+destroy_function();

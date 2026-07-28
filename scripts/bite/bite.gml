@@ -14,11 +14,11 @@ function bite(bite_width, bite_height, delay_time, callback_for_creatures){
 			continue;
 		}
 		
-		if (is_creature(cur_bite_li_item_obj_index)) {
+		if (is_creature(cur_bite_li_item_obj_index.object_index)) {
 			
 			callback_for_creatures(cur_bite_li_item);
 			
-		} else if (is_bonus(cur_bite_li_item_obj_index)) {
+		} else if (is_bonus(cur_bite_li_item_obj_index.object_index)) {
 			
 			var cur_bonus = cur_bite_li_item;
 			

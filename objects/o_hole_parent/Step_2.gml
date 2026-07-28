@@ -5,7 +5,7 @@ drawx = x;
 
 if (hp < prev_hp) {
 	invincible = true;
-	alarm[0] = invincible_time;
+	alarm[1] = invincible_time;
 	
 	image_alpha = invincible_alpha;
 	uc_shake(10, 0.2);

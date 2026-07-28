@@ -6,10 +6,10 @@ function add_spawn_edit_enemy(obj_info_array, enemy, min_killed_enemies_to_edit,
 	
 	for (var oi = 0; oi < array_length(obj_info_array); oi++) {
 		var enemy_info = obj_info_array[oi];
-		var enemy_index = enemy_info.index;
+		var enemy_index = enemy_info.obj_index;
 		
 		if (enemy == enemy_index) {
-			struct_set(edit_info, "index", enemy);
+			struct_set(edit_info, "obj_index", enemy);
 			struct_set(edit_info, "spawn_objs_array_index", oi);
 			spawn_objs_array_index = oi;
 		}
@@ -26,7 +26,7 @@ function add_spawn_edit_enemy(obj_info_array, enemy, min_killed_enemies_to_edit,
 		for (var e = 0; e < array_length(obj_info_array); e++) {
 			var enemy_info = obj_info_array[e];
 			
-			if (enemy_info.index == enemy_index_min_killed_enemies_to_spawn)	{
+			if (enemy_info.obj_index == enemy_index_min_killed_enemies_to_spawn)	{
 				min_killed_enemies_to_edit = enemy_info.min_killed_enemies_to_spawn;
 			}
 		}

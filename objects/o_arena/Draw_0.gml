@@ -10,3 +10,4 @@ draw_on_fluctuation_surface(function() {
 	image_alpha);
 	
 });
+

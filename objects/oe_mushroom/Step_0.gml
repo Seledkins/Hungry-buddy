@@ -42,4 +42,4 @@ if (in_attack) {
 }
 
 
-close_creature_in_arena();
+close_obj_in_arena();

@@ -5,8 +5,8 @@
   "isDnD":false,
   "name":"game_over",
   "parent":{
-    "name":"Hungry buddy",
-    "path":"Hungry buddy.yyp",
+    "name":"ingame system",
+    "path":"folders/ingame system.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

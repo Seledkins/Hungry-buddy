@@ -26,7 +26,7 @@
   "origin":9,
   "parent":{
     "name":"mushroom",
-    "path":"folders/ingame system/bonus system/mushroom.yy",
+    "path":"folders/bonus system/mushroom.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

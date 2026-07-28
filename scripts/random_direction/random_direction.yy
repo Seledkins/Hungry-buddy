@@ -1,12 +1,12 @@
 {
   "$GMScript":"v1",
-  "%Name":"create_bonus",
+  "%Name":"random_direction",
   "isCompatibility":false,
   "isDnD":false,
-  "name":"create_bonus",
+  "name":"random_direction",
   "parent":{
-    "name":"bonus system",
-    "path":"folders/ingame system/bonus system.yy",
+    "name":"different scripts",
+    "path":"folders/different scripts.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

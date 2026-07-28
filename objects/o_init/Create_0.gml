@@ -16,6 +16,9 @@
 	global.arena_width_scale = 5
 	global.arena_height_scale = 2.5
 	
+	global.arena_width = global.arena_width_scale * global.sprite_arena_width;
+	global.arena_height = global.arena_height_scale * global.sprite_arena_height;
+	
 	if (os_type != os_windows) {
 		window_set_fullscreen(true);
 	}
@@ -38,7 +41,6 @@
 	}
 
 	os_lock_orientation(true);
-	gml_pragma("MarkTagAsUsed", "enemy");
 	global.controls_type = get_controls_type();
 	global.mobile_sensitivity = 0.3
 	#macro sprite_speed_to_image_index_changing_ratio 0.017

@@ -31,7 +31,7 @@
   "origin":7,
   "parent":{
     "name":"enemy sample",
-    "path":"folders/creatures/enemies/enemy sample.yy",
+    "path":"folders/creatures/enemies/general for enemies/enemy sample.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

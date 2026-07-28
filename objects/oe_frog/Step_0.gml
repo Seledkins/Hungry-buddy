@@ -30,4 +30,4 @@ else if (anim_end)
 	change_sprite(sprite_attack);
 }
 
-close_creature_in_arena();
+close_obj_in_arena();

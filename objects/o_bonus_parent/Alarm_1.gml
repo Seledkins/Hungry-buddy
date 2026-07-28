@@ -1,0 +1,2 @@
+invincible = false;
+solid = true;

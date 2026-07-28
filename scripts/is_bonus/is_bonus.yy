@@ -6,7 +6,7 @@
   "name":"is_bonus",
   "parent":{
     "name":"bonus system",
-    "path":"folders/ingame system/bonus system.yy",
+    "path":"folders/bonus system.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

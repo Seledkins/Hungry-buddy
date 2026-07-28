@@ -5,8 +5,8 @@
   "isDnD":false,
   "name":"default_spawn_pattern",
   "parent":{
-    "name":"enemies",
-    "path":"folders/creatures/enemies.yy",
+    "name":"spawners",
+    "path":"folders/ingame system/spawners.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

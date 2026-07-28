@@ -3,6 +3,7 @@
   "%Name":"o_creature",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":1,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":1,"eventType":2,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
   "name":"o_creature",
@@ -12,8 +13,8 @@
     "path":"folders/creatures.yy",
   },
   "parentObjectId":{
-    "name":"o_spawn_parent",
-    "path":"objects/o_spawn_parent/o_spawn_parent.yy",
+    "name":"o_spawn_obj_parent",
+    "path":"objects/o_spawn_obj_parent/o_spawn_obj_parent.yy",
   },
   "persistent":false,
   "physicsAngularDamping":0.1,

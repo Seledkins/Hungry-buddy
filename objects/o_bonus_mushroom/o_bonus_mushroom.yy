@@ -1,15 +1,15 @@
 {
   "$GMObject":"",
   "%Name":"o_bonus_mushroom",
-  "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":1,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-  ],
+  "eventList":[],
   "managed":true,
   "name":"o_bonus_mushroom",
-  "overriddenProperties":[],
+  "overriddenProperties":[
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"o_bonus_parent","path":"objects/o_bonus_parent/o_bonus_parent.yy",},"propertyId":{"name":"destroy_function","path":"objects/o_bonus_parent/o_bonus_parent.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"destroy_bonus_musroom",},
+  ],
   "parent":{
     "name":"mushroom",
-    "path":"folders/ingame system/bonus system/mushroom.yy",
+    "path":"folders/bonus system/mushroom.yy",
   },
   "parentObjectId":{
     "name":"o_bonus_parent",
@@ -31,14 +31,11 @@
   "properties":[],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
-  "solid":true,
+  "solid":false,
   "spriteId":{
     "name":"sp_bonus_mushroom",
     "path":"sprites/sp_bonus_mushroom/sp_bonus_mushroom.yy",
   },
   "spriteMaskId":null,
-  "tags":[
-    "bonus",
-  ],
   "visible":true,
 }
