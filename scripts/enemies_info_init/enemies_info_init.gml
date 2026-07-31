@@ -30,6 +30,7 @@ function enemies_info_init(){
 		array_push(global.enemies_info, {
 			obj_index : current_enemy.object_index,
 			array_index : e,
+			amount_in_room : 0,
 			test_only_this_enemy : test_ony_this_enemy,
 			chance_to_spawn : current_enemy_chance,
 			min_killed_enemies_to_spawn : current_enemy.min_killed_enemies_to_spawn,

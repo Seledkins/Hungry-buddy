@@ -1,7 +1,9 @@
 {
   "$GMObject":"",
   "%Name":"o_spawn_obj_parent",
-  "eventList":[],
+  "eventList":[
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+  ],
   "managed":true,
   "name":"o_spawn_obj_parent",
   "overriddenProperties":[],
@@ -28,10 +30,11 @@
   "physicsStartAwake":true,
   "properties":[
     {"$GMObjectProperty":"v2","%Name":"chance_to_spawn","filters":[],"listItems":[],"multiselect":false,"name":"chance_to_spawn","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"20","varType":0,},
-    {"$GMObjectProperty":"v2","%Name":"min_killed_enemies_to_spawn","filters":[],"listItems":[],"multiselect":false,"name":"min_killed_enemies_to_spawn","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"0.0","varType":0,},
+    {"$GMObjectProperty":"v2","%Name":"min_killed_enemies_to_spawn","filters":[],"listItems":[],"multiselect":false,"name":"min_killed_enemies_to_spawn","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"0.0","varType":4,},
     {"$GMObjectProperty":"v2","%Name":"min_distance_to_border","filters":[],"listItems":[],"multiselect":false,"name":"min_distance_to_border","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"0.0","varType":0,},
     {"$GMObjectProperty":"v2","%Name":"max_distance_to_border","filters":[],"listItems":[],"multiselect":false,"name":"max_distance_to_border","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"min_distance_to_border","varType":4,},
     {"$GMObjectProperty":"v2","%Name":"spawn_pattern_function","filters":[],"listItems":[],"multiselect":false,"name":"spawn_pattern_function","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"default_spawn_pattern","varType":4,},
+    {"$GMObjectProperty":"v2","%Name":"appearance_created","filters":[],"listItems":[],"multiselect":false,"name":"appearance_created","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"False","varType":3,},
   ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",

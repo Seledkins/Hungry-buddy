@@ -5,8 +5,8 @@
   "isDnD":false,
   "name":"eye_dead",
   "parent":{
-    "name":"eyes",
-    "path":"folders/projectile system/eyes.yy",
+    "name":"eye",
+    "path":"folders/projectile system/eyes/eye.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

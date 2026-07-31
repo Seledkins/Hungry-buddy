@@ -2,8 +2,8 @@
   "$GMSound":"v2",
   "%Name":"snd_frog_dead",
   "audioGroupId":{
-    "name":"audiogroup_default",
-    "path":"audiogroups/audiogroup_default",
+    "name":"ag_enemies_dead",
+    "path":"audiogroups/ag_enemies_dead",
   },
   "bitDepth":1,
   "channelFormat":0,
@@ -14,8 +14,8 @@
   "exportDir":"",
   "name":"snd_frog_dead",
   "parent":{
-    "name":"frog",
-    "path":"folders/creatures/enemies/frogs/frog.yy",
+    "name":"sounds",
+    "path":"folders/creatures/enemies/frogs/frog/sounds.yy",
   },
   "preload":false,
   "resourceType":"GMSound",

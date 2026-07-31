@@ -27,6 +27,5 @@ function default_spawn_pattern(min_distance_to_border, max_distance_to_border, o
 	spawn_x = round(spawn_x);
 	spawn_y = round(spawn_y);
 	
-	//show_debug_message(iterate_amount)
 	
 }

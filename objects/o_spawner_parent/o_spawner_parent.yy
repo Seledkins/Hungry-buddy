@@ -28,7 +28,7 @@
   "physicsStartAwake":true,
   "properties":[
     {"$GMObjectProperty":"v2","%Name":"spawn_delay","filters":[],"listItems":[],"multiselect":false,"name":"spawn_delay","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"10","varType":0,},
-    {"$GMObjectProperty":"v2","%Name":"spawn_dir_spread","filters":[],"listItems":[],"multiselect":false,"name":"spawn_dir_spread","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"60","varType":0,},
+    {"$GMObjectProperty":"v2","%Name":"spawn_dir_spread","filters":[],"listItems":[],"multiselect":false,"name":"spawn_dir_spread","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"120","varType":0,},
     {"$GMObjectProperty":"v2","%Name":"max_distance_to_spawn","filters":[],"listItems":[],"multiselect":false,"name":"max_distance_to_spawn","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"o_arena.arena_width ","varType":4,},
     {"$GMObjectProperty":"v2","%Name":"limitx_to_spawn","filters":[],"listItems":[],"multiselect":false,"name":"limitx_to_spawn","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"o_arena.arena_width / 2 + o_arena.x","varType":4,},
     {"$GMObjectProperty":"v2","%Name":"limity_to_spawn","filters":[],"listItems":[],"multiselect":false,"name":"limity_to_spawn","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"o_arena.arena_height / 2 + o_arena.y","varType":4,},

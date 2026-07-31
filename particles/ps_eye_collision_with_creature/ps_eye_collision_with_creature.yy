@@ -13,8 +13,8 @@
   ],
   "name":"ps_eye_collision_with_creature",
   "parent":{
-    "name":"eyes",
-    "path":"folders/projectile system/eyes.yy",
+    "name":"explosion eye",
+    "path":"folders/projectile system/eyes/explosion eye.yy",
   },
   "resourceType":"GMParticleSystem",
   "resourceVersion":"2.0",

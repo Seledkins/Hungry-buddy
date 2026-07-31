@@ -5,8 +5,8 @@
   "isDnD":false,
   "name":"audio_play_sound_random",
   "parent":{
-    "name":"different scripts",
-    "path":"folders/different scripts.yy",
+    "name":"sound system",
+    "path":"folders/sound system.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

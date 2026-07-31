@@ -19,6 +19,8 @@
 	global.arena_width = global.arena_width_scale * global.sprite_arena_width;
 	global.arena_height = global.arena_height_scale * global.sprite_arena_height;
 	
+	audio_groups_load_all();
+	
 	if (os_type != os_windows) {
 		window_set_fullscreen(true);
 	}
@@ -49,8 +51,8 @@
 	shadows_system_init()
 	
 	global.fluctuations_alpha = 0.6;
-	global.color_dark_purple = #180B21
-	global.color_red = #A81C1B
+	global.color_dark_purple = #170026;
+	global.color_red = #A81C1B;
 	
 #endregion
 
@@ -63,7 +65,7 @@
 	global.show_projectile_1px = false;
 	global.show_enemies_params = false;
 	global.spawner_stop = false;
-	global.show_hidden_variables = false;
+	global.show_hidden_variables = true;
 	global.show_fps = false;
 	
 	instance_create_depth(0, 0, 0, o_developer_tools);
@@ -74,5 +76,6 @@
 //objs init
 objs_spawn_info_init();
 
+randomise();
 instance_destroy();
 room_goto(rm_play);

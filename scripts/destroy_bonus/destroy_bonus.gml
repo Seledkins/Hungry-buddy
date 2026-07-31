@@ -1,4 +1,4 @@
 function destroy_bonus(bonus, eater){
-	bonus.eater = eater
-	instance_destroy(bonus)
+	bonus.eater = eater;
+	bonus.destroy_function();
 }

@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"adjust_enemies_amounts",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"adjust_enemies_amounts",
+  "parent":{
+    "name":"enemies",
+    "path":"folders/creatures/enemies.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

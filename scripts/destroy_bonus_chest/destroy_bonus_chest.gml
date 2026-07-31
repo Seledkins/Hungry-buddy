@@ -20,4 +20,6 @@ function destroy_bonus_chest(){
 			}
 		}
 	}
+	
+	instance_destroy();
 }

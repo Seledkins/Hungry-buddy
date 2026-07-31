@@ -16,8 +16,8 @@
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"o_outline_parent","path":"objects/o_outline_parent/o_outline_parent.yy",},"propertyId":{"name":"outline_color","path":"objects/o_outline_parent/o_outline_parent.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"c_black",},
   ],
   "parent":{
-    "name":"eyes",
-    "path":"folders/projectile system/eyes.yy",
+    "name":"explosion eye",
+    "path":"folders/projectile system/eyes/explosion eye.yy",
   },
   "parentObjectId":{
     "name":"o_eye",
@@ -47,8 +47,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"sp_explosion_eye",
-    "path":"sprites/sp_explosion_eye/sp_explosion_eye.yy",
+    "name":"sp_eye",
+    "path":"sprites/sp_eye/sp_eye.yy",
   },
   "spriteMaskId":null,
   "visible":true,

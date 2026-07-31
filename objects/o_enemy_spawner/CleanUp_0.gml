@@ -1,0 +1,1 @@
+ds_map_destroy(enemies_indexes_ds_map);

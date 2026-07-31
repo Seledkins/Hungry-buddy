@@ -1,0 +1,26 @@
+{
+  "$GMSound":"v2",
+  "%Name":"snd_frog_jump3",
+  "audioGroupId":{
+    "name":"ag_sfx",
+    "path":"audiogroups/ag_sfx",
+  },
+  "bitDepth":1,
+  "channelFormat":0,
+  "compression":0,
+  "compressionQuality":4,
+  "conversionMode":0,
+  "duration":0.75893426,
+  "exportDir":"",
+  "name":"snd_frog_jump3",
+  "parent":{
+    "name":"sounds",
+    "path":"folders/creatures/enemies/frogs/frog/sounds.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"snd_frog_jump3.wav",
+  "volume":1.0,
+}

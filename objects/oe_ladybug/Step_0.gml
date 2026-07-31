@@ -20,6 +20,7 @@ if (boom_flag) {
 	
 	if (anim_end && sprite_index == sprite_run) {
 		change_sprite(sprite_attack);
+		audio_play_sfx(snd_ladybug_attacking, sprite_attack_speed / 13);
 	}
 	else if (anim_end && sprite_index == sprite_attack)
 	{

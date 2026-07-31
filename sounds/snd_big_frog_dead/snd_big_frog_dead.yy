@@ -2,8 +2,8 @@
   "$GMSound":"v2",
   "%Name":"snd_big_frog_dead",
   "audioGroupId":{
-    "name":"audiogroup_default",
-    "path":"audiogroups/audiogroup_default",
+    "name":"ag_enemies_dead",
+    "path":"audiogroups/ag_enemies_dead",
   },
   "bitDepth":1,
   "channelFormat":0,

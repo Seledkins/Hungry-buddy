@@ -9,7 +9,6 @@ function bite_check_mobile(){
 		var fingerx = get_fingerx_gui(finger);
 		var fingery = get_fingery_gui(finger);
 		
-		show_debug_message($"fingerx: {fingerx} fingery: {fingery}");
 	
 	
 		if ((fingerx != undefined && point_in_rectangle(fingerx, fingery ,x1_zone_tap, y1_zone_tap, x2_zone_tap, y2_zone_tap) && device_mouse_check_button(finger, mb_left))) {

@@ -11,3 +11,5 @@ if (hp < prev_hp) {
 	uc_shake(10, 0.2);
 	audio_play_sound(snd_hurt, 20, false, 1, 0, random_range(0.95, 1.05));
 }
+
+show_debug_message(instance_number(oe_parent));

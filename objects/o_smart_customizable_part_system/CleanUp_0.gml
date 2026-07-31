@@ -1,2 +1,2 @@
-part_system_destroy(particle_system);
-part_type_destroy(particle_system);
+part_system_destroy(ps_info.ps);
+part_type_destroy(ps_info.ptype);

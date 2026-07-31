@@ -2,15 +2,15 @@
   "$GMSound":"v2",
   "%Name":"snd_background_ingame",
   "audioGroupId":{
-    "name":"audiogroup_default",
-    "path":"audiogroups/audiogroup_default",
+    "name":"ag_music",
+    "path":"audiogroups/ag_music",
   },
   "bitDepth":1,
   "channelFormat":0,
   "compression":0,
   "compressionQuality":4,
   "conversionMode":0,
-  "duration":87.12,
+  "duration":81.666664,
   "exportDir":"",
   "name":"snd_background_ingame",
   "parent":{
@@ -22,5 +22,5 @@
   "resourceVersion":"2.0",
   "sampleRate":44100,
   "soundFile":"snd_background_ingame.mp3",
-  "volume":0.08,
+  "volume":0.13,
 }

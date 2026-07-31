@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"instance_create_auto_type_chose",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"instance_create_auto_type_chose",
+  "parent":{
+    "name":"creatures",
+    "path":"folders/creatures.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

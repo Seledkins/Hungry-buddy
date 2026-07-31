@@ -1,1 +1,0 @@
-o_play_values_manager.killed_enemies_amount = 50;

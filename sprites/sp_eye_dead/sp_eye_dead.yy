@@ -30,8 +30,8 @@
   "nineSlice":null,
   "origin":4,
   "parent":{
-    "name":"eyes",
-    "path":"folders/projectile system/eyes.yy",
+    "name":"eye",
+    "path":"folders/projectile system/eyes/eye.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

@@ -8,3 +8,4 @@ function objs_spawn_info_init(){
 		bonus_info_init()
 	);
 }
+

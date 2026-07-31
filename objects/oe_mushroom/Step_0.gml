@@ -2,11 +2,9 @@ target_get_required_info(target);
 
 var anim_end = animation_end();
 
-if (distance_to_target < distance_to_attack) {
+if (distance_to_target < distance_to_prepare) {
 	in_attack = true;
-}// else if (sprite_index == sprite_idle) {
-//	in_attack = false;	
-//}
+}
 
 if (in_attack) {
 	

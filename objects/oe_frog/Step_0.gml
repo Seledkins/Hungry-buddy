@@ -26,8 +26,9 @@ if (sprite_index == sprite_attack)
 }
 else if (anim_end)
 {	
-	//create_fluctuation(x, y - y_attack_ratio, distance_to_attack / 120, sprite_width_main / 10, 2, distance_to_attack / 500);
+	audio_play_sfx_random(snds_jumps_arr, random_range(0.95, 1.05));
 	change_sprite(sprite_attack);
+	
 }
 
 close_obj_in_arena();
