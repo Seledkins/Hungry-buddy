@@ -42,6 +42,7 @@ else
 	}
 
 	if (anim_end) {
+		audio_play_sound_random_kwak();
 		change_sprite(sprite_attack);
 	}
 }

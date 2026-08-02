@@ -17,8 +17,8 @@
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"o_shadow_parent","path":"objects/o_shadow_parent/o_shadow_parent.yy",},"propertyId":{"name":"xoffset","path":"objects/o_shadow_parent/o_shadow_parent.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"0",},
   ],
   "parent":{
-    "name":"appearance system",
-    "path":"folders/ingame system/spawners/appearance system.yy",
+    "name":"spawn appearance system",
+    "path":"folders/ingame system/spawners/spawn appearance system.yy",
   },
   "parentObjectId":{
     "name":"o_shadow_parent",
@@ -49,6 +49,7 @@
     {"$GMObjectProperty":"v2","%Name":"anim_curve_posx","filters":[],"listItems":[],"multiselect":false,"name":"anim_curve_posx","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"0.0","varType":0,},
     {"$GMObjectProperty":"v2","%Name":"anim_curve_posx_step","filters":[],"listItems":[],"multiselect":false,"name":"anim_curve_posx_step","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"scale_increment","varType":4,},
     {"$GMObjectProperty":"v2","%Name":"max_scale","filters":[],"listItems":[],"multiselect":false,"name":"max_scale","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"0.0","varType":0,},
+    {"$GMObjectProperty":"v2","%Name":"snds_bubbles_appearances_arr","filters":[],"listItems":[],"multiselect":false,"name":"snds_bubbles_appearances_arr","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"[snd_bubble_appearance1, snd_bubble_appearance2, snd_bubble_appearance3, snd_bubble_appearance4, snd_bubble_appearance5, snd_bubble_appearance6]","varType":4,},
   ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",

@@ -1,0 +1,26 @@
+{
+  "$GMSound":"v2",
+  "%Name":"snd_big_frog_kwak2",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "channelFormat":0,
+  "compression":0,
+  "compressionQuality":4,
+  "conversionMode":0,
+  "duration":0.6651701,
+  "exportDir":"",
+  "name":"snd_big_frog_kwak2",
+  "parent":{
+    "name":"kwaks",
+    "path":"folders/creatures/enemies/frogs/big frog/sounds/kwaks.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"snd_big_frog_kwak2.wav",
+  "volume":1.0,
+}

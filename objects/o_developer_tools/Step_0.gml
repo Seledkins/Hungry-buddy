@@ -38,6 +38,27 @@ if (keyboard_check_pressed(ord("0")) || keyboard_check_pressed(vk_f1)) {
 	show_debug_overlay(!is_debug_overlay_open());
 }
 
+var audio_change_gain_step = 0.05
+
+if (keyboard_check(vk_up)) {
+	audio_master_gain(audio_get_master_gain(0) + audio_change_gain_step);
+}
+
+if (keyboard_check(vk_down)) {
+	audio_master_gain(audio_get_master_gain(0) - audio_change_gain_step);
+}
+
+audio_change_gain_step = 0.2
+
+if (keyboard_check_pressed(ord("M")) && o_snd_manager.index != undefined && audio_is_playing(o_snd_manager.snd_backgrounds[o_snd_manager.index])) {
+	audio_stop_sound(o_snd_manager.snd_backgrounds[o_snd_manager.index]);
+	o_snd_manager.index = undefined;
+} else if (keyboard_check_pressed(ord("M"))) {
+	o_snd_manager.index = 1;	
+}
+
+show_debug_message(audio_group_get_gain(ag_music));
+
 if (keyboard_check_pressed(vk_f11)) {
 	window_set_fullscreen(!window_get_fullscreen());
 }
@@ -51,3 +72,4 @@ if (keyboard_check_pressed(vk_escape)) {
 if (keyboard_check_pressed(ord("R"))) {
 	game_over()
 }
+

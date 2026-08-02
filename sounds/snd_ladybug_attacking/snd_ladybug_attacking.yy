@@ -2,15 +2,15 @@
   "$GMSound":"v2",
   "%Name":"snd_ladybug_attacking",
   "audioGroupId":{
-    "name":"audiogroup_default",
-    "path":"audiogroups/audiogroup_default",
+    "name":"ag_sfx",
+    "path":"audiogroups/ag_sfx",
   },
   "bitDepth":1,
   "channelFormat":0,
   "compression":0,
   "compressionQuality":4,
   "conversionMode":0,
-  "duration":3.2678459,
+  "duration":1.4375057,
   "exportDir":"",
   "name":"snd_ladybug_attacking",
   "parent":{
@@ -22,5 +22,5 @@
   "resourceVersion":"2.0",
   "sampleRate":44100,
   "soundFile":"snd_ladybug_attacking.wav",
-  "volume":0.75,
+  "volume":1.0,
 }

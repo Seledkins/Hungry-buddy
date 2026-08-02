@@ -15,7 +15,7 @@
   "name":"snd_land1_1",
   "parent":{
     "name":"lands_sounds",
-    "path":"folders/creatures/enemies/frogs/big frog/lands_sounds.yy",
+    "path":"folders/creatures/enemies/frogs/lands_sounds.yy",
   },
   "preload":false,
   "resourceType":"GMSound",

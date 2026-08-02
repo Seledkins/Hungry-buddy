@@ -32,8 +32,8 @@
   "nineSlice":null,
   "origin":9,
   "parent":{
-    "name":"appearance system",
-    "path":"folders/ingame system/spawners/appearance system.yy",
+    "name":"spawn appearance system",
+    "path":"folders/ingame system/spawners/spawn appearance system.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

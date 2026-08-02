@@ -1,0 +1,26 @@
+{
+  "$GMSound":"v2",
+  "%Name":"snd_bonus_chest_destroy",
+  "audioGroupId":{
+    "name":"ag_sfx",
+    "path":"audiogroups/ag_sfx",
+  },
+  "bitDepth":1,
+  "channelFormat":0,
+  "compression":0,
+  "compressionQuality":4,
+  "conversionMode":0,
+  "duration":1.2946485,
+  "exportDir":"",
+  "name":"snd_bonus_chest_destroy",
+  "parent":{
+    "name":"chest",
+    "path":"folders/bonus system/chest.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"snd_bonus_chest_destroy.wav",
+  "volume":1.0,
+}

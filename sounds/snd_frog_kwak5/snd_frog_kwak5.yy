@@ -1,0 +1,26 @@
+{
+  "$GMSound":"v2",
+  "%Name":"snd_frog_kwak5",
+  "audioGroupId":{
+    "name":"ag_sfx",
+    "path":"audiogroups/ag_sfx",
+  },
+  "bitDepth":1,
+  "channelFormat":0,
+  "compression":0,
+  "compressionQuality":4,
+  "conversionMode":0,
+  "duration":0.32142857,
+  "exportDir":"",
+  "name":"snd_frog_kwak5",
+  "parent":{
+    "name":"kwaks",
+    "path":"folders/creatures/enemies/frogs/frog/sounds/kwaks.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"snd_frog_kwak5.wav",
+  "volume":0.46,
+}

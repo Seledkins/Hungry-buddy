@@ -1,6 +1,5 @@
 global.all_audio_groups = [
 	ag_sfx,
-	ag_enemies_dead,
 	ag_music
 ]
 

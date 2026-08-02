@@ -6,6 +6,7 @@
   "name":"o_bonus_mushroom",
   "overriddenProperties":[
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"o_bonus_parent","path":"objects/o_bonus_parent/o_bonus_parent.yy",},"propertyId":{"name":"destroy_function","path":"objects/o_bonus_parent/o_bonus_parent.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"destroy_bonus_musroom",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"o_bonus_parent","path":"objects/o_bonus_parent/o_bonus_parent.yy",},"propertyId":{"name":"sprite_eated","path":"objects/o_bonus_parent/o_bonus_parent.yy",},"resource":{"name":"sp_bonus_eated_mushroom","path":"sprites/sp_bonus_eated_mushroom/sp_bonus_eated_mushroom.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"sp_bonus_eated_mushroom",},
   ],
   "parent":{
     "name":"mushroom",

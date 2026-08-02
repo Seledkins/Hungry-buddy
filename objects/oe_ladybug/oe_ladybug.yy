@@ -4,6 +4,7 @@
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":2,"eventType":2,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":12,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
   "name":"oe_ladybug",
@@ -51,6 +52,8 @@
     {"$GMObjectProperty":"v2","%Name":"distance_to_prepare","filters":[],"listItems":[],"multiselect":false,"name":"distance_to_prepare","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"distance_to_attack + 60","varType":4,},
     {"$GMObjectProperty":"v2","%Name":"attacking_delay","filters":[],"listItems":[],"multiselect":false,"name":"attacking_delay","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"10","varType":0,},
     {"$GMObjectProperty":"v2","%Name":"sprite_attack_speed","filters":[],"listItems":[],"multiselect":false,"name":"sprite_attack_speed","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"sprite_get_speed(sprite_attack)","varType":4,},
+    {"$GMObjectProperty":"v2","%Name":"snd_attack","filters":[],"listItems":[],"multiselect":false,"name":"snd_attack","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"snd_ladybug_attacking","varType":4,},
+    {"$GMObjectProperty":"v2","%Name":"explosion_bep_delay","filters":[],"listItems":[],"multiselect":false,"name":"explosion_bep_delay","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"10","varType":0,},
   ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",

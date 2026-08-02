@@ -1,14 +1,13 @@
 {
   "$GMObject":"",
   "%Name":"o_bonus_heart",
-  "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":7,"eventType":7,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-  ],
+  "eventList":[],
   "managed":true,
   "name":"o_bonus_heart",
   "overriddenProperties":[
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"o_bonus_parent","path":"objects/o_bonus_parent/o_bonus_parent.yy",},"propertyId":{"name":"destroy_function","path":"objects/o_bonus_parent/o_bonus_parent.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"destroy_bonus_heart",},
-    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"o_bonus_parent","path":"objects/o_bonus_parent/o_bonus_parent.yy",},"propertyId":{"name":"ps_sprite","path":"objects/o_bonus_parent/o_bonus_parent.yy",},"resource":{"name":"sp_","path":"sprites/sp_/sp_.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"sp_parts_bonus_heart",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"o_bonus_parent","path":"objects/o_bonus_parent/o_bonus_parent.yy",},"propertyId":{"name":"ps_sprite","path":"objects/o_bonus_parent/o_bonus_parent.yy",},"resource":{"name":"sp_parts_bonus_heart","path":"sprites/sp_parts_bonus_heart/sp_parts_bonus_heart.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"sp_parts_bonus_heart",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"o_bonus_parent","path":"objects/o_bonus_parent/o_bonus_parent.yy",},"propertyId":{"name":"sprite_eated","path":"objects/o_bonus_parent/o_bonus_parent.yy",},"resource":{"name":"sp_bonus_eated_heart","path":"sprites/sp_bonus_eated_heart/sp_bonus_eated_heart.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"sp_bonus_eated_heart",},
   ],
   "parent":{
     "name":"heart",

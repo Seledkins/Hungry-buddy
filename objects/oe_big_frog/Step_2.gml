@@ -3,5 +3,5 @@ if (prev_hp != hp) {
 	shake_force = shake_force_max;
 	alarm[0] = 1;
 	alarm[1] = 10
-	audio_play_sound(snd_big_frog_hurt, 10, false);
+	audio_play_sfx_random(snds_hits_arr);
 }

@@ -9,5 +9,6 @@ if (image_xscale <= max_scale) {
 } else if (image_speed == 0) {
 	image_speed = 1;
 	var inst = instance_create_layer(x, y, obj_layer_create, spawn_obj, { appearance_created : true });
-	create_fluctuation(x, y, image_xscale * 4, image_xscale * 30, 2, image_xscale / 2)
+	create_fluctuation(x, y, image_xscale * 4, image_xscale * 30, 2, image_xscale / 2);
+	audio_play_sfx_random(snds_bubbles_appearances_arr, 0.6, random_range(0.95, 1.05), 15, false);
 }

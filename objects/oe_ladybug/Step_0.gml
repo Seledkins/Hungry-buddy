@@ -20,7 +20,8 @@ if (boom_flag) {
 	
 	if (anim_end && sprite_index == sprite_run) {
 		change_sprite(sprite_attack);
-		audio_play_sfx(snd_ladybug_attacking, sprite_attack_speed / 13);
+		audio_play_sfx(snd_attack);
+		alarm[2] = explosion_bep_delay;
 	}
 	else if (anim_end && sprite_index == sprite_attack)
 	{
@@ -28,6 +29,7 @@ if (boom_flag) {
 	}
 	
 }
+
 
 linear_step(cur_spd, targetx, targety);
 

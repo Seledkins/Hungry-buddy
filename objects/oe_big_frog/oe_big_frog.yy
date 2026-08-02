@@ -28,7 +28,7 @@
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"o_creature","path":"objects/o_creature/o_creature.yy",},"propertyId":{"name":"prev_hp","path":"objects/o_creature/o_creature.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"hp",},
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"oe_parent","path":"objects/oe_parent/oe_parent.yy",},"propertyId":{"name":"distance_to_attack","path":"objects/oe_parent/oe_parent.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"sprite_get_width(sprite_index) / 3",},
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"oe_frog","path":"objects/oe_frog/oe_frog.yy",},"propertyId":{"name":"longest_jump","path":"objects/oe_frog/oe_frog.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"1",},
-    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"o_etable_parent","path":"objects/o_etable_parent/o_etable_parent.yy",},"propertyId":{"name":"snd_dead","path":"objects/o_etable_parent/o_etable_parent.yy",},"resource":{"name":"snd_big_frog_dead","path":"sounds/snd_big_frog_dead/snd_big_frog_dead.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"snd_big_frog_dead",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"o_etable_parent","path":"objects/o_etable_parent/o_etable_parent.yy",},"propertyId":{"name":"snds_deads_arr","path":"objects/o_etable_parent/o_etable_parent.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"[snd_big_frog_dead1, snd_big_frog_dead2]",},
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"oe_parent","path":"objects/oe_parent/oe_parent.yy",},"propertyId":{"name":"shake_force_max","path":"objects/oe_parent/oe_parent.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"6.5",},
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"oe_parent","path":"objects/oe_parent/oe_parent.yy",},"propertyId":{"name":"shake_friction","path":"objects/oe_parent/oe_parent.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"0.40",},
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"o_spawn_obj_parent","path":"objects/o_spawn_obj_parent/o_spawn_obj_parent.yy",},"propertyId":{"name":"min_killed_enemies_to_spawn","path":"objects/o_spawn_obj_parent/o_spawn_obj_parent.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"25",},
@@ -36,6 +36,7 @@
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"o_spawn_obj_parent","path":"objects/o_spawn_obj_parent/o_spawn_obj_parent.yy",},"propertyId":{"name":"min_distance_to_border","path":"objects/o_spawn_obj_parent/o_spawn_obj_parent.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"50",},
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"o_spawn_obj_parent","path":"objects/o_spawn_obj_parent/o_spawn_obj_parent.yy",},"propertyId":{"name":"max_distance_to_border","path":"objects/o_spawn_obj_parent/o_spawn_obj_parent.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"100",},
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"oe_parent","path":"objects/oe_parent/oe_parent.yy",},"propertyId":{"name":"min_killed_enemies_to_spawn","path":"objects/oe_parent/oe_parent.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"40",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"oe_frog","path":"objects/oe_frog/oe_frog.yy",},"propertyId":{"name":"snds_kwaks_arr","path":"objects/oe_frog/oe_frog.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"[snd_big_frog_kwak1, snd_big_frog_kwak2]",},
   ],
   "parent":{
     "name":"big frog",
@@ -60,6 +61,7 @@
   "physicsStartAwake":true,
   "properties":[
     {"$GMObjectProperty":"v2","%Name":"image_index","filters":[],"listItems":[],"multiselect":false,"name":"image_index","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"5","varType":0,},
+    {"$GMObjectProperty":"v2","%Name":"snds_hits_arr","filters":[],"listItems":[],"multiselect":false,"name":"snds_hits_arr","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"[snd_big_frog_hit1, snd_big_frog_hit2, snd_big_frog_hit3 ]","varType":4,},
   ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",

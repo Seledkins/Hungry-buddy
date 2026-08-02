@@ -10,8 +10,8 @@
   "function":2,
   "name":"curve_spawn_appearance",
   "parent":{
-    "name":"appearance system",
-    "path":"folders/ingame system/spawners/appearance system.yy",
+    "name":"spawn appearance system",
+    "path":"folders/ingame system/spawners/spawn appearance system.yy",
   },
   "resourceType":"GMAnimCurve",
   "resourceVersion":"2.0",

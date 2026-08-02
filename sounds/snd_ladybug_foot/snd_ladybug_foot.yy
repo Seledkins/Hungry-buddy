@@ -1,0 +1,26 @@
+{
+  "$GMSound":"v2",
+  "%Name":"snd_ladybug_foot",
+  "audioGroupId":{
+    "name":"ag_sfx",
+    "path":"audiogroups/ag_sfx",
+  },
+  "bitDepth":1,
+  "channelFormat":0,
+  "compression":0,
+  "compressionQuality":4,
+  "conversionMode":0,
+  "duration":5.5902042,
+  "exportDir":"",
+  "name":"snd_ladybug_foot",
+  "parent":{
+    "name":"ladybug",
+    "path":"folders/creatures/enemies/ladybug.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"snd_ladybug_foot.wav",
+  "volume":0.46,
+}

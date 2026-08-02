@@ -9,13 +9,14 @@
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":84,"eventType":9,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":1,"eventType":2,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":1,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
   "name":"o_hole_parent",
   "overriddenProperties":[
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"o_outline_parent","path":"objects/o_outline_parent/o_outline_parent.yy",},"propertyId":{"name":"sprite_draw","path":"objects/o_outline_parent/o_outline_parent.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"sprite_index",},
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"o_shadow_parent","path":"objects/o_shadow_parent/o_shadow_parent.yy",},"propertyId":{"name":"shadow_drop_function","path":"objects/o_shadow_parent/o_shadow_parent.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"draw_shadow",},
-    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"o_etable_parent","path":"objects/o_etable_parent/o_etable_parent.yy",},"propertyId":{"name":"snd_dead","path":"objects/o_etable_parent/o_etable_parent.yy",},"resource":{"name":"snd_default_hole_dead","path":"sounds/snd_default_hole_dead/snd_default_hole_dead.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"snd_default_hole_dead",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"o_etable_parent","path":"objects/o_etable_parent/o_etable_parent.yy",},"propertyId":{"name":"snds_deads_arr","path":"objects/o_etable_parent/o_etable_parent.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"snd_default_hole_dead",},
   ],
   "parent":{
     "name":"holes",

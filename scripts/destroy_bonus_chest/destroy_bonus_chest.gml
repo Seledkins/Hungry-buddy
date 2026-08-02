@@ -21,5 +21,6 @@ function destroy_bonus_chest(){
 		}
 	}
 	
+	audio_play_sfx_random_pitch(snd_bonus_chest_destroy, 1.1, 0.9);
 	instance_destroy();
 }

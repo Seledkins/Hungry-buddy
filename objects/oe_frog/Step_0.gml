@@ -26,7 +26,7 @@ if (sprite_index == sprite_attack)
 }
 else if (anim_end)
 {	
-	audio_play_sfx_random(snds_jumps_arr, random_range(0.95, 1.05));
+	audio_play_sound_random_kwak();
 	change_sprite(sprite_attack);
 	
 }

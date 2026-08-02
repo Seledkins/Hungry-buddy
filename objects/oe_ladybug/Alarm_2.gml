@@ -1,2 +1,4 @@
-audio_play_sfx(snd_ladybug_attacking, image_index % image_number * 2);
-alarm[2] = attacking_delay;
+audio_play_sfx(snd_explosion_bep, 1.3);
+
+alarm[2] = explosion_bep_delay;
+explosion_bep_delay -= 3;

@@ -13,4 +13,4 @@ if (random(100) <= 3) {
 	instance_bonus_create(x, y, o_bonus_mushroom, random_range(1, 2), random_range(0.05, 0.03), random(359), true)	
 }
 
-audio_play_sound(snd_dead, 10, false, 1, 0, random_range(0.83, 1.16));
+audio_play_sfx_random(snds_deads_arr, 1, random_range(0.85, 1.15));

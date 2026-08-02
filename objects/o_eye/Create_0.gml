@@ -1,4 +1,4 @@
 // Inherit the parent event
 event_inherited();
 
-audio_play_sfx_random_pitch(snd_create);
+audio_play_sfx_random_pitch(snd_create, 1.2);

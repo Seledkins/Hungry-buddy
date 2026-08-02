@@ -1,0 +1,26 @@
+{
+  "$GMSound":"v2",
+  "%Name":"snd_big_frog_hit3",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "channelFormat":0,
+  "compression":0,
+  "compressionQuality":4,
+  "conversionMode":0,
+  "duration":0.22321996,
+  "exportDir":"",
+  "name":"snd_big_frog_hit3",
+  "parent":{
+    "name":"big_frog_hits",
+    "path":"folders/creatures/enemies/frogs/big frog/sounds/big_frog_hits.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"snd_big_frog_hit3.mp3",
+  "volume":1.0,
+}
