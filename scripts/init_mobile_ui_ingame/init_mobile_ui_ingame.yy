@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"init_mobile_ui_ingame",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"init_mobile_ui_ingame",
+  "parent":{
+    "name":"inits",
+    "path":"folders/inits.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

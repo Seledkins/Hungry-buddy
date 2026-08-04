@@ -21,7 +21,7 @@ function create_ps_shiny_stars(_sprite_width, _sprite_height, _x, _y){
 	var pemit_shiny_stars = part_emitter_create(ps_shiny_stars);
 	part_emitter_region(ps_shiny_stars, pemit_shiny_stars, -_sprite_width, _sprite_width / 2 , 0, -_sprite_height * 1.4, ps_shape_rectangle, ps_distr_linear);
 	part_emitter_stream(ps_shiny_stars, pemit_shiny_stars, ptype_shiny_stars, 1);
-	part_emitter_delay(ps_shiny_stars, pemit_shiny_stars, 100, 100, time_source_units_frames);
+	part_emitter_delay(ps_shiny_stars, pemit_shiny_stars, 0, 0, time_source_units_frames);
 	part_emitter_interval(ps_shiny_stars, pemit_shiny_stars, 0.8, 1, time_source_units_seconds);
 
 	part_system_position(ps_shiny_stars, _x, _y);

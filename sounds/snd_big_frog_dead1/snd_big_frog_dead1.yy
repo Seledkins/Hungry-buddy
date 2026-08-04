@@ -2,15 +2,15 @@
   "$GMSound":"v2",
   "%Name":"snd_big_frog_dead1",
   "audioGroupId":{
-    "name":"audiogroup_default",
-    "path":"audiogroups/audiogroup_default",
+    "name":"ag_sfx",
+    "path":"audiogroups/ag_sfx",
   },
   "bitDepth":1,
   "channelFormat":0,
   "compression":0,
   "compressionQuality":4,
   "conversionMode":0,
-  "duration":0.75,
+  "duration":0.7544671,
   "exportDir":"",
   "name":"snd_big_frog_dead1",
   "parent":{
@@ -21,6 +21,6 @@
   "resourceType":"GMSound",
   "resourceVersion":"2.0",
   "sampleRate":44100,
-  "soundFile":"snd_big_frog_dead1.mp3",
-  "volume":1.0,
+  "soundFile":"snd_big_frog_dead1.wav",
+  "volume":0.92,
 }

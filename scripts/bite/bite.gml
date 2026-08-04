@@ -1,4 +1,4 @@
-function bite(bite_width, bite_height, delay_time, callback_for_creatures){
+function bite(bite_width, bite_height, delay_time, callback_for_creatures, combo_increase = 1){
 	
 	var half_bite_width = bite_width / 2;
 	var half_bite_height = bite_height / 2;
@@ -15,6 +15,10 @@ function bite(bite_width, bite_height, delay_time, callback_for_creatures){
 		}
 		
 		if (is_creature(cur_bite_li_item_obj_index.object_index)) {
+				
+			if (!combo_already_increased && cur_bite_li_item.hp == 1) {
+				o_combo_manager.combo++;
+			}
 			
 			callback_for_creatures(cur_bite_li_item);
 			
@@ -36,7 +40,6 @@ function bite(bite_width, bite_height, delay_time, callback_for_creatures){
 			}
 		})
 	
-	alarm[1] = delay_time;
 	
 	
 }

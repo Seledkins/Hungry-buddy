@@ -30,8 +30,10 @@
 		show_debug_overlay(true);
 	}
 	
+	scribble_anim_jitter(0.9, 1.1, 0.1);
+	
 	#macro next_enemy_min_killed_enemies_to_edit "next_enemy_min_killed_enemies_to_edit"
-	 
+	#macro ui_depth -room_height - 1000
 
 #endregion
 
@@ -53,6 +55,8 @@
 	global.fluctuations_alpha = 0.6;
 	global.color_dark_purple = #170026;
 	global.color_red = #A81C1B;
+	global.color_dark_green = #14151A;
+	global.color_white = #FFF9DA;
 	
 #endregion
 

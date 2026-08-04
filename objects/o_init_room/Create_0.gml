@@ -15,4 +15,10 @@ instance_create_depth(0, 0, 0, o_bonus_spawner);
 
 instance_create_depth(0, 0, 0, o_snd_manager);
 
+if (global.controls_type == "mobile") {
+	init_mobile_ui_ingame();
+}
+
+init_ui_ingame();
+
 instance_destroy();
