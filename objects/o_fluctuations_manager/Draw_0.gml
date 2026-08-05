@@ -1,5 +1,5 @@
 if (!surface_exists(fluctuation_surface)) {
-	fluctuation_surface = fluctuation_surface_create();	
+	fluctuation_surface = arena_size_surface_create();	
 }
 	
 	draw_set_alpha(global.fluctuations_alpha);

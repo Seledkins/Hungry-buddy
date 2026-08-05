@@ -57,6 +57,10 @@
 	global.color_red = #A81C1B;
 	global.color_dark_green = #14151A;
 	global.color_white = #FFF9DA;
+	global.color_bright_green = #425a5e;
+	global.color_green = #1c282a;
+	global.color_dark_green = #14151a;
+	global.color_bright_dark_purple = #271f4d
 	
 #endregion
 
@@ -76,9 +80,13 @@
 
 #endregion
 
-
 //objs init
 objs_spawn_info_init();
+
+global.eaten_monsters_record = 0;
+global.max_combo_record = 0;
+global.eaten_mushrooms_record = 0;
+global.survived_time_record = 0;
 
 randomise();
 instance_destroy();

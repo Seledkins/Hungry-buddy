@@ -58,6 +58,8 @@
     {"$GMObjectProperty":"v2","%Name":"shake_force_max","filters":[],"listItems":[],"multiselect":false,"name":"shake_force_max","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"2.5","varType":0,},
     {"$GMObjectProperty":"v2","%Name":"shake_force","filters":[],"listItems":[],"multiselect":false,"name":"shake_force","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"shake_force_max","varType":4,},
     {"$GMObjectProperty":"v2","%Name":"shake_friction","filters":[],"listItems":[],"multiselect":false,"name":"shake_friction","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"0.25","varType":0,},
+    {"$GMObjectProperty":"v2","%Name":"half_sprite_width","filters":[],"listItems":[],"multiselect":false,"name":"half_sprite_width","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"sprite_width_main / 2","varType":4,},
+    {"$GMObjectProperty":"v2","%Name":"half_sprite_height","filters":[],"listItems":[],"multiselect":false,"name":"half_sprite_height","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"sprite_height / 2","varType":4,},
   ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",

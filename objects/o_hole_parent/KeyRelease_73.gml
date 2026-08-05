@@ -3,10 +3,9 @@ if (!global.developer_mode) {
 }
 
 if (!invincible) {
-	invincible = true	
-	image_alpha = invincible_alpha
+	set_invincible(id, true, -1)
 }
 else 
 {
-	alarm[0] = 1
+	alarm[1] = 1
 }

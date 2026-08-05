@@ -16,8 +16,9 @@ function bite(bite_width, bite_height, delay_time, callback_for_creatures, combo
 		
 		if (is_creature(cur_bite_li_item_obj_index.object_index)) {
 				
-			if (!combo_already_increased && cur_bite_li_item.hp == 1) {
+			if (!combo_already_increased && cur_bite_li_item.hp == 1 && !cur_bite_li_item.invincible) {
 				o_combo_manager.combo++;
+				o_play_values_manager.eaten_enemies++;
 			}
 			
 			callback_for_creatures(cur_bite_li_item);

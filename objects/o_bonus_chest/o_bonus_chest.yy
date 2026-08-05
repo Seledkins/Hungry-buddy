@@ -19,6 +19,8 @@
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"o_bonus_parent","path":"objects/o_bonus_parent/o_bonus_parent.yy",},"propertyId":{"name":"ps_sprite","path":"objects/o_bonus_parent/o_bonus_parent.yy",},"resource":{"name":"sp_bonus_chest_parts","path":"sprites/sp_bonus_chest_parts/sp_bonus_chest_parts.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"sp_bonus_chest_parts",},
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"o_bonus_parent","path":"objects/o_bonus_parent/o_bonus_parent.yy",},"propertyId":{"name":"ps_count","path":"objects/o_bonus_parent/o_bonus_parent.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"15",},
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"o_bonus_parent","path":"objects/o_bonus_parent/o_bonus_parent.yy",},"propertyId":{"name":"shiny","path":"objects/o_bonus_parent/o_bonus_parent.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"False",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"o_bonus_parent","path":"objects/o_bonus_parent/o_bonus_parent.yy",},"propertyId":{"name":"image_yscale","path":"objects/o_bonus_parent/o_bonus_parent.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"1",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"o_bonus_parent","path":"objects/o_bonus_parent/o_bonus_parent.yy",},"propertyId":{"name":"image_xscale","path":"objects/o_bonus_parent/o_bonus_parent.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"1",},
   ],
   "parent":{
     "name":"chest",

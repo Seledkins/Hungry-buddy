@@ -1,7 +1,9 @@
-function set_invincible(_invincible, time){
-	invincible = _invincible
+function set_invincible(obj, _invincible, time){
+	with(obj) {
+		invincible = _invincible
 	
-	image_alpha = invincible / 2
+		image_alpha = invincible / 2
 	
-	alarm[0] = time
+		alarm[1] = time
+	}
 }

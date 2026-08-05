@@ -5,3 +5,4 @@ layid_projectiles = layer_get_id("Projectiles");
 layid_fluctuations = layer_get_id("Fluctuations");
 layid_spawn_appearances = layer_get_id("SpawnAppearances");
 layid_healthbar_fluid = layer_get_id("HealthbarFluid");
+layid_bloods = layer_get_id("Bloods");

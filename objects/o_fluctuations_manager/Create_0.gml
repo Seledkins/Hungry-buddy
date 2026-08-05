@@ -12,6 +12,6 @@ offset_surface_drawy = (o_arena.y - arena_h / 2);
 fluctuation_surface_x = offset_surface_drawx;
 fluctuation_surface_y = offset_surface_drawy;
 
-fluctuation_surface = fluctuation_surface_create();
+fluctuation_surface = arena_size_surface_create();
 
 

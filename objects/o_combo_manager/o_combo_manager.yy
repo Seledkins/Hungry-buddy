@@ -16,8 +16,8 @@
     "path":"folders/UI/combo meter system.yy",
   },
   "parentObjectId":{
-    "name":"o_UI_parent",
-    "path":"objects/o_UI_parent/o_UI_parent.yy",
+    "name":"o_ingame_ui_parent",
+    "path":"objects/o_ingame_ui_parent/o_ingame_ui_parent.yy",
   },
   "persistent":false,
   "physicsAngularDamping":0.1,

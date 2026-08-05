@@ -1,3 +1,3 @@
 function game_over(){
-	call_later(1.3, time_source_units_seconds, function(){room_goto(room)})
+	instance_create_depth(0, 0, 0, o_game_over)
 }

@@ -6,6 +6,7 @@ instance_create_depth(0, 0, 0, o_play_values_manager);
 
 instance_create_layer(room_width / 2, room_height / 2, "Fluctuations", o_arena);
 instance_create_layer(0, 0, "Fluctuations", o_fluctuations_manager);
+instance_create_layer(0, 0, "Bloods", o_blood_manager);
 
 instance_create_layer(0, 0, "ShadowManager", o_shadow_manager);
 

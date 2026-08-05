@@ -11,7 +11,7 @@
   "overriddenProperties":[],
   "parent":{
     "name":"smart particle system system",
-    "path":"folders/smart particle system system.yy",
+    "path":"folders/graphics system/smart particle system system.yy",
   },
   "parentObjectId":null,
   "persistent":false,
