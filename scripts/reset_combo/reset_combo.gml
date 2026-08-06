@@ -6,6 +6,6 @@ function reset_combo(){
 	}
 	
 	if (instance_exists(o_hole_parent)) {
-		instance_create_message(o_hole_parent.x, o_hole_parent.y, dec_color(global.color_white) + "X0");
+		instance_create_message(o_hole_parent.x, o_hole_parent.y, dec_color(global.color_white) + "COMBO LOST");
 	}
 }

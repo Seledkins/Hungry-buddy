@@ -10,8 +10,8 @@
   "function":0,
   "name":"curve_dispersal",
   "parent":{
-    "name":"fluctuations system",
-    "path":"folders/graphics system/fluctuations system.yy",
+    "name":"fluctuation",
+    "path":"folders/graphics system/fluctuations system/fluctuation.yy",
   },
   "resourceType":"GMAnimCurve",
   "resourceVersion":"2.0",

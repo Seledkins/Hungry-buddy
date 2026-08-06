@@ -8,3 +8,4 @@ else {
 	}
 }
 
+create_follow_fluctuation(id, x, y, "cur_spd", 0.5, sprite_width / 140);

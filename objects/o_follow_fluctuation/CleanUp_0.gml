@@ -1,0 +1,1 @@
+follow_fluctuation_destroy(follow_fluctuation);

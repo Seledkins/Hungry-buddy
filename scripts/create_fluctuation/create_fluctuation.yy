@@ -5,8 +5,8 @@
   "isDnD":false,
   "name":"create_fluctuation",
   "parent":{
-    "name":"fluctuations system",
-    "path":"folders/graphics system/fluctuations system.yy",
+    "name":"fluctuation",
+    "path":"folders/graphics system/fluctuations system/fluctuation.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

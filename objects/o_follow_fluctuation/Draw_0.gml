@@ -1,0 +1,1 @@
+follow_fluctuation_draw(follow_fluctuation);

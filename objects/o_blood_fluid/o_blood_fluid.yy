@@ -31,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"sp_enemy_blood",
-    "path":"sprites/sp_enemy_blood/sp_enemy_blood.yy",
+    "name":"sp_blood_fluid",
+    "path":"sprites/sp_blood_fluid/sp_blood_fluid.yy",
   },
   "spriteMaskId":null,
   "visible":true,

@@ -21,6 +21,7 @@
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"o_bonus_parent","path":"objects/o_bonus_parent/o_bonus_parent.yy",},"propertyId":{"name":"shiny","path":"objects/o_bonus_parent/o_bonus_parent.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"False",},
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"o_bonus_parent","path":"objects/o_bonus_parent/o_bonus_parent.yy",},"propertyId":{"name":"image_yscale","path":"objects/o_bonus_parent/o_bonus_parent.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"1",},
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"o_bonus_parent","path":"objects/o_bonus_parent/o_bonus_parent.yy",},"propertyId":{"name":"image_xscale","path":"objects/o_bonus_parent/o_bonus_parent.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"1",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"o_bonus_parent","path":"objects/o_bonus_parent/o_bonus_parent.yy",},"propertyId":{"name":"fluctuanions","path":"objects/o_bonus_parent/o_bonus_parent.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"True",},
   ],
   "parent":{
     "name":"chest",

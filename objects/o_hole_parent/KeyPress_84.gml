@@ -2,4 +2,4 @@ if (!global.developer_mode) {
 	exit;	
 }
 
-create_smart_part_system(x, y, ps_blood, 100)
+instance_create_spawn_apperance(x, y, o_bonus_chest, o_play_values_manager.layid_bonuses)

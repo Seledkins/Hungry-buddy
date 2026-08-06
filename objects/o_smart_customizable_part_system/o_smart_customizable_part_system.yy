@@ -29,7 +29,7 @@
   "physicsStartAwake":true,
   "properties":[
     {"$GMObjectProperty":"v2","%Name":"life_time","filters":[],"listItems":[],"multiselect":false,"name":"life_time","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"1","varType":0,},
-    {"$GMObjectProperty":"v2","%Name":"part_system_create_code","filters":[],"listItems":[],"multiselect":false,"name":"part_system_create_code","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"function() {}","varType":4,},
+    {"$GMObjectProperty":"v2","%Name":"ps_and_ptype_struct","filters":[],"listItems":[],"multiselect":false,"name":"ps_and_ptype_struct","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"{}","varType":4,},
   ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",

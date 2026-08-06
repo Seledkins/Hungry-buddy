@@ -55,12 +55,16 @@
 	global.fluctuations_alpha = 0.6;
 	global.color_dark_purple = #170026;
 	global.color_red = #A81C1B;
+	global.color_dark_red = #7f0d0c;
 	global.color_dark_green = #14151A;
 	global.color_white = #FFF9DA;
 	global.color_bright_green = #425a5e;
 	global.color_green = #1c282a;
 	global.color_dark_green = #14151a;
-	global.color_bright_dark_purple = #271f4d
+	global.color_bright_purple_dark = #261E3F;
+	
+	global.bright_blood_color = #30265e;
+	global.dark_blood_color = global.color_bright_purple_dark;
 	
 #endregion
 

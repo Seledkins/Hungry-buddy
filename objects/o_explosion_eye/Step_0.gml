@@ -7,3 +7,4 @@ if (speed <= 0 && alarm[2] == -1) {
 if (instance_place(x, y, target)) {
 	instance_destroy();
 }
+

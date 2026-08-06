@@ -79,8 +79,8 @@
   "nineSlice":null,
   "origin":4,
   "parent":{
-    "name":"fluctuations system",
-    "path":"folders/graphics system/fluctuations system.yy",
+    "name":"fluctuation",
+    "path":"folders/graphics system/fluctuations system/fluctuation.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

@@ -17,3 +17,4 @@ if (hp < prev_hp) {
 if (hp > prev_hp && hp == max_hp) {
 	instance_create_message(x, y, "MAX HP",,,,$"[rainbow][jitter]")
 }
+
