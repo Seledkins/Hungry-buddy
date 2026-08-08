@@ -57,7 +57,10 @@ if (keyboard_check_pressed(ord("M")) && o_snd_manager.index != undefined && audi
 	o_snd_manager.index = 1;	
 }
 
-show_debug_message(audio_group_get_gain(ag_music));
+
+if (keyboard_check_pressed(vk_f10)) {
+	global.cinematic_mode = !global.cinematic_mode;
+}
 
 if (keyboard_check_pressed(vk_f11)) {
 	window_set_fullscreen(!window_get_fullscreen());

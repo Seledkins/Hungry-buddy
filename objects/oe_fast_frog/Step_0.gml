@@ -1,6 +1,7 @@
 target_get_required_info(target);
 
 var anim_end = animation_end();
+var fluctuation_image_speed = sprite_width_main / 10;
 
 if (sprite_index == sprite_attack)
 {
@@ -27,10 +28,8 @@ if (sprite_index == sprite_attack)
 			fast_attack_flag = true;
 		}
 		
-		var fluctuation_image_speed = sprite_width_main / 6;
-		
         change_sprite(sprite_prepare);
-		create_fluctuation(x, y - y_attack_ratio, distance_to_attack / 50, fluctuation_image_speed, 4, distance_to_attack / 300);
+		create_fluctuation(x, y - y_attack_ratio, distance_to_attack / 50, fluctuation_image_speed, 7, distance_to_attack / 300);
 		audio_play_sound_random_land();
     }
 }
@@ -44,6 +43,7 @@ else
 	if (anim_end) {
 		audio_play_sound_random_kwak();
 		change_sprite(sprite_attack);
+		create_fluctuation(x, y - y_attack_ratio, distance_to_attack / 100, fluctuation_image_speed, 7, distance_to_attack / 300);
 	}
 }
 

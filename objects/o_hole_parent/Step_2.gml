@@ -9,7 +9,8 @@ if (hp < prev_hp) {
 	
 	image_alpha = invincible_alpha;
 	uc_shake(10, 0.2);
-	audio_play_sound(snd_hurt, 20, false, 1, 0, random_range(0.95, 1.05));
+	audio_play_sfx_random(snds_hurts_arr, 1.1);
+	create_fluctuation(x, y, sprite_width_main / 50, sprite_width_main / 15, 4, sprite_width_main / 1000);
 	
 	
 }
@@ -18,3 +19,4 @@ if (hp > prev_hp && hp == max_hp) {
 	instance_create_message(x, y, "MAX HP",,,,$"[rainbow][jitter]")
 }
 
+show_debug_message(instance_number(o_physical_nature_parent));

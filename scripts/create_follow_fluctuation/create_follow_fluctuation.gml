@@ -1,4 +1,4 @@
-function create_follow_fluctuation(_target, _x, _y, _dependence_variable_str, _dependence_ratio, scale){
+function create_follow_fluctuation(_target, _x, _y, _dependence_variable_speed_str, _dependence_ratio, _dependence_variable_dir_str, scale, _destroy_timer = 60) {
 	//ps_follow_fluctuaiton
 	var _ps = part_system_create();
 	part_system_automatic_draw(_ps, false);
@@ -23,9 +23,9 @@ function create_follow_fluctuation(_target, _x, _y, _dependence_variable_str, _d
 	return instance_create_depth(0, 0, 0, o_follow_fluctuation, {
 		follow_fluctuation : {
 				ps : _ps, ptype : _ptype1, pemit : _pemit1,
-				dependence_variable_str : _dependence_variable_str, dependence_ratio : _dependence_ratio,
-				prev_x : _x,
-				prev_y : _y,
+				dependence_variable_speed_str : _dependence_variable_speed_str, dependence_ratio : _dependence_ratio,
+				dependence_variable_dir_str : _dependence_variable_dir_str,
+				destroy_timer : _destroy_timer,
 			},
 			target : _target, targetx : _target.x, targety : _target.y,});
 

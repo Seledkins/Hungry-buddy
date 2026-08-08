@@ -1,3 +1,7 @@
+if (global.cinematic_mode) {
+	exit;	
+}
+
 var hp_param;
 var hp_draw = 0;
 

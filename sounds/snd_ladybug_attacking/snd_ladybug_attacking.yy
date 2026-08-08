@@ -14,8 +14,8 @@
   "exportDir":"",
   "name":"snd_ladybug_attacking",
   "parent":{
-    "name":"ladybug",
-    "path":"folders/creatures/enemies/ladybug.yy",
+    "name":"ladybugs",
+    "path":"folders/creatures/enemies/ladybugs.yy",
   },
   "preload":false,
   "resourceType":"GMSound",

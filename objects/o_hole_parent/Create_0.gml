@@ -8,4 +8,10 @@ else {
 	}
 }
 
-create_follow_fluctuation(id, x, y, "cur_spd", 0.5, sprite_width / 140);
+ingame_things_init();
+
+create_follow_fluctuation(id, x, y, "cur_spd", 0.5, "move_dir", sprite_width / 140, infinity);
+audio_play_sfx(snd_appearance);
+
+draw_ev_activate_flag = false;
+alarm[2] = 2;

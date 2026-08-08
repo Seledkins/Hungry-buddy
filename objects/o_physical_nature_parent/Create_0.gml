@@ -1,0 +1,1 @@
+shadow_width = sprite_get_width(sprite_index);

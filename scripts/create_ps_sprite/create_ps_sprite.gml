@@ -1,4 +1,4 @@
-function create_ps_sprite(sprite_parts, _x, _y, _sprite_width, _sprite_height, count, life_min, life_max, _speed, _increment){
+function create_ps_sprite(sprite_parts, _x, _y, _sprite_width, _sprite_height, count, life_min, life_max, _speed, _increment, lay = o_play_values_manager.layid_particles){
 
 	var half_sprite_width = _sprite_width / 2;
 	var half_sprite_height = _sprite_height / 2;
@@ -24,6 +24,7 @@ function create_ps_sprite(sprite_parts, _x, _y, _sprite_width, _sprite_height, c
 	part_emitter_burst(ps, pemit, ptype, count);
 
 	part_system_position(ps, _x, _y);
+	part_system_layer(ps, lay);
 	
 	return ps;
 

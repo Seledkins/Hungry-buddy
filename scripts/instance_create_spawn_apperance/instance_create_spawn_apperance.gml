@@ -1,4 +1,4 @@
-function instance_create_spawn_apperance(_x, _y, _spawn_obj, _obj_layer_create = "Instances"){
+function instance_create_spawn_appearance(_x, _y, _spawn_obj, _obj_layer_create = "Instances"){
 
 var creating_obj_sprite = object_get_sprite(_spawn_obj)
 

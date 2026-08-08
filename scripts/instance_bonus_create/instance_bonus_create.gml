@@ -5,7 +5,7 @@ function instance_bonus_create(_x, _y, bonus, _speed, _friction, _direction, _in
 		friction : _friction,
 		direction : _direction,
 		invincible : _invincible,
-		invincible_time : _speed * 6,
+		invincible_time : _speed * 6 * _invincible,
 	})
 	
 	with(created_bonus) {

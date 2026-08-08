@@ -9,6 +9,13 @@ if (image_xscale <= max_scale) {
 } else if (image_speed == 0) {
 	image_speed = 1;
 	var inst = instance_create_layer(x, y, obj_layer_create, spawn_obj, { appearance_created : true });
-	create_fluctuation(x, y, image_xscale * 4, image_xscale * 30, 2, image_xscale / 2);
+	
+	if (instance_number(o_physical_nature_parent) <= global.physical_nature_objects_limit) {
+		repeat(irandom_range(1, 3)) {
+			instance_create_nature_obj(x, y, choose_random_nature_obj(), random_range(2, 3), 0.1, random(359), true, nature_depth);
+		}
+	}
+	
+	create_fluctuation(x, y, image_xscale * 2, image_xscale * 10, 2, image_xscale / 2);
 	audio_play_sfx_random(snds_bubbles_appearances_arr, 0.6, random_range(0.95, 1.05), 15, false);
 }

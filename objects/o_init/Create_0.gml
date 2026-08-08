@@ -34,6 +34,9 @@
 	
 	#macro next_enemy_min_killed_enemies_to_edit "next_enemy_min_killed_enemies_to_edit"
 	#macro ui_depth -room_height - 1000
+	#macro nature_depth 599
+	
+	global.physical_nature_objects_limit = 25;
 
 #endregion
 
@@ -79,6 +82,7 @@
 	global.spawner_stop = false;
 	global.show_hidden_variables = false;
 	global.show_fps = false;
+	global.cinematic_mode = false;
 	
 	instance_create_depth(0, 0, 0, o_developer_tools);
 

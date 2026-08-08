@@ -29,8 +29,8 @@
   "nineSlice":null,
   "origin":4,
   "parent":{
-    "name":"default hole",
-    "path":"folders/creatures/holes/default hole.yy",
+    "name":"sprites",
+    "path":"folders/creatures/holes/default hole/sprites.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

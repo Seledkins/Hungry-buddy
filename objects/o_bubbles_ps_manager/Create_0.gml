@@ -1,0 +1,1 @@
+ps_info = init_bubbles_ps(o_arena.arena_width, o_arena.arena_height, 20);

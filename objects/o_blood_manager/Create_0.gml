@@ -1,5 +1,3 @@
-depth = 500
-
 var arena_w = o_arena.arena_width;
 var arena_h = o_arena.arena_height;
 

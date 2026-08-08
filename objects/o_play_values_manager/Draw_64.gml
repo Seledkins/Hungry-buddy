@@ -1,3 +1,7 @@
+if (global.cinematic_mode) {
+	exit;	
+}
+
 if (!show_mushrooms) {
 	exit;	
 } else if (alpha_show_mushrooms <= 0) {

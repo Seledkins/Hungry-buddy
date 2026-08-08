@@ -1,5 +1,10 @@
 function bite(bite_width, bite_height, delay_time, callback_for_creatures, combo_increase = 1){
 	
+	if (!bite_fluctuation) {
+		create_fluctuation(x, y, sprite_width_main / 45, sprite_width_main / 5, 3, sprite_width_main / 700);	
+		bite_fluctuation = true;
+	}
+	
 	var half_bite_width = bite_width / 2;
 	var half_bite_height = bite_height / 2;
 	

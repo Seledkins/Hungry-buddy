@@ -1,0 +1,1 @@
+instance_create_nature_obj(mouse_x, mouse_y, choose(o_nature_standing, o_nature_grass, o_nature_stick), 5, 0.1, 0, true, 599)

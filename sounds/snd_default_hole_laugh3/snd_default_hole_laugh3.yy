@@ -1,0 +1,26 @@
+{
+  "$GMSound":"v2",
+  "%Name":"snd_default_hole_laugh3",
+  "audioGroupId":{
+    "name":"ag_sfx",
+    "path":"audiogroups/ag_sfx",
+  },
+  "bitDepth":1,
+  "channelFormat":0,
+  "compression":0,
+  "compressionQuality":4,
+  "conversionMode":0,
+  "duration":1.5982087,
+  "exportDir":"",
+  "name":"snd_default_hole_laugh3",
+  "parent":{
+    "name":"laughs",
+    "path":"folders/creatures/holes/sounds/laughs.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"snd_default_hole_laugh3.mp3",
+  "volume":1.0,
+}

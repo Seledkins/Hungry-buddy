@@ -1,24 +1,14 @@
 target_get_required_info(target);
 
-if (distance_to_target > distance_to_prepare && sprite_index == sprite_run) {
-	
-	if(cur_spd < max_spd) {
-		cur_spd += acceleration;
-	}
-	
-}
-else
-{
+if (distance_to_target <= distance_to_prepare) {
 	boom_flag = true;
 }
 
 if (boom_flag) {
 	
-	cur_spd = clamp(cur_spd - acceleration / 2, 0, infinity);
-	
 	var anim_end = animation_end()
 	
-	if (anim_end && sprite_index == sprite_run) {
+	if (anim_end && sprite_index == sprite_idle) {
 		change_sprite(sprite_attack);
 		audio_play_sfx(snd_attack);
 		alarm[2] = explosion_bep_delay;
@@ -29,8 +19,5 @@ if (boom_flag) {
 	}
 	
 }
-
-
-linear_step(cur_spd, targetx, targety);
 
 close_obj_in_arena();

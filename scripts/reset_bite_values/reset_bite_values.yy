@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"reset_bite_values",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"reset_bite_values",
+  "parent":{
+    "name":"holes",
+    "path":"folders/creatures/holes.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}
