@@ -1,0 +1,1 @@
+create_blood_default(5);

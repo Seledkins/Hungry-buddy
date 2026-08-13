@@ -5,8 +5,8 @@
   "isDnD":false,
   "name":"create_ps_sprite",
   "parent":{
-    "name":"bonus system",
-    "path":"folders/bonus system.yy",
+    "name":"ps",
+    "path":"folders/graphics system/scripts/ps.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

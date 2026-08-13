@@ -5,8 +5,8 @@
   "isDnD":false,
   "name":"is_bonus",
   "parent":{
-    "name":"bonus system",
-    "path":"folders/bonus system.yy",
+    "name":"scripts",
+    "path":"folders/bonus system/scripts.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

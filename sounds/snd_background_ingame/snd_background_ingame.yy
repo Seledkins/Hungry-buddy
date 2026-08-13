@@ -14,8 +14,8 @@
   "exportDir":"",
   "name":"snd_background_ingame",
   "parent":{
-    "name":"sound system",
-    "path":"folders/sound system.yy",
+    "name":"background_sounds",
+    "path":"folders/sound system/background_sounds.yy",
   },
   "preload":false,
   "resourceType":"GMSound",

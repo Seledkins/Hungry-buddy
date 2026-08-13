@@ -5,12 +5,12 @@
   "managed":true,
   "name":"o_nature_grass",
   "overriddenProperties":[
-    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"o_physical_nature_parent","path":"objects/o_physical_nature_parent/o_physical_nature_parent.yy",},"propertyId":{"name":"sprites_arr","path":"objects/o_physical_nature_parent/o_physical_nature_parent.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"[sp_leaf1, sp_leaf2, sp_leaf3, sp_water_lily]",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"o_physical_nature_parent","path":"objects/o_physical_nature_parent/o_physical_nature_parent.yy",},"propertyId":{"name":"sprites_arr","path":"objects/o_physical_nature_parent/o_physical_nature_parent.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"[sp_leaf1, sp_leaf2, sp_leaf3]",},
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"o_physical_nature_parent","path":"objects/o_physical_nature_parent/o_physical_nature_parent.yy",},"propertyId":{"name":"ps_sprite","path":"objects/o_physical_nature_parent/o_physical_nature_parent.yy",},"resource":{"name":"sp_leaf_part","path":"sprites/sp_leaf_part/sp_leaf_part.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"sp_leaf_part",},
   ],
   "parent":{
-    "name":"environment system",
-    "path":"folders/graphics system/environment system.yy",
+    "name":"objs",
+    "path":"folders/graphics system/environment system/objs.yy",
   },
   "parentObjectId":{
     "name":"o_physical_nature_parent",

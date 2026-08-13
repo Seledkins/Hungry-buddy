@@ -32,8 +32,8 @@
   "nineSlice":null,
   "origin":9,
   "parent":{
-    "name":"explosion",
-    "path":"folders/projectile system/explosion.yy",
+    "name":"no use",
+    "path":"folders/no use.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

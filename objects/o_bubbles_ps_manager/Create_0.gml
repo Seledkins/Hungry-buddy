@@ -1,1 +1,1 @@
-ps_info = init_bubbles_ps(o_arena.arena_width, o_arena.arena_height, 20);
+ps_info = init_bubbles_ps(Camera.view_width, Camera.view_height, o_arena.x, o_arena.y, 20);

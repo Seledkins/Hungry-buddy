@@ -139,7 +139,7 @@ of the thickness by increasing the precision (8.0 seems like a
 good value) and leaving the roundess at 0.0.
 
 >> A roundness value of 0.0 can create the "full" outline effect,
-while anything greater create que "side only" outline effect.
+while anything grkiller create que "side only" outline effect.
 
 >> When leaving the thickness as a negative value, it is possible
 to create the "inline" effect.

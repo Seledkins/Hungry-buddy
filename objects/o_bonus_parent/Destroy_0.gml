@@ -1,4 +1,4 @@
-if(room == rm_init || !eater){
+if(room == rm_init || !killer){
 	exit;	
 }
 

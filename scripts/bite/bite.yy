@@ -5,8 +5,8 @@
   "isDnD":false,
   "name":"bite",
   "parent":{
-    "name":"holes",
-    "path":"folders/creatures/holes.yy",
+    "name":"scripts",
+    "path":"folders/creatures/holes/scripts.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

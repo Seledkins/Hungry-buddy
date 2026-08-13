@@ -29,7 +29,7 @@ if (combo_previous < combo && (combo_previous) % combo_show_number != 0 && insta
 			var show_combo_text = $"X{c}";
 			var formating = $"[shake]{dec_color(global.color_white)}"
 			formating = c < 50 ? formating : formating + dec_color(global.color_red);
-			scribble_anim_shake(c / 30, 1);
+			scribble_anim_shake(c / 18, 1);
 			instance_create_message(o_hole_parent.x, o_hole_parent.y, show_combo_text,,,, formating);
 			
 			audio_play_sfx_random(o_hole_parent.snds_laughs_arr, 1, random_range(0.93, 1.07));
@@ -39,7 +39,18 @@ if (combo_previous < combo && (combo_previous) % combo_show_number != 0 && insta
 	}
 }
 
+var x_cam_center = Camera.view_x + Camera.view_width / 2;
+var y_cam = Camera.view_y;
+var combo_ratio = 70;
+var rect_size_ratio = clamp(combo / combo_ratio, 0, 0.90);
 
+var rect_h = (fdrect_combo_height / 2) * rect_size_ratio;
+var rect_w = (fdrect_combo_width / 2) * rect_size_ratio;
+transparent = false;
+
+if (collision_rectangle(x_cam_center - rect_w, y_cam + rect_h, x_cam_center + rect_w, y_cam, [o_creature, o_bonus_parent], false, true)) {
+	transparent = true;
+}
 
 scribble_anim_wheel(1, combo * 0.03, combo / 200);
 

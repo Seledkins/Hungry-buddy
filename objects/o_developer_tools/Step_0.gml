@@ -48,14 +48,12 @@ if (keyboard_check(vk_down)) {
 	audio_master_gain(audio_get_master_gain(0) - audio_change_gain_step);
 }
 
-audio_change_gain_step = 0.2
-
-if (keyboard_check_pressed(ord("M")) && o_snd_manager.index != undefined && audio_is_playing(o_snd_manager.snd_backgrounds[o_snd_manager.index])) {
-	audio_stop_sound(o_snd_manager.snd_backgrounds[o_snd_manager.index]);
-	o_snd_manager.index = undefined;
-} else if (keyboard_check_pressed(ord("M"))) {
-	o_snd_manager.index = 1;	
-}
+//if (keyboard_check_pressed(ord("M")) && o_snd_manager.index != undefined && audio_is_playing(o_snd_manager.snd_backgrounds[o_snd_manager.index])) {
+//	audio_stop_sound(o_snd_manager.snd_backgrounds[o_snd_manager.index]);
+//	o_snd_manager.index = undefined;
+//} else if (keyboard_check_pressed(ord("M"))) {
+//	o_snd_manager.index = 1;	
+//}
 
 
 if (keyboard_check_pressed(vk_f10)) {

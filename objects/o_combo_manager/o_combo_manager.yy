@@ -52,6 +52,7 @@
     {"$GMObjectProperty":"v2","%Name":"text_posx","filters":[],"listItems":[],"multiselect":false,"name":"text_posx","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"posx","varType":4,},
     {"$GMObjectProperty":"v2","%Name":"text_posy","filters":[],"listItems":[],"multiselect":false,"name":"text_posy","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"posy - 5","varType":4,},
     {"$GMObjectProperty":"v2","%Name":"combo_show_number","filters":[],"listItems":[],"multiselect":false,"name":"combo_show_number","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"10","varType":1,},
+    {"$GMObjectProperty":"v2","%Name":"transparent","filters":[],"listItems":[],"multiselect":false,"name":"transparent","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"False","varType":3,},
   ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",

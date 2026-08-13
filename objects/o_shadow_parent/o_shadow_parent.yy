@@ -30,6 +30,7 @@
   "physicsStartAwake":true,
   "properties":[
     {"$GMObjectProperty":"v2","%Name":"sprite_width_main","filters":[],"listItems":[],"multiselect":false,"name":"sprite_width_main","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"sprite_get_width(sprite_index)","varType":4,},
+    {"$GMObjectProperty":"v2","%Name":"sprite_height_main","filters":[],"listItems":[],"multiselect":false,"name":"sprite_height_main","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"sprite_get_height(sprite_index)","varType":4,},
     {"$GMObjectProperty":"v2","%Name":"drop_shadow","filters":[],"listItems":[],"multiselect":false,"name":"drop_shadow","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"true","varType":3,},
     {"$GMObjectProperty":"v2","%Name":"shadow_width","filters":[],"listItems":[],"multiselect":false,"name":"shadow_width","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"sprite_width_main","varType":4,},
     {"$GMObjectProperty":"v2","%Name":"xoffset","filters":[],"listItems":[],"multiselect":false,"name":"xoffset","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"0.0","varType":4,},

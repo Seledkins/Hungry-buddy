@@ -5,8 +5,8 @@
   "isDnD":false,
   "name":"objs_spawn_info_init",
   "parent":{
-    "name":"inits",
-    "path":"folders/inits.yy",
+    "name":"scripts",
+    "path":"folders/inits/scripts.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

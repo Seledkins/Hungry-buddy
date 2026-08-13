@@ -15,7 +15,7 @@
   "name":"snd_default_hole_laugh3",
   "parent":{
     "name":"laughs",
-    "path":"folders/creatures/holes/sounds/laughs.yy",
+    "path":"folders/creatures/holes/default hole/sounds/laughs.yy",
   },
   "preload":false,
   "resourceType":"GMSound",

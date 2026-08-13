@@ -20,8 +20,9 @@
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"o_creature","path":"objects/o_creature/o_creature.yy",},"propertyId":{"name":"acceleration","path":"objects/o_creature/o_creature.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"-0.05",},
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"o_creature","path":"objects/o_creature/o_creature.yy",},"propertyId":{"name":"max_spd","path":"objects/o_creature/o_creature.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"0.7",},
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"oe_parent","path":"objects/oe_parent/oe_parent.yy",},"propertyId":{"name":"min_killed_enemies_to_spawn","path":"objects/oe_parent/oe_parent.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"100",},
-    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"o_spawn_obj_parent","path":"objects/o_spawn_obj_parent/o_spawn_obj_parent.yy",},"propertyId":{"name":"chance_to_spawn","path":"objects/o_spawn_obj_parent/o_spawn_obj_parent.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"0.05",},
-    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"o_spawn_obj_parent","path":"objects/o_spawn_obj_parent/o_spawn_obj_parent.yy",},"propertyId":{"name":"max_distance_to_border","path":"objects/o_spawn_obj_parent/o_spawn_obj_parent.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"60",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"o_spawn_obj_parent","path":"objects/o_spawn_obj_parent/o_spawn_obj_parent.yy",},"propertyId":{"name":"chance_to_spawn","path":"objects/o_spawn_obj_parent/o_spawn_obj_parent.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"0.02",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"o_spawn_obj_parent","path":"objects/o_spawn_obj_parent/o_spawn_obj_parent.yy",},"propertyId":{"name":"min_distance_to_border","path":"objects/o_spawn_obj_parent/o_spawn_obj_parent.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"50",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"o_spawn_obj_parent","path":"objects/o_spawn_obj_parent/o_spawn_obj_parent.yy",},"propertyId":{"name":"max_distance_to_border","path":"objects/o_spawn_obj_parent/o_spawn_obj_parent.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"90",},
   ],
   "parent":{
     "name":"mushroom ladybug",
@@ -45,7 +46,7 @@
   "physicsShapePoints":[],
   "physicsStartAwake":true,
   "properties":[
-    {"$GMObjectProperty":"v2","%Name":"self_explosion_timer","filters":[],"listItems":[],"multiselect":false,"name":"self_explosion_timer","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"150","varType":0,},
+    {"$GMObjectProperty":"v2","%Name":"self_explosion_timer","filters":[],"listItems":[],"multiselect":false,"name":"self_explosion_timer","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"100","varType":0,},
   ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",

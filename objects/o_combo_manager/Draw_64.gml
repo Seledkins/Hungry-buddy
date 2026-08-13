@@ -2,14 +2,18 @@ if (global.cinematic_mode) {
 	exit;	
 }
 
-fd_rectangle_draw(fdrect_combo_bg, posx - fdrect_combo_width / 2, -fdrect_combo_height / 2.5, 1, 1, global.color_dark_green, 1, false);
+var alpha = clamp(!transparent, 0.9, 1)
+
+fd_rectangle_draw(fdrect_combo_bg, posx - fdrect_combo_width / 2, -fdrect_combo_height / 2.5, 1, 1, global.color_dark_green, alpha, false);
 
 
 var scr_combo = scribble($"{string_styles}X{combo}");
 
 scr_combo
 .align(fa_center, fa_center)
+.blend(c_white, alpha)
 .draw(text_posx, text_posy)
+
 
 var combo_reset_bar_width = scr_combo.get_width() * clamp(alarm[0] / combo_reset_time, 0, infinity);
 var offsetx

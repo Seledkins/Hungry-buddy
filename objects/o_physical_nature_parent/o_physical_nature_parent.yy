@@ -15,8 +15,8 @@
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"o_shadow_parent","path":"objects/o_shadow_parent/o_shadow_parent.yy",},"propertyId":{"name":"yoffset","path":"objects/o_shadow_parent/o_shadow_parent.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"0",},
   ],
   "parent":{
-    "name":"environment system",
-    "path":"folders/graphics system/environment system.yy",
+    "name":"objs",
+    "path":"folders/graphics system/environment system/objs.yy",
   },
   "parentObjectId":{
     "name":"o_shadow_parent",

@@ -15,7 +15,7 @@
   "name":"snd_defalut_hole_something",
   "parent":{
     "name":"sounds",
-    "path":"folders/creatures/holes/sounds.yy",
+    "path":"folders/creatures/holes/default hole/sounds.yy",
   },
   "preload":false,
   "resourceType":"GMSound",

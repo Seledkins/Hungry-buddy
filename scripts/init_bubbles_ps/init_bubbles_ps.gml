@@ -1,4 +1,4 @@
-function init_bubbles_ps(arena_width, arena_height, border_offset){
+function init_bubbles_ps(width, height, _x, _y, border_offset){
 	//ps_bubbles
 	var _ps = part_system_create();
 	part_system_draw_order(_ps, true);
@@ -18,11 +18,11 @@ function init_bubbles_ps(arena_width, arena_height, border_offset){
 	part_type_life(_ptype1, 80, 80);
 
 	var _pemit1 = part_emitter_create(_ps);
-	part_emitter_region(_ps, _pemit1, -arena_width / 2 + border_offset, arena_width / 2 - border_offset, -arena_height / 2 + border_offset, arena_height / 2 - border_offset, ps_shape_rectangle, ps_distr_linear);
+	part_emitter_region(_ps, _pemit1, -width / 2 + border_offset, width / 2 - border_offset, -height / 2 + border_offset, height / 2 - border_offset, ps_shape_rectangle, ps_distr_linear);
 	part_emitter_stream(_ps, _pemit1, _ptype1, 1);
-	part_emitter_interval(_ps, _pemit1, 0.2, 0.4, time_source_units_seconds);
+	part_emitter_interval(_ps, _pemit1, 0.05, 0.1, time_source_units_seconds);
 
-	part_system_position(_ps, o_arena.x, o_arena.y);
+	part_system_position(_ps, _x, _y);
 	part_system_depth(_ps, -room_height);
 	
 	return {ps : _ps, ptype : _ptype1};

@@ -1,0 +1,57 @@
+if (global.show_mouse_cord) {
+	draw_set_colour(c_white)
+	draw_text_transformed(x_to_guix(mouse_x + 10), y_to_guiy(mouse_y), $"x:{mouse_x} y: {mouse_y}", 0.5, 0.5, 0)
+	draw_set_colour(c_white)	
+}
+
+if (global.show_fps) {
+	draw_text_transformed(15, Camera.view_height - 20,$"fps: {fps_once_per_half_second}", 0.5, 0.5, 0);	
+}
+
+if (!global.show_hidden_variables) {
+	exit
+}
+
+height_ratio = 1;
+i = 0;
+
+draw_set_valign(fa_right);
+
+var margin = 15;
+
+for(i = 0; i < array_length(hidden_variables); i++){
+	
+	variables_info = hidden_variables[i];
+	
+	if(!instance_exists(variables_info.obj)){
+		continue
+	}
+	
+	
+	array_foreach(variables_info.variables, function(variable, j){
+		
+		if(variable_instance_exists(variables_info.obj, variable)){	
+			
+			var w = other.hidden_variables_margin * 8;
+			var drawx = Camera.view_width - w;
+			var drawy = Camera.view_height - (other.hidden_variables_margin * (j + 1) * height_ratio);
+			var scale = 0.5;
+		
+			draw_text_ext_transformed(drawx, drawy, $"{variable}: {variable_instance_get(other.variables_info.obj, variable)}",hidden_variables_margin , 200, scale, scale, 0);
+			
+		}
+		else
+		{
+			height_ratio -= 1	
+		}
+		
+		
+	})
+	
+	height_ratio += array_length(variables_info.variables);
+}
+
+
+
+
+draw_set_valign(fa_left);

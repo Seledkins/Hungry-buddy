@@ -9,8 +9,8 @@
   "name":"o_ingame_trash_deleter",
   "overriddenProperties":[],
   "parent":{
-    "name":"Hungry buddy",
-    "path":"Hungry buddy.yyp",
+    "name":"ingame system",
+    "path":"folders/ingame system.yy",
   },
   "parentObjectId":null,
   "persistent":false,

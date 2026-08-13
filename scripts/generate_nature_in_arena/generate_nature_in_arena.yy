@@ -5,8 +5,8 @@
   "isDnD":false,
   "name":"generate_nature_in_arena",
   "parent":{
-    "name":"environment system",
-    "path":"folders/graphics system/environment system.yy",
+    "name":"scripts",
+    "path":"folders/graphics system/scripts.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

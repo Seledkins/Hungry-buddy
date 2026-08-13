@@ -25,8 +25,8 @@
   "nineSlice":null,
   "origin":0,
   "parent":{
-    "name":"Hungry buddy",
-    "path":"Hungry buddy.yyp",
+    "name":"no use",
+    "path":"folders/no use.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

@@ -120,8 +120,8 @@
   "maintainGms1Font":false,
   "name":"fnt_arcade_jeu",
   "parent":{
-    "name":"UI",
-    "path":"folders/UI.yy",
+    "name":"fonts",
+    "path":"folders/UI/fonts.yy",
   },
   "pointRounding":0,
   "ranges":[

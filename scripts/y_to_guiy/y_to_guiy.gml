@@ -1,4 +1,4 @@
-function y_to_guiy(_y, gui_height){
+function y_to_guiy(_y, gui_height = global.gui_height){
 	
     var ct = camera_get_view_y(view_camera[0]);
        

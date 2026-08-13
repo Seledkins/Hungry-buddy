@@ -344,8 +344,8 @@
   "nineSlice":null,
   "origin":4,
   "parent":{
-    "name":"Hungry buddy",
-    "path":"Hungry buddy.yyp",
+    "name":"no use",
+    "path":"folders/no use.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

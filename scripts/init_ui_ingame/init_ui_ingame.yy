@@ -5,8 +5,8 @@
   "isDnD":false,
   "name":"init_ui_ingame",
   "parent":{
-    "name":"inits",
-    "path":"folders/inits.yy",
+    "name":"scripts",
+    "path":"folders/inits/scripts.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

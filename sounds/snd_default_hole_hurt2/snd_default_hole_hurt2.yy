@@ -15,7 +15,7 @@
   "name":"snd_default_hole_hurt2",
   "parent":{
     "name":"sounds",
-    "path":"folders/creatures/holes/sounds.yy",
+    "path":"folders/creatures/holes/default hole/sounds.yy",
   },
   "preload":false,
   "resourceType":"GMSound",

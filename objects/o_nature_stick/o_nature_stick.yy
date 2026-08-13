@@ -12,8 +12,8 @@
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"o_physical_nature_parent","path":"objects/o_physical_nature_parent/o_physical_nature_parent.yy",},"propertyId":{"name":"ps_sprite","path":"objects/o_physical_nature_parent/o_physical_nature_parent.yy",},"resource":{"name":"sp_stick_part","path":"sprites/sp_stick_part/sp_stick_part.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"sp_stick_part",},
   ],
   "parent":{
-    "name":"environment system",
-    "path":"folders/graphics system/environment system.yy",
+    "name":"objs",
+    "path":"folders/graphics system/environment system/objs.yy",
   },
   "parentObjectId":{
     "name":"o_physical_nature_parent",

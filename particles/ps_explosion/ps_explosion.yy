@@ -14,8 +14,8 @@
   ],
   "name":"ps_explosion",
   "parent":{
-    "name":"explosion",
-    "path":"folders/projectile system/explosion.yy",
+    "name":"no use",
+    "path":"folders/no use.yy",
   },
   "resourceType":"GMParticleSystem",
   "resourceVersion":"2.0",

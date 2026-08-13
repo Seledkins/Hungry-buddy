@@ -27,8 +27,10 @@
   "physicsShapePoints":[],
   "physicsStartAwake":true,
   "properties":[
-    {"$GMObjectProperty":"v2","%Name":"snd_backgrounds","filters":[],"listItems":[],"multiselect":false,"name":"snd_backgrounds","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"[snd_background_ingame, snd_background_ingame_1]","varType":4,},
+    {"$GMObjectProperty":"v2","%Name":"snds_backgrounds_arr","filters":[],"listItems":[],"multiselect":false,"name":"snds_backgrounds_arr","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"[snd_background_ingame, snd_background_ingame_1]","varType":4,},
     {"$GMObjectProperty":"v2","%Name":"index","filters":[],"listItems":[],"multiselect":false,"name":"index","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"0.0","varType":1,},
+    {"$GMObjectProperty":"v2","%Name":"memory_snds_arr","filters":[],"listItems":[],"multiselect":false,"name":"memory_snds_arr","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"[]","varType":4,},
+    {"$GMObjectProperty":"v2","%Name":"current_snd","filters":[],"listItems":[],"multiselect":false,"name":"current_snd","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"undefined","varType":4,},
   ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",

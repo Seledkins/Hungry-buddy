@@ -30,6 +30,7 @@
 		show_debug_overlay(true);
 	}
 	
+	
 	scribble_anim_jitter(0.9, 1.1, 0.1);
 	
 	#macro next_enemy_min_killed_enemies_to_edit "next_enemy_min_killed_enemies_to_edit"
@@ -37,6 +38,8 @@
 	#macro nature_depth 599
 	
 	global.physical_nature_objects_limit = 25;
+	global.nature_spawn_padding = 50;
+	global.fly_limit = 5;
 
 #endregion
 
@@ -48,6 +51,7 @@
 	}
 
 	os_lock_orientation(true);
+	gesture_drag_time(0);
 	global.controls_type = get_controls_type();
 	global.mobile_sensitivity = 0.3
 	#macro sprite_speed_to_image_index_changing_ratio 0.017
@@ -61,6 +65,7 @@
 	global.color_dark_red = #7f0d0c;
 	global.color_dark_green = #14151A;
 	global.color_white = #FFF9DA;
+	global.color_dark_white = #d9d3b1;
 	global.color_bright_green = #425a5e;
 	global.color_green = #1c282a;
 	global.color_dark_green = #14151a;
@@ -68,6 +73,8 @@
 	
 	global.bright_blood_color = #30265e;
 	global.dark_blood_color = global.color_bright_purple_dark;
+	
+	global.ui_assets_scale = 1.3;
 	
 #endregion
 

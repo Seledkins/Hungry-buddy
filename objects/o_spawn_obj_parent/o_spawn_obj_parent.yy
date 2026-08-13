@@ -6,8 +6,8 @@
   "name":"o_spawn_obj_parent",
   "overriddenProperties":[],
   "parent":{
-    "name":"Hungry buddy",
-    "path":"Hungry buddy.yyp",
+    "name":"parents",
+    "path":"folders/parents.yy",
   },
   "parentObjectId":{
     "name":"o_etable_parent",

@@ -8,6 +8,11 @@ adjust_enemies_amounts();
 	
 o_play_values_manager.killed_enemies_amount++;
 
+if (object_is_ancestor(killer.object_index, o_peaceful_parent)) {
+	o_play_values_manager.eaten_enemies++;
+	o_combo_manager.combo++;
+}
+
 if (random(100) <= drop_obj_chance) {
 	repeat (irandom_range(min_drop_objs_amount ,max_drop_objs_amount)) {
 		var obj = drop_objs[irandom(drop_objs_amount - 1)];

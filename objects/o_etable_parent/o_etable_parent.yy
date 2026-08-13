@@ -8,8 +8,8 @@
   "name":"o_etable_parent",
   "overriddenProperties":[],
   "parent":{
-    "name":"Hungry buddy",
-    "path":"Hungry buddy.yyp",
+    "name":"parents",
+    "path":"folders/parents.yy",
   },
   "parentObjectId":{
     "name":"o_shadow_parent",
@@ -30,6 +30,7 @@
   "physicsStartAwake":true,
   "properties":[
     {"$GMObjectProperty":"v2","%Name":"snds_deads_arr","filters":[],"listItems":[],"multiselect":false,"name":"snds_deads_arr","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"","varType":4,},
+    {"$GMObjectProperty":"v2","%Name":"killer","filters":[],"listItems":[],"multiselect":false,"name":"killer","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"noone","varType":4,},
   ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",

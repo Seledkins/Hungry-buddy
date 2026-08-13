@@ -13,17 +13,9 @@ function bonus_info_init(){
 		var bonus = all_bonuses_array[b]
 		var current_bonus = instance_create_layer(0, 0, "instances", asset_get_index(bonus));
 		var current_bonus_chance = current_bonus.chance_to_spawn;
-		//var test_obly_this_bonus = current_bonus.test_only_this_bonus;
 		
 		global.bonuses_amount++
 		global.total_bonuses_chances += current_bonus_chance;
-		
-		//if (test_obly_this_bonus){
-		//	global.bonuses_info = [];
-		//	b = all_bonuses_array_length;
-		//	global.bonuses_amount = 1;
-		//	global.total_bonuses_chances = current_bonus_chance;
-		//}
 		
 		array_push(global.bonuses_info, {
 			obj_index : current_bonus.object_index,

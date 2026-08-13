@@ -1,4 +1,4 @@
-function x_to_guix(_x, gui_width){
+function x_to_guix(_x, gui_width = global.gui_width){
 	
 	var cl = camera_get_view_x(view_camera[0]);
        
