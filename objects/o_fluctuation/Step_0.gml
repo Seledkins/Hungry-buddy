@@ -1,3 +1,7 @@
+if (!global.no_lockstep) {
+	exit;	
+}
+
 anim_curve_posx += anim_curve_posx_step;
 var channel_evaluate = animcurve_channel_evaluate(anim_curve_channel, anim_curve_posx);
 

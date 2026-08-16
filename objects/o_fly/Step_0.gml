@@ -1,1 +1,1 @@
-direction += direction_step;
+direction += direction_step * global.no_lockstep;

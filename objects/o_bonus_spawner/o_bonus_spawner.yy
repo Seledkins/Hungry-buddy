@@ -40,7 +40,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"sp_nothing1x1",
+    "path":"sprites/sp_nothing1x1/sp_nothing1x1.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }

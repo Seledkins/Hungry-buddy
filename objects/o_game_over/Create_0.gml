@@ -1,3 +1,5 @@
+global.no_lockstep = true;
+
 with(o_play_values_manager) {
 	global.eaten_monsters_record = max(eaten_enemies, global.eaten_monsters_record);
 	global.eaten_mushrooms_record = max(eaten_mushrooms, global.eaten_mushrooms_record);

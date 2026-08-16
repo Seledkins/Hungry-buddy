@@ -6,7 +6,7 @@
   "name":"init_mobile_ui_ingame",
   "parent":{
     "name":"scripts",
-    "path":"folders/inits/scripts.yy",
+    "path":"folders/UI/scripts.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

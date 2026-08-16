@@ -27,8 +27,8 @@
   "nineSlice":null,
   "origin":0,
   "parent":{
-    "name":"healthbar system",
-    "path":"folders/UI/healthbar system.yy",
+    "name":"sprites",
+    "path":"folders/UI/healthbar system/sprites.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

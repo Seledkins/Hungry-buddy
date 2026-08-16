@@ -11,6 +11,7 @@ o_play_values_manager.killed_enemies_amount++;
 if (object_is_ancestor(killer.object_index, o_peaceful_parent)) {
 	o_play_values_manager.eaten_enemies++;
 	o_combo_manager.combo++;
+	o_upgrade_bowl.fullness++;
 }
 
 if (random(100) <= drop_obj_chance) {

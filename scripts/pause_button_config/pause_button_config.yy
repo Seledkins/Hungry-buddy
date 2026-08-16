@@ -5,8 +5,8 @@
   "isDnD":false,
   "name":"pause_button_config",
   "parent":{
-    "name":"pause button system",
-    "path":"folders/UI/buttons/pause button system.yy",
+    "name":"pause system",
+    "path":"folders/UI/buttons/pause system.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

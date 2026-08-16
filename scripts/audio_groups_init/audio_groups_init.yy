@@ -5,8 +5,8 @@
   "isDnD":false,
   "name":"audio_groups_init",
   "parent":{
-    "name":"scripts",
-    "path":"folders/inits/scripts.yy",
+    "name":"sound system",
+    "path":"folders/sound system.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

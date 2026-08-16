@@ -1,0 +1,3 @@
+function localization_init(){
+	
+}

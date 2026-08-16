@@ -26,8 +26,8 @@
   "nineSlice":null,
   "origin":4,
   "parent":{
-    "name":"pause button system",
-    "path":"folders/UI/buttons/pause button system.yy",
+    "name":"sprites",
+    "path":"folders/UI/buttons/pause system/sprites.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

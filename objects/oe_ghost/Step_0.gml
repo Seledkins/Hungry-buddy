@@ -2,12 +2,6 @@ target_get_required_info(target);
 
 dir_to_target = point_direction(x, y, targetx, targety);
 
-//if (angle_difference(direction, dir_to_target) < 40 && !instance_place(x, y, o_arena) && solid) {
-//	direction = round(dir_to_target / 10) * 10;
-//	solid = false;
-//}
-
-
 
 if (sprite_index == sprite_idle) {
 	

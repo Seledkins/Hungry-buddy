@@ -26,7 +26,7 @@
   "origin":4,
   "parent":{
     "name":"icons sprites",
-    "path":"folders/UI/icons sprites.yy",
+    "path":"folders/UI/buttons/pause system/sprites/icons sprites.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

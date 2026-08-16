@@ -1,11 +1,17 @@
+if (!global.no_lockstep) {
+	exit;	
+}
+
 if (image_xscale <= max_scale) {
 	anim_curve_posx += anim_curve_posx_step;
 	var channel_evaluate = animcurve_channel_evaluate(anim_curve_channel, anim_curve_posx);
 	
-	image_xscale += scale_increment * channel_evaluate;
+	image_xscale += scale_increment * channel_evaluate * global.no_lockstep;
 	image_yscale = image_xscale;
 	shadow_width = sprite_width_main * image_xscale;
 	outline_width = clamp(1 / image_xscale, 1, infinity);
+	image_speed = 0;
+	
 } else if (image_speed == 0) {
 	image_speed = 1;
 	var inst = instance_create_layer(x, y, obj_layer_create, spawn_obj, { appearance_created : true });

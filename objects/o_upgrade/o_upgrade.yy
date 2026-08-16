@@ -7,7 +7,7 @@
   "overriddenProperties":[],
   "parent":{
     "name":"upgrades system",
-    "path":"folders/ingame system/upgrades system.yy",
+    "path":"folders/UI/upgrades system.yy",
   },
   "parentObjectId":null,
   "persistent":false,

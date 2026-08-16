@@ -8,8 +8,8 @@
   "name":"o_init",
   "overriddenProperties":[],
   "parent":{
-    "name":"inits",
-    "path":"folders/inits.yy",
+    "name":"global init",
+    "path":"folders/global init.yy",
   },
   "parentObjectId":null,
   "persistent":false,

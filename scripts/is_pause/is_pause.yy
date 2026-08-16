@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"is_pause",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"is_pause",
+  "parent":{
+    "name":"UI",
+    "path":"folders/UI.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

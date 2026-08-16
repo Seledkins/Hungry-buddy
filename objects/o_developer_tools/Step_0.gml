@@ -30,8 +30,8 @@ if (keyboard_check_pressed(ord("6")) || global.show_all_developer_params_flag) {
 		global.show_mouse_cord = !global.show_mouse_cord;
 }
 
-if (keyboard_check_pressed(ord("7")) || keyboard_check_pressed(vk_f1)) {
-		
+if (keyboard_check_pressed(ord("7"))) {
+	o_play_values_manager.killed_enemies_amount += 20;	
 }
 
 if (keyboard_check_pressed(ord("0")) || keyboard_check_pressed(vk_f1)) {
@@ -47,14 +47,6 @@ if (keyboard_check(vk_up)) {
 if (keyboard_check(vk_down)) {
 	audio_master_gain(audio_get_master_gain(0) - audio_change_gain_step);
 }
-
-//if (keyboard_check_pressed(ord("M")) && o_snd_manager.index != undefined && audio_is_playing(o_snd_manager.snd_backgrounds[o_snd_manager.index])) {
-//	audio_stop_sound(o_snd_manager.snd_backgrounds[o_snd_manager.index]);
-//	o_snd_manager.index = undefined;
-//} else if (keyboard_check_pressed(ord("M"))) {
-//	o_snd_manager.index = 1;	
-//}
-
 
 if (keyboard_check_pressed(vk_f10)) {
 	global.cinematic_mode = !global.cinematic_mode;
@@ -73,4 +65,3 @@ if (keyboard_check_pressed(vk_escape)) {
 if (keyboard_check_pressed(ord("R"))) {
 	game_over()
 }
-

@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"bite_foreach",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"bite_foreach",
+  "parent":{
+    "name":"scripts",
+    "path":"folders/creatures/holes/scripts.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

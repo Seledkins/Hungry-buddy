@@ -33,6 +33,7 @@ if (combo_previous < combo && (combo_previous) % combo_show_number != 0 && insta
 			instance_create_message(o_hole_parent.x, o_hole_parent.y, show_combo_text,,,, formating);
 			
 			audio_play_sfx_random(o_hole_parent.snds_laughs_arr, 1, random_range(0.93, 1.07));
+			uc_shake(6);
 			
 			break;
 		}

@@ -36,7 +36,7 @@ if (sprite_index == sprite_attack)
 else 
 {	
 	if (fast_jumps > 0 && fast_jumps < max_fast_jumps || fast_attack_flag) {
-		image_speed = prepare_speed;
+		image_speed = prepare_speed * global.no_lockstep;
 		fast_attack_flag = false;
 	}
 

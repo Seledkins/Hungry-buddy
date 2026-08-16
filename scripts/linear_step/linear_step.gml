@@ -4,8 +4,8 @@ if point_distance(x, y, xgoal, ygoal) > 1
 {
 	var dir = point_direction(x, y, xgoal, ygoal)
 
-	x += lengthdir_x(stepsize, dir)
-	y += lengthdir_y(stepsize, dir)
+	x += lengthdir_x(stepsize, dir) * global.no_lockstep;
+	y += lengthdir_y(stepsize, dir) * global.no_lockstep;
 
 }
 

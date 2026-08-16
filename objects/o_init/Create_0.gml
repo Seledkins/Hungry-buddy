@@ -45,9 +45,11 @@
 
 #region system options
 
-	if (game_get_speed(gamespeed_fps) != 60)
-	{
-	    game_set_speed(60 ,gamespeed_fps);
+	global.no_lockstep = true;
+	
+	#macro max_game_speed 60
+	if (game_get_speed(gamespeed_fps) != max_game_speed) {
+	    game_set_speed(max_game_speed, gamespeed_fps);
 	}
 
 	os_lock_orientation(true);
@@ -97,11 +99,14 @@
 
 //objs init
 objs_spawn_info_init();
+upgrades_info_init();
 
 global.eaten_monsters_record = 0;
 global.max_combo_record = 0;
 global.eaten_mushrooms_record = 0;
 global.survived_time_record = 0;
+
+
 
 randomise();
 instance_destroy();

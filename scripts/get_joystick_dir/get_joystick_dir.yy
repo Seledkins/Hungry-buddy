@@ -5,8 +5,8 @@
   "isDnD":false,
   "name":"get_joystick_dir",
   "parent":{
-    "name":"Joystick",
-    "path":"folders/UI/Joystick.yy",
+    "name":"scripts",
+    "path":"folders/UI/Joystick/scripts.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

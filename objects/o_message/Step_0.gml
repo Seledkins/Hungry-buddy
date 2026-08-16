@@ -1,5 +1,5 @@
 if (alpha > 0) {
-	alpha -= friction * alpha_change_ratio;	
+	alpha -= friction * alpha_change_ratio * global.no_lockstep;	
 } else {
 	instance_destroy();	
 }

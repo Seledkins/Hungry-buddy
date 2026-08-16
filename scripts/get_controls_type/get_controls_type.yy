@@ -5,8 +5,8 @@
   "isDnD":false,
   "name":"get_controls_type",
   "parent":{
-    "name":"UI",
-    "path":"folders/UI.yy",
+    "name":"scripts",
+    "path":"folders/UI/scripts.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

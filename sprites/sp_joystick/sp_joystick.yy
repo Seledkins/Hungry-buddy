@@ -25,8 +25,8 @@
   "nineSlice":null,
   "origin":4,
   "parent":{
-    "name":"Joystick",
-    "path":"folders/UI/Joystick.yy",
+    "name":"sprites",
+    "path":"folders/UI/Joystick/sprites.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

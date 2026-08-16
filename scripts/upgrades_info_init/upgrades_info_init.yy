@@ -5,8 +5,8 @@
   "isDnD":false,
   "name":"upgrades_info_init",
   "parent":{
-    "name":"upgrades system",
-    "path":"folders/ingame system/upgrades system.yy",
+    "name":"scripts",
+    "path":"folders/UI/upgrades system/scripts.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

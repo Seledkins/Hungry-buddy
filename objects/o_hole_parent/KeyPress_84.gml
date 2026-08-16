@@ -2,4 +2,4 @@ if (!global.developer_mode) {
 	exit;	
 }
 
-nature_clear();
+instance_create_spawn_appearance(x, y, o_bonus_chest);

@@ -1,13 +1,16 @@
 {
   "$GMObject":"",
   "%Name":"o_upgrade_manager",
-  "eventList":[],
+  "eventList":[
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+  ],
   "managed":true,
   "name":"o_upgrade_manager",
   "overriddenProperties":[],
   "parent":{
     "name":"upgrades system",
-    "path":"folders/ingame system/upgrades system.yy",
+    "path":"folders/UI/upgrades system.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -23,7 +26,10 @@
   "physicsShape":1,
   "physicsShapePoints":[],
   "physicsStartAwake":true,
-  "properties":[],
+  "properties":[
+    {"$GMObjectProperty":"v2","%Name":"upgrades_info","filters":[],"listItems":[],"multiselect":false,"name":"upgrades_info","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"","varType":4,},
+    {"$GMObjectProperty":"v2","%Name":"geted_upgrades","filters":[],"listItems":[],"multiselect":false,"name":"geted_upgrades","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"0","varType":1,},
+  ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,

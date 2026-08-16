@@ -12,10 +12,7 @@
     "name":"smart particle system system",
     "path":"folders/graphics system/smart particle system system.yy",
   },
-  "parentObjectId":{
-    "name":"o_smart_customizable_part_system",
-    "path":"objects/o_smart_customizable_part_system/o_smart_customizable_part_system.yy",
-  },
+  "parentObjectId":null,
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,

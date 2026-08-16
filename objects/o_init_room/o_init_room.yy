@@ -8,8 +8,8 @@
   "name":"o_init_room",
   "overriddenProperties":[],
   "parent":{
-    "name":"inits",
-    "path":"folders/inits.yy",
+    "name":"ingame system",
+    "path":"folders/ingame system.yy",
   },
   "parentObjectId":null,
   "persistent":false,
