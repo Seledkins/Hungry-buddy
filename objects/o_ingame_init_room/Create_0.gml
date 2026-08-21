@@ -1,5 +1,4 @@
-room_width = global.device_width;
-room_height = global.device_height;
+set_room_permission();
 
 instance_create_depth(0, 0, 0, o_ingame_trash_deleter);
 instance_create_depth(0, 0, 0, o_play_values_manager);

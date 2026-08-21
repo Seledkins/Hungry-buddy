@@ -10,6 +10,8 @@ function bite(bite_width, bite_height, delay_time, callback_for_creatures, combo
 	
 	var bite_list = ds_list_create();
 	var bite_list_size = collision_rectangle_list(x - half_bite_width, y - half_bite_height,  x + half_bite_width, y + half_bite_height, o_etable_parent, true, true, bite_list, false);
+	var eated_enemies_amount = 0;
+	
 	bite_list = ds_list_unique(bite_list);
 	
 	for(var i = 0; i < bite_list_size; i++) {
@@ -20,10 +22,14 @@ function bite(bite_width, bite_height, delay_time, callback_for_creatures, combo
 			continue;
 		}
 		
-		if (is_creature(cur_bite_li_item_obj_index.object_index)) {
+		if (is_creature(cur_bite_li_item_obj_index)) {
 			callback_for_creatures(cur_bite_li_item);
 			
-		} else if (is_bonus(cur_bite_li_item_obj_index.object_index)) {
+			if (object_is_ancestor(cur_bite_li_item_obj_index, oe_parent)) {
+				eated_enemies_amount++;
+			}
+			
+		} else if (is_bonus(cur_bite_li_item_obj_index)) {
 			
 			var cur_bonus = cur_bite_li_item;
 			
@@ -34,9 +40,11 @@ function bite(bite_width, bite_height, delay_time, callback_for_creatures, combo
 		
 	}
 	
-	if (ds_list_size(bite_list) >= enemies_amount_to_lockstep && !lockstep) {
-		//set_lockstep_time(true, 3);
+	if (eated_enemies_amount >= enemies_amount_to_lockstep && !lockstep) {
+		// НАДО БУДЕТ ДОРАБОТАТЬ ----------
+		//set_lockstep_time(true, 0.05);
 		//lockstep = true;
+		
 	}
 	
 	ds_list_foreach(bite_list, function(inst) {

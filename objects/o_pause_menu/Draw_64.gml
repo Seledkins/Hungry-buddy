@@ -4,8 +4,11 @@ array_foreach(values_info, function(value_info, i) {
 	var sprite = value_info.sprite
 	var xoffset = sprite_get_width(sprite) / 2 - current_appearance_offset;
 	var yoffset = sprite_get_height(sprite) / 2;
+	
+	var variable_owner = value_info.variable_from_obj;
+	var variable_name = value_info.variable_name;
 		
-	var variable = variable_instance_get(value_info.variable_from_obj, value_info.variable_name);
+	var variable = (variable_owner != global) ? variable_instance_get(variable_owner, variable_name) : variable_global_get(variable_name);
 		
 	variable = value_info.variable_action_function(variable);
 		

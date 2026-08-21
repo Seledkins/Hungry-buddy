@@ -6,7 +6,7 @@
   "name":"close_value_in_arena_height",
   "parent":{
     "name":"arena limit value scripts",
-    "path":"folders/ingame system/arena/arena limit value scripts.yy",
+    "path":"folders/ingame room system/arena/arena limit value scripts.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

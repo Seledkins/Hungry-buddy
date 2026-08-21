@@ -27,7 +27,7 @@
   "physicsShapePoints":[],
   "physicsStartAwake":true,
   "properties":[
-    {"$GMObjectProperty":"v2","%Name":"padding","filters":[],"listItems":[],"multiselect":false,"name":"padding","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"20","varType":0,},
+    {"$GMObjectProperty":"v2","%Name":"padding","filters":[],"listItems":[],"multiselect":false,"name":"padding","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"15","varType":0,},
     {"$GMObjectProperty":"v2","%Name":"appearance_offset_speed","filters":[],"listItems":[],"multiselect":false,"name":"appearance_offset_speed","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"0.3","varType":0,},
     {"$GMObjectProperty":"v2","%Name":"appearance_offset","filters":[],"listItems":[],"multiselect":false,"name":"appearance_offset","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"1000","varType":0,},
     {"$GMObjectProperty":"v2","%Name":"current_appearance_offset","filters":[],"listItems":[],"multiselect":false,"name":"current_appearance_offset","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"appearance_offset","varType":4,},

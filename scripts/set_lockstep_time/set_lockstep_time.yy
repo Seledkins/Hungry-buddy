@@ -6,7 +6,7 @@
   "name":"set_lockstep_time",
   "parent":{
     "name":"lockstep system",
-    "path":"folders/ingame system/lockstep system.yy",
+    "path":"folders/ingame room system/lockstep system.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

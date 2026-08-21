@@ -18,7 +18,7 @@
   ],
   "parent":{
     "name":"spawn appearance system",
-    "path":"folders/ingame system/spawners/spawn appearance system.yy",
+    "path":"folders/ingame room system/spawners/spawn appearance system.yy",
   },
   "parentObjectId":{
     "name":"o_shadow_parent",

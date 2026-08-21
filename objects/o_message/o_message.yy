@@ -10,7 +10,7 @@
   "overriddenProperties":[],
   "parent":{
     "name":"message system",
-    "path":"folders/ingame system/message system.yy",
+    "path":"folders/ingame room system/message system.yy",
   },
   "parentObjectId":null,
   "persistent":false,

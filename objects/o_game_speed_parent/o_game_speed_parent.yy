@@ -8,8 +8,8 @@
   "name":"o_game_speed_parent",
   "overriddenProperties":[],
   "parent":{
-    "name":"ingame system",
-    "path":"folders/ingame system.yy",
+    "name":"ingame room system",
+    "path":"folders/ingame room system.yy",
   },
   "parentObjectId":null,
   "persistent":false,

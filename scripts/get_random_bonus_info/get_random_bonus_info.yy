@@ -6,7 +6,7 @@
   "name":"get_random_bonus_info",
   "parent":{
     "name":"info getters",
-    "path":"folders/ingame system/spawners/info getters.yy",
+    "path":"folders/ingame room system/spawners/info getters.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

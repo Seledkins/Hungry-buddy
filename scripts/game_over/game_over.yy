@@ -5,8 +5,8 @@
   "isDnD":false,
   "name":"game_over",
   "parent":{
-    "name":"ingame system",
-    "path":"folders/ingame system.yy",
+    "name":"ingame room system",
+    "path":"folders/ingame room system.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

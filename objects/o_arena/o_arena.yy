@@ -10,7 +10,7 @@
   "overriddenProperties":[],
   "parent":{
     "name":"arena",
-    "path":"folders/ingame system/arena.yy",
+    "path":"folders/ingame room system/arena.yy",
   },
   "parentObjectId":null,
   "persistent":false,

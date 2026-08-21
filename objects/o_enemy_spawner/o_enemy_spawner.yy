@@ -13,7 +13,7 @@
   ],
   "parent":{
     "name":"spawners",
-    "path":"folders/ingame system/spawners.yy",
+    "path":"folders/ingame room system/spawners.yy",
   },
   "parentObjectId":{
     "name":"o_spawner_parent",

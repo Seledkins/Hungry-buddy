@@ -21,7 +21,7 @@ array_reverse_ext(buttons_info);
 values_info = [
 	pause_value_config(sp_time_icon, o_play_values_manager, "survived_time", function(survived_time_ms){return ms_to_timer_string(survived_time_ms);}),
 	pause_value_config(sp_eaten_enemies_icon, o_play_values_manager, "eaten_enemies"),
-	pause_value_config(sp_bonus_mushroom_icon, o_play_values_manager, "eaten_mushrooms"),
+	pause_value_config(sp_bonus_mushroom_icon, global, "mushrooms"),
 ];
 
 var text_scale = global.ui_assets_scale;
@@ -30,8 +30,10 @@ var text_formating = $"[scale, {text_scale}][fnt_curtsweeper]";
 var padding_block = (padding + 2) * text_scale;
 var padding_left = padding * text_scale;
 
-var simple_button_startx = Camera.view_x + Camera.view_width + appearance_offset;
+var simple_button_startx = Camera.view_x + Camera.view_width + current_appearance_offset;
 var simple_button_starty = Camera.view_y + Camera.view_height;
+
+draw_set_font(fnt_curtsweeper);
 
 for(var i = 0; i < array_length(buttons_info); i++) {
 	var button_info = buttons_info[i];
@@ -46,7 +48,7 @@ for(var i = 0; i < array_length(buttons_info); i++) {
 	(
 		simple_button_startx,
 		button_y,
-		simple_button_startx - appearance_offset - string_width(current_text) * text_scale - padding_left,
+		simple_button_startx - current_appearance_offset - (string_width(current_text) * text_scale) - padding_left,
 		button_y,
 		text_formating + current_text,
 		appearance_offset_speed,

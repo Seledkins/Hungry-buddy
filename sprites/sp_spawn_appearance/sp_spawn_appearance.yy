@@ -33,7 +33,7 @@
   "origin":9,
   "parent":{
     "name":"spawn appearance system",
-    "path":"folders/ingame system/spawners/spawn appearance system.yy",
+    "path":"folders/ingame room system/spawners/spawn appearance system.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

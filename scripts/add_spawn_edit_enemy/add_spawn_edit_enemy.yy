@@ -6,7 +6,7 @@
   "name":"add_spawn_edit_enemy",
   "parent":{
     "name":"spawners",
-    "path":"folders/ingame system/spawners.yy",
+    "path":"folders/ingame room system/spawners.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

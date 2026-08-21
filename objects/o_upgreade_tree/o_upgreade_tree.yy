@@ -1,15 +1,13 @@
 {
   "$GMObject":"",
-  "%Name":"o_init_room",
-  "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-  ],
+  "%Name":"o_upgreade_tree",
+  "eventList":[],
   "managed":true,
-  "name":"o_init_room",
+  "name":"o_upgreade_tree",
   "overriddenProperties":[],
   "parent":{
-    "name":"ingame system",
-    "path":"folders/ingame system.yy",
+    "name":"upgrades system",
+    "path":"folders/UI/upgrades system.yy",
   },
   "parentObjectId":null,
   "persistent":false,

@@ -1,12 +1,12 @@
 {
   "$GMScript":"v1",
-  "%Name":"get_random_upgrade",
+  "%Name":"set_room_permission",
   "isCompatibility":false,
   "isDnD":false,
-  "name":"get_random_upgrade",
+  "name":"set_room_permission",
   "parent":{
-    "name":"scripts",
-    "path":"folders/UI/upgrades system/scripts.yy",
+    "name":"different scripts",
+    "path":"folders/different scripts.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

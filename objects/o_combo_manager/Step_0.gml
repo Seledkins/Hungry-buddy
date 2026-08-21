@@ -23,6 +23,12 @@ if (combo > combo_previous) {
 }
 
 if (combo_previous < combo && (combo_previous) % combo_show_number != 0 && instance_exists(o_hole_parent)) {
+	
+	var shake_intesivity = (combo - combo_previous) + clamp(combo / 20, 0, 1.5);
+	var shake_acceleration = clamp(2 / combo, 0.1, infinity);
+	
+	uc_shake(shake_intesivity, shake_acceleration);
+	
 	for(var c = combo_previous; c <= combo; c++) {
 		
 		if (c % combo_show_number == 0 && c != 0) {
@@ -33,7 +39,6 @@ if (combo_previous < combo && (combo_previous) % combo_show_number != 0 && insta
 			instance_create_message(o_hole_parent.x, o_hole_parent.y, show_combo_text,,,, formating);
 			
 			audio_play_sfx_random(o_hole_parent.snds_laughs_arr, 1, random_range(0.93, 1.07));
-			uc_shake(6);
 			
 			break;
 		}

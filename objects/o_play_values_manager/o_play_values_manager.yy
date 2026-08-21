@@ -9,8 +9,8 @@
   "name":"o_play_values_manager",
   "overriddenProperties":[],
   "parent":{
-    "name":"ingame system",
-    "path":"folders/ingame system.yy",
+    "name":"ingame room system",
+    "path":"folders/ingame room system.yy",
   },
   "parentObjectId":{
     "name":"o_ingame_ui_parent",

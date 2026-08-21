@@ -45,7 +45,7 @@
   "origin":4,
   "parent":{
     "name":"arena",
-    "path":"folders/ingame system/arena.yy",
+    "path":"folders/ingame room system/arena.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

@@ -106,6 +106,9 @@ global.max_combo_record = 0;
 global.eaten_mushrooms_record = 0;
 global.survived_time_record = 0;
 
+//currencies
+global.mushrooms = 0;
+
 
 
 randomise();
