@@ -13,7 +13,7 @@
   "overriddenProperties":[],
   "parent":{
     "name":"pause system",
-    "path":"folders/UI/buttons/pause system.yy",
+    "path":"folders/UI/pause system.yy",
   },
   "parentObjectId":null,
   "persistent":false,

@@ -6,7 +6,7 @@
   "name":"instance_create_simple_button",
   "parent":{
     "name":"simple button",
-    "path":"folders/UI/buttons/simple button.yy",
+    "path":"folders/UI/buttons system/simple button.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

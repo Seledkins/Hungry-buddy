@@ -6,5 +6,6 @@ function reset_bite_values(){
 	bite_fluctuation = false;
 	
 	lockstep = false;
-	eated_enemies = 0;
+	eated_enemies_during_bite = 0;
+	bite_shake = false;
 }

@@ -101,14 +101,15 @@
 objs_spawn_info_init();
 upgrades_info_init();
 
-global.eaten_monsters_record = 0;
+//values
+global.mushrooms = 0;
+
+global.eaten_enemies_record = 0;
 global.max_combo_record = 0;
 global.eaten_mushrooms_record = 0;
 global.survived_time_record = 0;
 
-//currencies
-global.mushrooms = 0;
-
+load_values();
 
 
 randomise();

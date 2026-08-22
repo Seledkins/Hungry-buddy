@@ -9,8 +9,8 @@
   "name":"o_button_pause",
   "overriddenProperties":[],
   "parent":{
-    "name":"pause system",
-    "path":"folders/UI/buttons/pause system.yy",
+    "name":"buttons system",
+    "path":"folders/UI/buttons system.yy",
   },
   "parentObjectId":{
     "name":"o_button_parent",

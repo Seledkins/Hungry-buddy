@@ -24,10 +24,10 @@ if (combo > combo_previous) {
 
 if (combo_previous < combo && (combo_previous) % combo_show_number != 0 && instance_exists(o_hole_parent)) {
 	
-	var shake_intesivity = (combo - combo_previous) + clamp(combo / 20, 0, 1.5);
-	var shake_acceleration = clamp(2 / combo, 0.1, infinity);
+	//var shake_intesivity = (combo - combo_previous) + clamp(combo / 20, 0, 1.5);
+	//var shake_acceleration = clamp(2 / combo, 0.1, infinity);
 	
-	uc_shake(shake_intesivity, shake_acceleration);
+	//uc_shake(shake_intesivity, shake_acceleration);
 	
 	for(var c = combo_previous; c <= combo; c++) {
 		

@@ -12,7 +12,7 @@ buttons_info = [
 		
 	pause_button_config("RESTART", function(){game_over(); buttons_array_clear(); set_pause(false)}),
 	pause_button_config("SETTINGS", function(){}),
-	pause_button_config("MENU", function(){}),
+	pause_button_config("MENU", function(){room_goto(rm_upgrades)}),
 	
 ];
 

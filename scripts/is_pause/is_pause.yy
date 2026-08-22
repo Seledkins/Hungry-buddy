@@ -5,8 +5,8 @@
   "isDnD":false,
   "name":"is_pause",
   "parent":{
-    "name":"UI",
-    "path":"folders/UI.yy",
+    "name":"pause system",
+    "path":"folders/UI/pause system.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

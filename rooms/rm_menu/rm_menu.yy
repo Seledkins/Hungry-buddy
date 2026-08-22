@@ -1,7 +1,7 @@
 {
   "$GMRoom":"v1",
   "%Name":"rm_menu",
-  "creationCodeFile":"",
+  "creationCodeFile":"rooms/rm_menu/RoomCreationCode.gml",
   "inheritCode":false,
   "inheritCreationOrder":false,
   "inheritLayers":false,
@@ -13,8 +13,8 @@
   ],
   "name":"rm_menu",
   "parent":{
-    "name":"rooms",
-    "path":"folders/rooms.yy",
+    "name":"UI",
+    "path":"folders/UI.yy",
   },
   "parentRoom":null,
   "physicsSettings":{

@@ -9,8 +9,8 @@
   "name":"o_button_parent",
   "overriddenProperties":[],
   "parent":{
-    "name":"buttons",
-    "path":"folders/UI/buttons.yy",
+    "name":"buttons system",
+    "path":"folders/UI/buttons system.yy",
   },
   "parentObjectId":null,
   "persistent":false,

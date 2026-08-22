@@ -1,4 +1,6 @@
 set_room_permission();
+Camera.cam_mode = CMODE.STATIC;
+uc_set_position_now(room_width / 2, room_height / 2);
 
 instance_create_depth(0, 0, 0, o_ingame_trash_deleter);
 instance_create_depth(0, 0, 0, o_play_values_manager);

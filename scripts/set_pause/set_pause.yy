@@ -6,7 +6,7 @@
   "name":"set_pause",
   "parent":{
     "name":"pause system",
-    "path":"folders/UI/buttons/pause system.yy",
+    "path":"folders/UI/pause system.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",
