@@ -1,10 +1,6 @@
 // Inherit the parent event
 event_inherited();
 
-if (!mouse_on_self()) {
-	exit;	
-}
-
 var func_pause_enable = function() {
 	instance_activate_object(o_play_values_manager);
 	instance_activate_object(o_snd_manager);

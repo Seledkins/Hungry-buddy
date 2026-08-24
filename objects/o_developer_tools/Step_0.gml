@@ -65,3 +65,7 @@ if (keyboard_check_pressed(vk_escape)) {
 if (keyboard_check_pressed(ord("R"))) {
 	game_over()
 }
+
+if (keyboard_check_pressed(ord("M"))) {
+	global.mushrooms += 10;
+}

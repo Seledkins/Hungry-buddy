@@ -1,1 +1,0 @@
-delete global.upgrades_tree;

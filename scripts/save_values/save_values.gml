@@ -2,6 +2,8 @@ function save_values(){
 	
 	var values_to_save = {
 		mushrooms : global.mushrooms,
+		bought_upgrades_amount : global.bought_upgrades_amount,
+		max_bought_upgrades_amount : global.max_bought_upgrades_amount,
 		
 		records : {
 			mushrooms : global.eaten_mushrooms_record,

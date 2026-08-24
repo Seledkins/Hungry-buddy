@@ -1,1 +1,0 @@
-global.upgrades_tree = upgrades_tree_load();

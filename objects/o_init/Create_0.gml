@@ -59,7 +59,10 @@
 	#macro sprite_speed_to_image_index_changing_ratio 0.017
 	#macro current_projectile other
 	
-	shadows_system_init()
+	shadows_system_init();
+	
+	application_surface_draw_enable(false);
+	instance_create(0, 0, o_fx_manager);
 	
 	global.fluctuations_alpha = 0.6;
 	global.color_dark_purple = #170026;
@@ -72,11 +75,17 @@
 	global.color_green = #1c282a;
 	global.color_dark_green = #14151a;
 	global.color_bright_purple_dark = #261E3F;
+	global.color_bright_purple = #30265e;
+	global.color_black = #0f0c00;
 	
 	global.bright_blood_color = #30265e;
 	global.dark_blood_color = global.color_bright_purple_dark;
 	
 	global.ui_assets_scale = 1.3;
+	
+	global.upgrades_callbacks = {};
+	global.catch_upgrades_callbacks = false;
+	global.room_after_catch_upgrades = rm_play;
 	
 #endregion
 
@@ -99,10 +108,11 @@
 
 //objs init
 objs_spawn_info_init();
-upgrades_info_init();
 
 //values
 global.mushrooms = 0;
+global.bought_upgrades_amount = 0;
+global.max_bought_upgrades_amount = 20;
 
 global.eaten_enemies_record = 0;
 global.max_combo_record = 0;
@@ -113,5 +123,4 @@ load_values();
 
 
 randomise();
-instance_destroy();
-room_goto(rm_play);
+catch_upgrades_and_start(rm_play);

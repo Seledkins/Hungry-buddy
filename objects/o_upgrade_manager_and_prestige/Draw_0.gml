@@ -1,0 +1,1 @@
+draw_sprite_ext(sp_bg_main_upgrade, 0, x, y, 1, 1, current_time / 100, c_white, 1);

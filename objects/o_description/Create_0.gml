@@ -1,3 +1,5 @@
+depth = -1;
+
 #region size 
 draw_set_font(description_font);
 description_width = string_width_scribble_ext(description, max_width) * description_max_scale;

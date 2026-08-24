@@ -119,8 +119,8 @@
   "maintainGms1Font":false,
   "name":"fnt_spielarcade",
   "parent":{
-    "name":"UI",
-    "path":"folders/UI.yy",
+    "name":"fonts",
+    "path":"folders/UI/fonts.yy",
   },
   "pointRounding":0,
   "ranges":[

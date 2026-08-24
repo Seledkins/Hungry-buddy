@@ -1,1 +1,1 @@
-outline_draw_sprite(sprite_index, image_index, x_to_guix(x), y_to_guiy(y));
+draw_sprite_ext(sprite_index, image_index, x_to_guix(x), y_to_guiy(y), global.ui_assets_scale, global.ui_assets_scale, image_angle, image_blend, image_alpha);
