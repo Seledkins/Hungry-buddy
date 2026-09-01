@@ -5,8 +5,8 @@
   "isDnD":false,
   "name":"show_mes_var",
   "parent":{
-    "name":"different scripts",
-    "path":"folders/different scripts.yy",
+    "name":"show message",
+    "path":"folders/different scripts/show message.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

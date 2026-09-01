@@ -3,6 +3,7 @@
   "%Name":"o_bonus_chest",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
   "name":"o_bonus_chest",
@@ -47,7 +48,7 @@
   "properties":[
     {"$GMObjectProperty":"v2","%Name":"min_drop_objs_amount","filters":[],"listItems":[],"multiselect":false,"name":"min_drop_objs_amount","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"2","varType":1,},
     {"$GMObjectProperty":"v2","%Name":"max_drop_objs_amount","filters":[],"listItems":[],"multiselect":false,"name":"max_drop_objs_amount","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"3","varType":1,},
-    {"$GMObjectProperty":"v2","%Name":"drop_objs","filters":[],"listItems":[],"multiselect":false,"name":"drop_objs","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"[o_bonus_mushroom, o_bonus_heart, oe_frog]","varType":4,},
+    {"$GMObjectProperty":"v2","%Name":"drop_objs","filters":[],"listItems":[],"multiselect":false,"name":"drop_objs","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"[]","varType":4,},
     {"$GMObjectProperty":"v2","%Name":"drop_objs_array_length","filters":[],"listItems":[],"multiselect":false,"name":"drop_objs_array_length","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"array_length(drop_objs)","varType":4,},
   ],
   "resourceType":"GMObject",

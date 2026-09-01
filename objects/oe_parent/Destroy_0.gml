@@ -10,7 +10,7 @@ o_play_values_manager.killed_enemies_amount++;
 
 if (object_is_ancestor(killer.object_index, o_peaceful_parent)) {
 	o_play_values_manager.eaten_enemies++;
-	o_combo_manager.combo++;
+	o_combo_manager.combo += o_combo_manager.combo_increament;
 }
 
 if (random(100) <= drop_obj_chance) {
@@ -20,7 +20,7 @@ if (random(100) <= drop_obj_chance) {
 		var objs_spd = 2.5
 		var objs_friction = 0.1
 		
-		instance_bonus_create(x, y, obj, objs_spd, objs_friction, random_direction(), true);
+		instance_create_bonus(x, y, obj, objs_spd, objs_friction, random_direction(), true);
 
 	}
 }

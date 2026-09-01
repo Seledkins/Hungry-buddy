@@ -1,17 +1,28 @@
 function take_damage(creature, damage, _killer = id){
 	
-	if (!variable_instance_exists(creature, "hp") || creature.invincible) {
-		return
-	}
+	with(creature) {
+		if (!variable_instance_exists(creature, "hp") || invincible) {
+			return
+		}
 	
-	creature.hp -= damage;
+		if (shields == 0) {
+			hp -= damage;
+			
+			if (hp <= 0) {
+				killer = _killer;
+				kill_creature(creature);
+			}
+		} else {
+			shields = clamp(shields - damage, 0, infinity);
+			if (shields == 0) {
+				audio_play_sfx(snd_braek_shield, 1.8);
+			}
+			// добавить какой-нибудь звук ломания щита, или что-то подобное
+			set_invincible(creature, true, 20);
+		}
+	}
 	
 	//show_debug_message($"{creature.object_index} hp: {creature.hp} ---------------------------");
-	
-	if (creature.hp <= 0) {
-		creature.killer = _killer;
-		kill_creature(creature);
-	}
 	
 	return creature;
 	

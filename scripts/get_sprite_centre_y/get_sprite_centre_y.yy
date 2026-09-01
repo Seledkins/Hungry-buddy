@@ -5,8 +5,8 @@
   "isDnD":false,
   "name":"get_sprite_centre_y",
   "parent":{
-    "name":"different scripts",
-    "path":"folders/different scripts.yy",
+    "name":"sprites",
+    "path":"folders/different scripts/sprites.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

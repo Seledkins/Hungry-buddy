@@ -5,8 +5,8 @@
   "isDnD":false,
   "name":"struct_is_empty",
   "parent":{
-    "name":"different scripts",
-    "path":"folders/different scripts.yy",
+    "name":"structs",
+    "path":"folders/different scripts/structs.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

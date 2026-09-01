@@ -1,0 +1,26 @@
+{
+  "$GMSound":"v2",
+  "%Name":"snd_test_background_music_skill_tree",
+  "audioGroupId":{
+    "name":"ag_music",
+    "path":"audiogroups/ag_music",
+  },
+  "bitDepth":1,
+  "channelFormat":0,
+  "compression":0,
+  "compressionQuality":4,
+  "conversionMode":0,
+  "duration":41.47084,
+  "exportDir":"",
+  "name":"snd_test_background_music_skill_tree",
+  "parent":{
+    "name":"upgrades system",
+    "path":"folders/UI/upgrades system.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"snd_test_background_music_skill_tree.mp3",
+  "volume":0.32,
+}

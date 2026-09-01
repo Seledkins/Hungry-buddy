@@ -5,8 +5,8 @@
   "isDnD":false,
   "name":"set_invincible",
   "parent":{
-    "name":"different scripts",
-    "path":"folders/different scripts.yy",
+    "name":"damage system",
+    "path":"folders/different scripts/damage system.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

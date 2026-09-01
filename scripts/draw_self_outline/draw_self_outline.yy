@@ -5,8 +5,8 @@
   "isDnD":false,
   "name":"draw_self_outline",
   "parent":{
-    "name":"different scripts",
-    "path":"folders/different scripts.yy",
+    "name":"draw",
+    "path":"folders/different scripts/draw.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

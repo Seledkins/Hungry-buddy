@@ -29,6 +29,7 @@
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"o_outline_parent","path":"objects/o_outline_parent/o_outline_parent.yy",},"propertyId":{"name":"outline_width","path":"objects/o_outline_parent/o_outline_parent.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"1",},
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"o_shadow_parent","path":"objects/o_shadow_parent/o_shadow_parent.yy",},"propertyId":{"name":"sprite_width_main","path":"objects/o_shadow_parent/o_shadow_parent.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"sprite_get_width(sprite_index)",},
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"o_shadow_parent","path":"objects/o_shadow_parent/o_shadow_parent.yy",},"propertyId":{"name":"shadow_width","path":"objects/o_shadow_parent/o_shadow_parent.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"sprite_width_main",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"o_creature","path":"objects/o_creature/o_creature.yy",},"propertyId":{"name":"shields","path":"objects/o_creature/o_creature.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"0",},
   ],
   "parent":{
     "name":"holes",

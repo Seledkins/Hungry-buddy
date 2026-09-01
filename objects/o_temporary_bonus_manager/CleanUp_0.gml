@@ -1,0 +1,1 @@
+destroy_all_temporary_executed_bonuses();

@@ -5,8 +5,8 @@
   "isDnD":false,
   "name":"ds_list_foreach",
   "parent":{
-    "name":"different scripts",
-    "path":"folders/different scripts.yy",
+    "name":"ds list",
+    "path":"folders/different scripts/ds list.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

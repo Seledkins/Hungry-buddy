@@ -64,7 +64,6 @@
     {"$GMObjectProperty":"v2","%Name":"drop_objs_amount","filters":[],"listItems":[],"multiselect":false,"name":"drop_objs_amount","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"array_length(drop_objs)","varType":4,},
     {"$GMObjectProperty":"v2","%Name":"min_drop_objs_amount","filters":[],"listItems":[],"multiselect":false,"name":"min_drop_objs_amount","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"1","varType":0,},
     {"$GMObjectProperty":"v2","%Name":"max_drop_objs_amount","filters":[],"listItems":[],"multiselect":false,"name":"max_drop_objs_amount","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"min_drop_objs_amount","varType":4,},
-    {"$GMObjectProperty":"v2","%Name":"drop_obj_chance","filters":[],"listItems":[],"multiselect":false,"name":"drop_obj_chance","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"3","varType":0,},
   ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",

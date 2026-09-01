@@ -5,8 +5,8 @@
   "isDnD":false,
   "name":"show_debug_all_variables_instance",
   "parent":{
-    "name":"different scripts",
-    "path":"folders/different scripts.yy",
+    "name":"show message",
+    "path":"folders/different scripts/show message.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

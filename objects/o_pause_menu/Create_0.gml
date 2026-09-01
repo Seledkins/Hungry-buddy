@@ -8,6 +8,7 @@ buttons_info = [
 		set_pause(false);
 		buttons_array_clear();
 		current_appearance_offset = appearance_offset;
+		set_pause_all_temporary_executed_bonuses(false);
 		}),
 		
 	pause_button_config("RESTART", function(){game_over(); buttons_array_clear(); set_pause(false)}),

@@ -6,6 +6,7 @@ if (is_array(description)) {
 
 if (!focused) {
 	outline_color = global.color_bright_purple_dark;
+	audio_play_sfx_random_pitch(snd_select_upgrade, 0.96, 0.94, 1.05);
 	inst_desc = instance_create_description(x, y, ui_depth, upgrade_header_gather_string(), fnt_curtsweeper, 1, $"{dec_color(global.color_dark_white)}{current_desc}", fnt_pixeloid, 1, false, 5, sprite_width / 2, true);
 } else if (level < max_level && global.mushrooms >= cost){
 	if (parent.level != 0) {
@@ -25,6 +26,7 @@ if (!focused) {
 		}
 		
 		instance_create_message(x, y, $"{dec_color(global.color_white)}+1");
+		audio_play_sfx(snd_bought_upgrade, 1.6, 1 + level * 0.1);
 		level++;
 		inst_desc.header = upgrade_header_gather_string();
 	
@@ -55,12 +57,15 @@ if (!focused) {
 	} else {
 		instance_create_message(x, y, $"{dec_color(global.color_red)}Unlock {string_upper(parent.name)} first",,,,, 0.65);
 		create_smart_part_system(x, y, ps_bubble_border_locked, 55, o_upgrade_manager_and_prestige.layid_upgrades,, {depth : -50});
+		audio_play_sfx_random_pitch(snd_negative, 1.2, 0.98, 1.03);
 	}
 	
 } else if (global.mushrooms < cost && level < max_level) {
 	instance_create_message(x, y, $"{dec_color(global.color_red)}not enough [tsp_mushroom]",,,,, 0.65);		
+	audio_play_sfx_random_pitch(snd_negative, 2.4, 0.98, 1.03);
 } else {
-	instance_create_message(x, y, $"{dec_color(global.color_white)}max level",,,,, 0.65);		
+	instance_create_message(x, y, $"{dec_color(global.color_white)}max level",,,,, 0.65);
+	audio_play_sfx_random_pitch(snd_negative, 2.4, 0.98, 1.03);
 }
 
 focused = true;

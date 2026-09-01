@@ -5,7 +5,7 @@
 	global.device_width = max(w, h)
 	global.device_height = min(w, h)
 
-	shadow_surface = undefined
+	shadow_surface = undefined;
 
 	room_width = global.device_width
 	room_height = global.device_height

@@ -5,8 +5,8 @@
   "isDnD":false,
   "name":"draw_sprite_ext_skew",
   "parent":{
-    "name":"different scripts",
-    "path":"folders/different scripts.yy",
+    "name":"draw",
+    "path":"folders/different scripts/draw.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

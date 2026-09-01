@@ -1,0 +1,1 @@
+destroy_temporary_executed_bonus(o_bonus_shield);

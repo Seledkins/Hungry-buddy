@@ -17,5 +17,6 @@ audio_play_sfx(snd_appearance);
 draw_ev_activate_flag = false;
 alarm[2] = 2;
 prev_hp = hp;
+prev_shields = shields;
 
 

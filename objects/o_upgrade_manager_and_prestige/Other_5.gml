@@ -1,2 +1,2 @@
 delete global.upgrades_tree;
-
+audio_stop_sound(snd_test_background_music_skill_tree);
