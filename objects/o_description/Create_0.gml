@@ -11,19 +11,24 @@ if (header != "") {
 	header_height = string_height_scribble_ext(header, max_width) * header_max_scale;
 } else { 
 	header_width = 0;
-	header_height = 0 
-} 
+	header_height = 0;
+}
 
 var scale_change = 0.1;
 
-while(sprite_width < (max(description_width, header_width)) + padding * 2) {
-	image_xscale += scale_change;
+//var resize_ratiox = sign(previous_imagex_scale - max_image_xscale);
+
+while(sprite_width /** resize_ratiox*/ < ((max(description_width, header_width)) + padding * 2) /** resize_ratiox*/) {
+	image_xscale += scale_change //* resize_ratiox;
 }
 
 padding_header_ratio = (header == "") ? 0 : 1;
 
-while(sprite_height < (description_height + header_height + padding * (2 + padding_header_ratio))) {
-	image_yscale += scale_change;
+//var resize_ratioy = sign(previous_imagey_scale - max_image_yscale);
+//show_message(resize_ratioy);
+
+while((sprite_height /** resize_ratiox*/) < ((description_height + header_height + padding * (2 + padding_header_ratio)) /** resize_ratiox*/)) {
+	image_yscale += scale_change //* resize_ratioy;
 }
 #endregion
 

@@ -9,6 +9,7 @@ function upgrades_tree_load(){
 		with(o_upgrade) {
 			if (self.key == upgrade_key) {
 				self.level = upgrade_info.level;
+				self.visual_level = clamp(level, 0, self.max_level - 1);
 			}
 		}
 	})

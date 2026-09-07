@@ -15,7 +15,7 @@ function add_temporary_bonus_execute(time_units_seconds, bonus_obj_index, _callb
 		});	
 	
 		_index = array_length(o_temporary_bonus_manager.executed_bonuses) - 1;
-		time_source_reconfigure(time_source, time_units_seconds, time_source_units_seconds, function(callback, _time_source, _index){ callback(); time_source_destroy(_time_source); array_delete(o_temporary_bonus_manager.executed_bonuses, _index, 1); }, [_callback, time_source, _index]);	
+		time_source_reconfigure(time_source, time_units_seconds, time_source_units_seconds, function(callback, _time_source, _bonus_obj_index){ callback(); destroy_temporary_executed_bonus(_bonus_obj_index); }, [_callback, time_source, bonus_obj_index]);	
 		
 	} else {
 		time_source = o_temporary_bonus_manager.executed_bonuses[_index].time_source_id;
@@ -25,6 +25,6 @@ function add_temporary_bonus_execute(time_units_seconds, bonus_obj_index, _callb
 	
 	time_source_start(time_source);
 	
-	return {index : _index, exists : _exists};
+	return {index : _index, exists : _exists, bonus_obj_index : bonus_obj_index};
 	
 }

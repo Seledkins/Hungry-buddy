@@ -2,3 +2,4 @@
 event_inherited();
 
 prev_hp = hp;
+shields_prev = shields;
