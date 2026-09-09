@@ -998,6 +998,7 @@
     {"id":{"name":"sp_description","path":"sprites/sp_description/sp_description.yy",},},
     {"id":{"name":"sp_dust_particle","path":"sprites/sp_dust_particle/sp_dust_particle.yy",},},
     {"id":{"name":"sp_eaten_enemies_icon","path":"sprites/sp_eaten_enemies_icon/sp_eaten_enemies_icon.yy",},},
+    {"id":{"name":"sp_executed_bonus_time_indecator","path":"sprites/sp_executed_bonus_time_indecator/sp_executed_bonus_time_indecator.yy",},},
     {"id":{"name":"sp_explosion_big","path":"sprites/sp_explosion_big/sp_explosion_big.yy",},},
     {"id":{"name":"sp_explosion_mushroom_attack","path":"sprites/sp_explosion_mushroom_attack/sp_explosion_mushroom_attack.yy",},},
     {"id":{"name":"sp_explosion_mushroom_idle","path":"sprites/sp_explosion_mushroom_idle/sp_explosion_mushroom_idle.yy",},},

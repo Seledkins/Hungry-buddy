@@ -10,8 +10,9 @@ function add_temporary_bonus_execute(time_units_seconds, bonus_obj_index, _callb
 		array_push(o_temporary_bonus_manager.executed_bonuses, {
 			time_source_id: time_source,
 			obj_index: bonus_obj_index,
+			sprite : object_get_sprite(bonus_obj_index),
 			callback: _callback,
-			time: time_units_seconds,
+			start_time: time_units_seconds,
 		});	
 	
 		_index = array_length(o_temporary_bonus_manager.executed_bonuses) - 1;

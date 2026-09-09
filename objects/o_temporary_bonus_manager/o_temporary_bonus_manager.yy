@@ -3,6 +3,7 @@
   "%Name":"o_temporary_bonus_manager",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":12,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":64,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
   "name":"o_temporary_bonus_manager",
@@ -27,6 +28,11 @@
   "physicsStartAwake":true,
   "properties":[
     {"$GMObjectProperty":"v2","%Name":"executed_bonuses","filters":[],"listItems":[],"multiselect":false,"name":"executed_bonuses","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"[]","varType":4,},
+    {"$GMObjectProperty":"v2","%Name":"max_bonuses_inline","filters":[],"listItems":[],"multiselect":false,"name":"max_bonuses_inline","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"2","varType":0,},
+    {"$GMObjectProperty":"v2","%Name":"padding","filters":[],"listItems":[],"multiselect":false,"name":"padding","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"o_health_bar.padding","varType":4,},
+    {"$GMObjectProperty":"v2","%Name":"bonus_sprite_width","filters":[],"listItems":[],"multiselect":false,"name":"bonus_sprite_width","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"32","varType":0,},
+    {"$GMObjectProperty":"v2","%Name":"starty","filters":[],"listItems":[],"multiselect":false,"name":"starty","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"o_health_bar.padding + o_health_bar.sprite_width","varType":4,},
+    {"$GMObjectProperty":"v2","%Name":"max_frames_sprite_time","filters":[],"listItems":[],"multiselect":false,"name":"max_frames_sprite_time","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"sprite_get_number(sp_executed_bonus_time_indecator) ","varType":4,},
   ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
