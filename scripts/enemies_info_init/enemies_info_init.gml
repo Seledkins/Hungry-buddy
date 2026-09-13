@@ -48,7 +48,12 @@ function enemies_info_init(){
 		instance_destroy(current_enemy);
 	}
 	
-	show_debug_message("----------------------------------------------\n" + string(global.enemies_info) + "\nEnemies amount:" + string(global.enemies_amount) + "\nTotal enemies chances: " + string(global.total_enemies_chances) + "\n----------------------------------------------\n\n\n\n");
+	array_sort(global.enemies_info, function(enemy_info, next_enemy_info) {
+		return enemy_info.min_killed_enemies_to_spawn - next_enemy_info.min_killed_enemies_to_spawn;
+	});
+	debug_array(global.enemies_info);
+	
+	show_debug_message("\nTotal enemies chances: " + string(global.total_enemies_chances) + "\n----------------------------------------------\n\n\n\n");
 	
 	return global.enemies_info
 	

@@ -1,1 +1,1 @@
-combo += 9;
+combo += 1;

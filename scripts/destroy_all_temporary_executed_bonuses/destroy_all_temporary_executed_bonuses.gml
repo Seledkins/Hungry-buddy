@@ -11,5 +11,6 @@ function destroy_all_temporary_executed_bonuses(_execute_flag = false){
 		
 	})
 	
+	o_temporary_bonus_manager.executed_bonuses = [];
 	o_temporary_bonus_manager.execute_flag = undefined;
 }

@@ -22,7 +22,7 @@ array_reverse_ext(buttons_info);
 values_info = [
 	pause_value_config(sp_time_icon, o_play_values_manager, "survived_time", function(survived_time_ms){return ms_to_timer_string(survived_time_ms);}),
 	pause_value_config(sp_eaten_enemies_icon, o_play_values_manager, "eaten_enemies"),
-	pause_value_config(sp_bonus_mushroom_icon, global, "mushrooms"),
+	pause_value_config(sp_bonus_mushroom_icon, global.save_values_info, "mushrooms"),
 ];
 
 var text_scale = global.ui_assets_scale;

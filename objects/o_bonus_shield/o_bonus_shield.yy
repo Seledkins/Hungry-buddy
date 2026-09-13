@@ -6,7 +6,8 @@
   "name":"o_bonus_shield",
   "overriddenProperties":[
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"o_bonus_parent","path":"objects/o_bonus_parent/o_bonus_parent.yy",},"propertyId":{"name":"destroy_function","path":"objects/o_bonus_parent/o_bonus_parent.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"destroy_bonus_shield",},
-    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"o_bonus_parent","path":"objects/o_bonus_parent/o_bonus_parent.yy",},"propertyId":{"name":"sprite_eated","path":"objects/o_bonus_parent/o_bonus_parent.yy",},"resource":{"name":"sp_bonus_eaten_shield","path":"sprites/sp_bonus_eaten_shield/sp_bonus_eaten_shield.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"sp_bonus_eaten_shield",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"o_bonus_parent","path":"objects/o_bonus_parent/o_bonus_parent.yy",},"propertyId":{"name":"sprite_eaten","path":"objects/o_bonus_parent/o_bonus_parent.yy",},"resource":{"name":"sp_bonus_eaten_shield","path":"sprites/sp_bonus_eaten_shield/sp_bonus_eaten_shield.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"sp_bonus_eaten_shield",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"o_spawn_obj_parent","path":"objects/o_spawn_obj_parent/o_spawn_obj_parent.yy",},"propertyId":{"name":"chance_to_spawn","path":"objects/o_spawn_obj_parent/o_spawn_obj_parent.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"30",},
   ],
   "parent":{
     "name":"shield",
@@ -38,5 +39,8 @@
     "path":"sprites/sp_bonus_shield/sp_bonus_shield.yy",
   },
   "spriteMaskId":null,
+  "tags":[
+    "spawn_bonus",
+  ],
   "visible":true,
 }

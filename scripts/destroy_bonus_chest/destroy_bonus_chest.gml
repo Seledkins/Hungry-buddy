@@ -12,9 +12,10 @@ function destroy_bonus_chest(){
 	//}
 	
 	var created_objs = [];
+	var chest_drop_arr = global.save_values_info.bonuses_info.chest_drop_arr;
 	
 	repeat(irandom_range(min_drop_objs_amount, max_drop_objs_amount)) {
-		var drop_info = global.chest_drop_arr[irandom(array_length(global.chest_drop_arr) - 1)];
+		var drop_info = chest_drop_arr[irandom(array_length(chest_drop_arr) - 1)];
 		var obj = drop_info.obj;
 		
 		if (array_count_value(created_objs, obj) >= drop_info.max_count) {

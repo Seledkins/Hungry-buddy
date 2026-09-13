@@ -5,8 +5,8 @@
   "isDnD":false,
   "name":"objs_spawn_info_init",
   "parent":{
-    "name":"creatures",
-    "path":"folders/creatures.yy",
+    "name":"global init",
+    "path":"folders/global init.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

@@ -48,7 +48,6 @@ global.gui_width = view_width;
 global.gui_height = view_height;
 surface_resize(application_surface, view_width, view_height);
 
-
 port_height = view_height;
 
 // ==============================================================

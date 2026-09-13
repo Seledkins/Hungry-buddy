@@ -16,7 +16,7 @@ function add_temporary_bonus_execute(time_units_seconds, bonus_obj_index, _callb
 		});	
 	
 		_index = array_length(o_temporary_bonus_manager.executed_bonuses) - 1;
-		time_source_reconfigure(time_source, time_units_seconds, time_source_units_seconds, function(callback, _time_source, _bonus_obj_index){ callback(); destroy_temporary_executed_bonus(_bonus_obj_index); }, [_callback, time_source, bonus_obj_index]);	
+		time_source_reconfigure(time_source, time_units_seconds, time_source_units_seconds, function(callback, _time_source, _bonus_obj_index){ callback(); destroy_temporary_executed_bonus(_bonus_obj_index); audio_play_sfx_random_pitch(snd_bonus_end, 1, 0.95, 1.05) }, [_callback, time_source, bonus_obj_index]);	
 		
 	} else {
 		time_source = o_temporary_bonus_manager.executed_bonuses[_index].time_source_id;

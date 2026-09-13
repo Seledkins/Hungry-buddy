@@ -1,3 +1,3 @@
-if (sprite_index == sprite_eated) {
+if (sprite_index == sprite_eaten) {
 	instance_destroy();	
 }

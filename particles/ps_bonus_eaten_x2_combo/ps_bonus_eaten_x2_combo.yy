@@ -1,6 +1,6 @@
 {
   "$GMParticleSystem":"",
-  "%Name":"ps_x2_combo",
+  "%Name":"ps_bonus_eaten_x2_combo",
   "backdropHeight":768,
   "backdropImageOpacity":0.5,
   "backdropImagePath":"",
@@ -11,7 +11,7 @@
   "emitters":[
     {"$GMPSEmitter":"","%Name":"Emitter","additiveBlend":false,"directionIncrease":0.0,"directionMax":120.0,"directionMin":60.0,"directionWiggle":0.0,"distribution":0,"editorColour":1090519039,"editorDrawShape":true,"emitCount":15,"emitDelayMax":0.0,"emitDelayMin":0.0,"emitDelayUnits":0,"emitIntervalMax":0.0,"emitIntervalMin":0.0,"emitIntervalUnits":0,"enabled":true,"endColour":4294967295,"GMPresetName":null,"gravityDirection":270.0,"gravityForce":0.0,"headPosition":0.0,"lifetimeMax":50.0,"lifetimeMin":30.0,"linkedEmitter":null,"locked":false,"midColour":4294967295,"mode":1,"name":"Emitter","orientationIncrease":3.0,"orientationMax":0.0,"orientationMin":0.0,"orientationRelative":false,"orientationWiggle":0.0,"regionH":15.0,"regionW":15.0,"regionX":0.0,"regionY":0.0,"resourceType":"GMPSEmitter","resourceVersion":"2.0","scaleX":1.0,"scaleY":1.0,"shape":0,"sizeIncrease":0.0,"sizeMax":1.0,"sizeMin":1.0,"sizeWiggle":0.0,"spawnOnDeathCount":1,"spawnOnDeathGMPreset":null,"spawnOnDeathId":null,"spawnOnUpdateCount":1,"spawnOnUpdateGMPreset":null,"spawnOnUpdateId":null,"speedIncrease":0.0,"speedMax":0.7,"speedMin":0.2,"speedWiggle":0.0,"spriteAnimate":true,"spriteId":{"name":"sp_bonus_combo_part","path":"sprites/sp_bonus_combo_part/sp_bonus_combo_part.yy",},"spriteRandom":false,"spriteStretch":true,"startColour":4294967295,"texture":-1,},
   ],
-  "name":"ps_x2_combo",
+  "name":"ps_bonus_eaten_x2_combo",
   "parent":{
     "name":"x2 combo",
     "path":"folders/bonus system/temporary bonuses system/temporary bonuses/x2 combo.yy",

@@ -14,7 +14,7 @@ fd_rectangle_set_material_dissipation_value(fdrect_combo_bg, 0.98); // сила 
 fd_rectangle_set_velocity_dissipation_type(fdrect_combo_bg, 1); // по умолчанию на 1
 fd_rectangle_set_velocity_dissipation_value(fdrect_combo_bg, 0) // сила рассеивания скорости
 
-fd_rectangle_set_velocity_maccormack_weight(fdrect_combo_bg, 1.5); // сила детализации мелких деталей
+fd_rectangle_set_velocity_maccormack_weight(fdrect_combo_bg, 1); // сила детализации мелких деталей
 fd_rectangle_set_material_maccormack_weight(fdrect_combo_bg, 0);
 
 fd_rectangle_set_pressure_iteration_type(fdrect_combo_bg, -1); // !ЖРЕТ МНОГО ФПС! количество итераций: -1 for 16 iterations. -2 for 31 iterations. -3 for 64 iterations. -4 for 131 iterations.
@@ -31,3 +31,5 @@ fd_rectangle_set_acceleration(fdrect_combo_bg, 0, 0) // устанвавлива
 
 x = Camera.view_x + Camera.view_width / 2 - fdrect_combo_width / 2;
 y = Camera.view_y - fdrect_combo_height / 3;
+
+alarm[1] = 1;

@@ -1,13 +1,15 @@
 global.no_lockstep = true;
 
+destroy_all_temporary_executed_bonuses(true);
+
 with(o_play_values_manager) {
-	global.eaten_enemies_record = max(eaten_enemies, global.eaten_enemies_record);
-	global.eaten_mushrooms_record = max(eaten_mushrooms, global.eaten_mushrooms_record);
-	global.max_combo_record = max(max_combo, global.max_combo_record);
-	global.survived_time_record = max(survived_time, global.survived_time_record);
+	global.save_values_info.records.eaten_enemies = max(eaten_enemies, global.save_values_info.records.eaten_enemies);
+	global.save_values_info.records.mushrooms = max(eaten_mushrooms, global.save_values_info.records.mushrooms);
+	global.save_values_info.records.max_combo = max(max_combo, global.save_values_info.records.max_combo);
+	global.save_values_info.records.survived_time = max(survived_time, global.save_values_info.records.survived_time);
 }
 
-game_over_info_str = $" Eaten monsters: {o_play_values_manager.eaten_enemies}      record: {global.eaten_enemies_record}\n Eaten musrooms: {o_play_values_manager.eaten_mushrooms}      record: {global.eaten_mushrooms_record}\n Max combo: {o_play_values_manager.max_combo}      record: {global.max_combo_record}\n Survived time {ms_to_timer_string(o_play_values_manager.survived_time)}      record: {ms_to_timer_string(global.survived_time_record)}";
+game_over_info_str = $" Eaten monsters: {o_play_values_manager.eaten_enemies}      record: {global.save_values_info.records.eaten_enemies}\n Eaten musrooms: {o_play_values_manager.eaten_mushrooms}      record: {global.save_values_info.records.mushrooms}\n Max combo: {o_play_values_manager.max_combo}      record: {global.save_values_info.records.max_combo}\n Survived time {ms_to_timer_string(o_play_values_manager.survived_time)}      record: {ms_to_timer_string(global.save_values_info.records.survived_time)}";
 game_over_msg = show_message_async(game_over_info_str);
 
 save_values();

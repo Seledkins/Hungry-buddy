@@ -21,13 +21,15 @@
 	
 	audio_groups_load_all();
 	
-	if (os_type != os_windows) {
-		window_set_fullscreen(true);
-	}
-	else
-	{
+	if (os_type == os_windows) {
 		window_set_size(global.device_width / 2, global.device_height / 2);
 		show_debug_overlay(true);
+	}
+	else if (os_type == os_android)
+	{
+		window_set_fullscreen(true);
+	} else if (os_type == os_gxgames) {
+		//window_set_fullscreen(true);
 	}
 	
 	
@@ -109,18 +111,20 @@
 //objs init
 objs_spawn_info_init();
 
-//values
-global.mushrooms = 0;
-global.bought_upgrades_amount = 0;
-global.max_bought_upgrades_amount = 20;
+//values 
+/*
+global.save_values_info.mushrooms = 0;
+global.save_values_info.bought_upgrades_amount = 0;
+global.save_values_info.max_bought_upgrades_amount = 20;
 
-global.eaten_enemies_record = 0;
-global.max_combo_record = 0;
-global.eaten_mushrooms_record = 0;
-global.survived_time_record = 0;
+global.save_values_info.records.eaten_enemies = 0;
+global.save_values_info.records.max_combo = 0;
+global.save_values_info.records.mushrooms = 0;
+global.save_values_info.records.survived_time = 0;
+*/
 
+init_save_values();
 load_values();
-
 
 randomise();
 catch_upgrades_and_start(rm_play);

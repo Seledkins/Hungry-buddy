@@ -2,6 +2,7 @@ set_room_permission();
 
 global.upgrades_tree = upgrades_tree_load();
 
+
 if (global.catch_upgrades_callbacks) {
 		with(o_upgrade) {
 			if (self.level > 0 && self.object_index != o_upgrade_manager_and_prestige) {

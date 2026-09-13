@@ -18,6 +18,7 @@
     {"name":"inst_15CA8D48","path":"rooms/rm_upgrades/rm_upgrades.yy",},
     {"name":"inst_C8E6A1B","path":"rooms/rm_upgrades/rm_upgrades.yy",},
     {"name":"inst_383C8F2","path":"rooms/rm_upgrades/rm_upgrades.yy",},
+    {"name":"inst_56F68085","path":"rooms/rm_upgrades/rm_upgrades.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -51,7 +52,7 @@
           ],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":416.0,"y":288.0,},
         {"$GMRInstance":"v4","%Name":"inst_258C9A43","colour":4294967295,"frozen":false,"hasCreationCode":true,"ignore":false,"imageIndex":10,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_258C9A43","objectId":{"name":"o_upgrade","path":"objects/o_upgrade/o_upgrade.yy",},"properties":[
             {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"o_upgrade","path":"objects/o_upgrade/o_upgrade.yy",},"propertyId":{"name":"key","path":"objects/o_upgrade/o_upgrade.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"\"unlimitHp\"",},
-            {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"o_upgrade","path":"objects/o_upgrade/o_upgrade.yy",},"propertyId":{"name":"name","path":"objects/o_upgrade/o_upgrade.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"\"unlimitHp\"",},
+            {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"o_upgrade","path":"objects/o_upgrade/o_upgrade.yy",},"propertyId":{"name":"name","path":"objects/o_upgrade/o_upgrade.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"\"unlimit hp\"",},
             {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"o_upgrade","path":"objects/o_upgrade/o_upgrade.yy",},"propertyId":{"name":"description","path":"objects/o_upgrade/o_upgrade.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"\"un limit hp\"",},
             {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"o_upgrade","path":"objects/o_upgrade/o_upgrade.yy",},"propertyId":{"name":"cost","path":"objects/o_upgrade/o_upgrade.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"[5, 10,15]",},
             {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"o_upgrade","path":"objects/o_upgrade/o_upgrade.yy",},"propertyId":{"name":"parent","path":"objects/o_upgrade/o_upgrade.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"inst_3A745E57",},
@@ -79,7 +80,7 @@
           ],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":576.0,"y":544.0,},
         {"$GMRInstance":"v4","%Name":"inst_15CA8D48","colour":4294967295,"frozen":false,"hasCreationCode":true,"ignore":false,"imageIndex":-4,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_15CA8D48","objectId":{"name":"o_upgrade","path":"objects/o_upgrade/o_upgrade.yy",},"previewSprite":{"name":"sp_upgrade_bonuses","path":"sprites/sp_upgrade_bonuses/sp_upgrade_bonuses.yy",},"properties":[
             {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"o_upgrade","path":"objects/o_upgrade/o_upgrade.yy",},"propertyId":{"name":"key","path":"objects/o_upgrade/o_upgrade.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"\"longCombo\"",},
-            {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"o_upgrade","path":"objects/o_upgrade/o_upgrade.yy",},"propertyId":{"name":"name","path":"objects/o_upgrade/o_upgrade.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"\"longCombo\"",},
+            {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"o_upgrade","path":"objects/o_upgrade/o_upgrade.yy",},"propertyId":{"name":"name","path":"objects/o_upgrade/o_upgrade.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"\"long combo\"",},
             {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"o_upgrade","path":"objects/o_upgrade/o_upgrade.yy",},"propertyId":{"name":"description","path":"objects/o_upgrade/o_upgrade.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"\"realy long\"",},
             {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"o_upgrade","path":"objects/o_upgrade/o_upgrade.yy",},"propertyId":{"name":"cost","path":"objects/o_upgrade/o_upgrade.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"[5, 10,15]",},
             {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"o_upgrade","path":"objects/o_upgrade/o_upgrade.yy",},"propertyId":{"name":"parent","path":"objects/o_upgrade/o_upgrade.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"inst_537D7A",},
@@ -98,6 +99,12 @@
             {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"o_upgrade","path":"objects/o_upgrade/o_upgrade.yy",},"propertyId":{"name":"cost","path":"objects/o_upgrade/o_upgrade.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"[5, 10,15]",},
             {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"o_upgrade","path":"objects/o_upgrade/o_upgrade.yy",},"propertyId":{"name":"parent","path":"objects/o_upgrade/o_upgrade.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"inst_C8E6A1B",},
           ],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":320.0,"y":544.0,},
+        {"$GMRInstance":"v4","%Name":"inst_56F68085","colour":4294967295,"frozen":false,"hasCreationCode":true,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_56F68085","objectId":{"name":"o_upgrade","path":"objects/o_upgrade/o_upgrade.yy",},"previewSprite":{"name":"sp_upgrade_undefined","path":"sprites/sp_upgrade_undefined/sp_upgrade_undefined.yy",},"properties":[
+            {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"o_upgrade","path":"objects/o_upgrade/o_upgrade.yy",},"propertyId":{"name":"key","path":"objects/o_upgrade/o_upgrade.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"\"notDefined\"",},
+            {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"o_upgrade","path":"objects/o_upgrade/o_upgrade.yy",},"propertyId":{"name":"name","path":"objects/o_upgrade/o_upgrade.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"\"not defined\"",},
+            {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"o_upgrade","path":"objects/o_upgrade/o_upgrade.yy",},"propertyId":{"name":"description","path":"objects/o_upgrade/o_upgrade.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"\"not defined\"",},
+            {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"o_upgrade","path":"objects/o_upgrade/o_upgrade.yy",},"propertyId":{"name":"cost","path":"objects/o_upgrade/o_upgrade.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"[0, 0,0]",},
+          ],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":768.0,"y":384.0,},
       ],"layers":[],"name":"Upgrades","properties":[
         {"name":"g_Distort1Speed","type":0,"value":"0.028",},
         {"name":"g_Distort2Speed","type":0,"value":"0.023",},

@@ -8,7 +8,14 @@ array_foreach(values_info, function(value_info, i) {
 	var variable_owner = value_info.variable_from_obj;
 	var variable_name = value_info.variable_name;
 		
-	var variable = (variable_owner != global) ? variable_instance_get(variable_owner, variable_name) : variable_global_get(variable_name);
+	var variable
+	if (variable_owner == global) {
+		variable = variable_global_get(variable_name);	
+	} else if (!is_struct(variable_owner)) {
+		variable = variable_instance_get(variable_owner, variable_name);
+	} else {
+		variable = variable_owner[$ variable_name];
+	}
 		
 	variable = value_info.variable_action_function(variable);
 		

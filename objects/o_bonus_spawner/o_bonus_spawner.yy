@@ -13,7 +13,7 @@
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"o_spawner_parent","path":"objects/o_spawner_parent/o_spawner_parent.yy",},"propertyId":{"name":"limity_to_spawn","path":"objects/o_spawner_parent/o_spawner_parent.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"o_arena.arena_height / 2 + o_arena.y",},
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"o_spawner_parent","path":"objects/o_spawner_parent/o_spawner_parent.yy",},"propertyId":{"name":"max_distance_to_spawn","path":"objects/o_spawner_parent/o_spawner_parent.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"o_arena.arena_width / 2",},
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"o_spawner_parent","path":"objects/o_spawner_parent/o_spawner_parent.yy",},"propertyId":{"name":"spawn_dir_spread","path":"objects/o_spawner_parent/o_spawner_parent.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"60",},
-    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"o_spawner_parent","path":"objects/o_spawner_parent/o_spawner_parent.yy",},"propertyId":{"name":"spawn_delay","path":"objects/o_spawner_parent/o_spawner_parent.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"500",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"o_spawner_parent","path":"objects/o_spawner_parent/o_spawner_parent.yy",},"propertyId":{"name":"spawn_delay","path":"objects/o_spawner_parent/o_spawner_parent.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"250",},
   ],
   "parent":{
     "name":"spawners",
@@ -38,6 +38,7 @@
   "physicsStartAwake":true,
   "properties":[
     {"$GMObjectProperty":"v2","%Name":"drop_chance_in_enemy","filters":[],"listItems":[],"multiselect":false,"name":"drop_chance_in_enemy","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"3.0","varType":0,},
+    {"$GMObjectProperty":"v2","%Name":"previous_drop_chance_in_enemy","filters":[],"listItems":[],"multiselect":false,"name":"previous_drop_chance_in_enemy","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"drop_chance_in_enemy","varType":4,},
   ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",

@@ -21,6 +21,7 @@ function bonus_info_init(){
 			obj_index : current_bonus.object_index,
 			array_index : b,
 			chance_to_spawn : current_bonus_chance,
+			previous_chance_to_spawn : current_bonus_chance,
 			min_killed_enemies_to_spawn : current_bonus.min_killed_enemies_to_spawn,
 			spawn_pattern_function : current_bonus.spawn_pattern_function,
 			min_distance_to_border : current_bonus.min_distance_to_border,
@@ -34,9 +35,10 @@ function bonus_info_init(){
 		instance_destroy(current_bonus);
 	}
 	
-	global.nothing_chance = global.total_bonuses_chances * global.bonuses_amount * 4
+	global.nothing_chance = 165;
 	
-	show_debug_message("----------------------------------------------\n" + string(global.bonuses_info) + "\nbonuses amount:" + string(global.bonuses_amount) + "\nTotal bonuses chances: " + string(global.total_bonuses_chances) + "\n----------------------------------------------\n\n\n\n");
+	debug_array(global.bonuses_info);
+	show_debug_message("\nbonuses amount:" + string(global.bonuses_amount) + "\nTotal bonuses chances: " + string(global.total_bonuses_chances) + "\n----------------------------------------------\n\n\n\n");
 	
 	return global.bonuses_info
 
