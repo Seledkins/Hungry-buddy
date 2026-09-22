@@ -1,4 +1,4 @@
 padding = o_upgrade_manager_and_prestige.padding;
 yoffset = padding + o_upgrade_manager_and_prestige.sprite_height;
 
-text = $"[scale, {global.ui_assets_scale}][offset, 7, 3]{dec_color(global.color_white)}[fa_middle][fnt_curtsweeper]{global.save_values_info.bought_upgrades_amount}[offsetPop][offset,8, 3]{tdash()}{global.save_values_info.max_bought_upgrades_amount}[offsetPop][/scale]";
+text = $"[scale, {global.ui_assets_scale}][offset, 7, 3]{dec_color(global.color_white)}[fa_middle][fnt_curtsweeper]{global.save.bought_upgrades_amount}[offsetPop][offset,8, 3]{tdash()}{global.save.max_bought_upgrades_amount}[offsetPop][/scale]";

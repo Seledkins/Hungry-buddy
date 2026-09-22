@@ -1,10 +1,21 @@
 function init_save_values() {
 
-	global.save_values_info = {
+	global.save = {
 	
 		mushrooms: 0,
+		loot_box_cost: 20,
 		bought_upgrades_amount: 0,
-		max_bought_upgrades_amount: 20,
+		
+		upgrades: {
+			collected: {
+				
+			},
+			cells_count: 3,
+			selected: {},
+			
+		},
+		
+		
 		
 		records: {
 			mushrooms: 0,
@@ -47,5 +58,5 @@ function init_save_values() {
 	chest_add_drop(o_bonus_heart, 4);
 	chest_add_drop(o_bonus_shield, 1);	
 
-	debug_struct(global.save_values_info);
+	debug_struct(global.save);
 }

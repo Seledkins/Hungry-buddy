@@ -45,7 +45,7 @@
   "physicsShapePoints":[],
   "physicsStartAwake":true,
   "properties":[
-    {"$GMObjectProperty":"v2","%Name":"self_explosion_timer","filters":[],"listItems":[],"multiselect":false,"name":"self_explosion_timer","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"100","varType":0,},
+    {"$GMObjectProperty":"v2","%Name":"self_explosion_timer","filters":[],"listItems":[],"multiselect":false,"name":"self_explosion_timer","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"145","varType":0,},
   ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",

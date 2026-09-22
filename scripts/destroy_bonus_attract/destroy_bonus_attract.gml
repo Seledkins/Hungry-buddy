@@ -8,13 +8,13 @@ function destroy_bonus_attract(){
 			
 				self.direction = dir_to_player;
 				self.speed = dist_to_player / 50; 
-				self.friction = (sqr(self.speed) / (2 * dist_to_player)) * global.save_values_info.bonuses_info.attract.friction_ratio;
+				self.friction = (sqr(self.speed) / (2 * dist_to_player)) * global.save.bonuses_info.attract.friction_ratio;
 			
 			}
 		}
 	
 		create_fluctuation(x, y, 2, 4, 2);	
-		set_invincible(o_hole_parent, true, 110);
+		set_invincible(o_hole_parent, true, 135);
 		audio_play_sfx_random_pitch(snd_bonus_attract, 2, 0.95, 1.05);
 	}
 	

@@ -10,8 +10,8 @@
   "name":"o_upgrade_amount_icon",
   "overriddenProperties":[],
   "parent":{
-    "name":"upgrades system",
-    "path":"folders/UI/upgrades system.yy",
+    "name":"no use",
+    "path":"folders/UI/upgrades system/no use.yy",
   },
   "parentObjectId":null,
   "persistent":false,

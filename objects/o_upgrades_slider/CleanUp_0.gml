@@ -1,0 +1,1 @@
+surface_free(upgrades_surf);

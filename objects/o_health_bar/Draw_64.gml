@@ -25,6 +25,7 @@ if (!surface_exists(fluid_surface)) {
 }
 
 surface_set_target(fluid_surface);
+
 	draw_clear_alpha(c_black, 0)
 	
 	draw_sprite(sp_healthbar_fluid, fluid_image_index, 0, hp_param - sin(timer * 0.03) * 2);
@@ -34,5 +35,5 @@ surface_reset_target();
 
 outline_draw_sprite(sprite_index, 0, padding + half_sprite_width, padding + half_sprite_height, );
 draw_surface(fluid_surface, padding + offset /2 , padding + offset / 2);
-draw_text_scribble(padding + half_sprite_width, padding + half_sprite_height, formating + string(hp_draw));
+draw_text_scribble(padding + half_sprite_width, padding + half_sprite_height, formating + color + string(hp_draw));
 

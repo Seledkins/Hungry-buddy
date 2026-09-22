@@ -1,0 +1,1 @@
+outline_draw_sprite(sprite_index, image_index, x , y, ol_config(1, outline_color));

@@ -5,4 +5,11 @@ if (!mouse_on_self()) {
 	exit;	
 }
 
-room_goto(rm_play);
+window_goto("inventory")
+
+//if (is_string(target)) {
+//	window_goto(target);
+//	o_window_manager.current_window = target;
+//} else {
+//	room_goto(target);	
+//}

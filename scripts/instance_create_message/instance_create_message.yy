@@ -6,7 +6,7 @@
   "name":"instance_create_message",
   "parent":{
     "name":"message system",
-    "path":"folders/ingame room system/message system.yy",
+    "path":"folders/UI/message system.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

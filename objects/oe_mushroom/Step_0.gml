@@ -8,7 +8,7 @@ if (distance_to_target < distance_to_prepare) {
 
 if (in_attack) {
 	
-		if (sprite_index == sprite_idle && (image_index_equals(9) || anim_end)) {
+		if (sprite_index == sprite_idle && (image_index_equals(image_index_to_prepare) || anim_end)) {
 			sprite_index = sprite_attack;
 			image_index = 0;
 		}

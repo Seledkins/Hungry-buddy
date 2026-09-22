@@ -1,1 +1,0 @@
-take_damage(id, 1);

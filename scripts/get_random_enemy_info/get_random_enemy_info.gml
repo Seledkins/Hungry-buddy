@@ -13,7 +13,7 @@ function get_random_enemy_info(obj_info_array, max_objs_amount_in_room){
 			return current_enemy_info
 		}
 		
-		random_chance -= current_chance_to_spawn
+		random_chance -= current_chance_to_spawn;
 	}
 
 	

@@ -13,14 +13,10 @@
   "overriddenProperties":[
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"o_upgrade","path":"objects/o_upgrade/o_upgrade.yy",},"propertyId":{"name":"name","path":"objects/o_upgrade/o_upgrade.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"\"prestige\"",},
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"o_upgrade","path":"objects/o_upgrade/o_upgrade.yy",},"propertyId":{"name":"key","path":"objects/o_upgrade/o_upgrade.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"\"prestige\"",},
-    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"o_upgrade","path":"objects/o_upgrade/o_upgrade.yy",},"propertyId":{"name":"cost","path":"objects/o_upgrade/o_upgrade.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"[undefined, 200, 300, 400]",},
-    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"o_upgrade","path":"objects/o_upgrade/o_upgrade.yy",},"propertyId":{"name":"level","path":"objects/o_upgrade/o_upgrade.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"1",},
-    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"o_upgrade","path":"objects/o_upgrade/o_upgrade.yy",},"propertyId":{"name":"bought_upgrades_amount_increse","path":"objects/o_upgrade/o_upgrade.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"0",},
-    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"o_upgrade","path":"objects/o_upgrade/o_upgrade.yy",},"propertyId":{"name":"max_level","path":"objects/o_upgrade/o_upgrade.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"\"INFINITY\"",},
   ],
   "parent":{
-    "name":"upgrades system",
-    "path":"folders/UI/upgrades system.yy",
+    "name":"no use",
+    "path":"folders/UI/upgrades system/no use.yy",
   },
   "parentObjectId":{
     "name":"o_upgrade",

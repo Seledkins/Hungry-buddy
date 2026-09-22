@@ -19,7 +19,8 @@ y_previous = _y;
 
 if (combo > combo_previous) {
 	size_ratio = clamp(size_ratio + size_ratio_increase, 0, max_size_ratio);
-	alarm[0] = clamp(get_combo_reset_time(), 150, infinity);
+	alarm[0] = clamp(get_combo_reset_time(), 200, infinity);
+	show_debug_message(get_combo_reset_time());
 }
 
 if (combo_previous < combo && (combo_previous) % combo_show_number != 0 && instance_exists(o_hole_parent)) {
@@ -35,8 +36,8 @@ if (combo_previous < combo && (combo_previous) % combo_show_number != 0 && insta
 			var show_combo_text = $"X{c}";
 			var formating = $"[shake]{dec_color(global.color_white)}"
 			formating = c < 50 ? formating : formating + dec_color(global.color_red);
-			scribble_anim_shake(c / 18, 1);
-			instance_create_message(o_hole_parent.x, o_hole_parent.y, show_combo_text,,,, formating);
+			scribble_anim_shake(clamp(c / 18, 0, 8), 1);
+			instance_create_message(o_hole_parent.x, o_hole_parent.y, show_combo_text, 1 + c / 200,,, formating);
 			
 			audio_play_sfx_random(o_hole_parent.snds_laughs_arr, 1, random_range(0.93, 1.07));
 			

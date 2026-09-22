@@ -25,7 +25,7 @@ if (attack_flag) {
 		take_damage_place(x, y, target, damage);
 	}
 	
-	if (image_index_equals(image_index_start_attack - 2)) {
+	if (image_index_equals(round(image_index_start_attack) - 2)) {
 		snd_attack = audio_play_sfx_random_pitch(snd_ghost_attack, 1.1);	
 	}
 	

@@ -10,8 +10,8 @@
   "name":"o_bubble_upgrade_locker",
   "overriddenProperties":[],
   "parent":{
-    "name":"upgrades system",
-    "path":"folders/UI/upgrades system.yy",
+    "name":"no use",
+    "path":"folders/no use.yy",
   },
   "parentObjectId":null,
   "persistent":false,

@@ -108,23 +108,15 @@
 
 #endregion
 
-//objs init
+//info inits
 objs_spawn_info_init();
 
-//values 
-/*
-global.save_values_info.mushrooms = 0;
-global.save_values_info.bought_upgrades_amount = 0;
-global.save_values_info.max_bought_upgrades_amount = 20;
-
-global.save_values_info.records.eaten_enemies = 0;
-global.save_values_info.records.max_combo = 0;
-global.save_values_info.records.mushrooms = 0;
-global.save_values_info.records.survived_time = 0;
-*/
-
+init_upgrades();
 init_save_values();
-load_values();
+
+load_save();
+
+//load_collected_upgrades();
 
 randomise();
-catch_upgrades_and_start(rm_play);
+room_goto(rm_play);

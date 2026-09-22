@@ -15,8 +15,15 @@ if (hp < prev_hp) {
 	
 }
 
-if (hp > prev_hp && hp == max_hp) {
-	instance_create_message(x, y, "MAX HP",,,,$"[rainbow][jitter]")
+if (hp > prev_hp) {
+	if (hp > round(max_hp / 3)) {
+		o_health_bar.color = dec_color(global.color_white);	
+	}
+	
+	if (hp == max_hp) {
+		instance_create_message(x, y, "MAX HP",,,,$"[rainbow][jitter]");
+	}
+	
 }
 
 if (shields < shields_prev) {
