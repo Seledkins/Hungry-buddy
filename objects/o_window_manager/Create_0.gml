@@ -4,9 +4,9 @@ instance_create_depth(0, 0, 0, o_button_back);
 
 add_window("shop",
 	function() {
-		instance_create_depth(Camera.x, Camera.y, 100, o_loot_box); 
+		instance_create_layer(Camera.x, Camera.y, "Distruction", o_loot_chest); 
 	}, function() {
-		instance_destroy(o_loot_box);
+		instance_destroy(o_loot_chest);
 	});
 	
 add_window("inventory",

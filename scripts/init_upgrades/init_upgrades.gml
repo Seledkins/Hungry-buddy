@@ -18,6 +18,5 @@ function init_upgrades(){
 	upgrade_create("50Combo", 60, 3, function() {});
 	upgrade_create("durableCombo", 70, 4, function() {});
 	
-	//load_collected_upgrades();
 	
 }

@@ -1,0 +1,26 @@
+{
+  "$GMSound":"v2",
+  "%Name":"snd_loot_chest_open",
+  "audioGroupId":{
+    "name":"ag_sfx",
+    "path":"audiogroups/ag_sfx",
+  },
+  "bitDepth":1,
+  "channelFormat":0,
+  "compression":0,
+  "compressionQuality":4,
+  "conversionMode":0,
+  "duration":2.2901814,
+  "exportDir":"",
+  "name":"snd_loot_chest_open",
+  "parent":{
+    "name":"sounds",
+    "path":"folders/UI/upgrades system/windows/shop window/loot_chest/sounds.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"snd_loot_chest_open.wav",
+  "volume":1.0,
+}

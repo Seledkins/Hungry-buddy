@@ -1,4 +1,4 @@
-if ( choosen_cell == noone ) {
+if (choosen_cell == noone ) {
 	surface_set_target(o_upgrades_slider.upgrades_surf);
 
 		outline_draw_sprite_ext(sprite_index, image_index,
@@ -9,7 +9,7 @@ if ( choosen_cell == noone ) {
 	surface_reset_target();
 } 
 
-if ( inst_border != noone ) {
+if (inst_border != noone ) {
 	outline_draw_sprite(sprite_index, image_index, x, y, ol_config(1, outline_color));	
 	draw_sprite_ext(sp_cross, 0, x + sprite_width / 2, y + sprite_height / 2 + 2, cross_scale, cross_scale, 0, c_white, 1);
 }
