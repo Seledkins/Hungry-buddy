@@ -15,7 +15,7 @@
   "overriddenProperties":[],
   "parent":{
     "name":"inventory window",
-    "path":"folders/UI/upgrades system/windows/inventory window.yy",
+    "path":"folders/UI/menu system/windows/inventory window.yy",
   },
   "parentObjectId":{
     "name":"o_button_parent",
@@ -41,7 +41,7 @@
     {"$GMObjectProperty":"v2","%Name":"upgrade_callback","filters":[],"listItems":[],"multiselect":false,"name":"upgrade_callback","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"function(){}","varType":4,},
     {"$GMObjectProperty":"v2","%Name":"inst_desc","filters":[],"listItems":[],"multiselect":false,"name":"inst_desc","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"noone","varType":4,},
     {"$GMObjectProperty":"v2","%Name":"outline_color","filters":[],"listItems":[],"multiselect":false,"name":"outline_color","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"global.color_black","varType":4,},
-    {"$GMObjectProperty":"v2","%Name":"snd_bought","filters":[],"listItems":[],"multiselect":false,"name":"snd_bought","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resource":{"name":"snd_bought_upgrade","path":"sounds/snd_bought_upgrade/snd_bought_upgrade.yy",},"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"snd_bought_upgrade","varType":5,},
+    {"$GMObjectProperty":"v2","%Name":"snd_bought","filters":[],"listItems":[],"multiselect":false,"name":"snd_bought","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resource":{"name":"snd_select_upgrade","path":"sounds/snd_select_upgrade/snd_select_upgrade.yy",},"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"snd_select_upgrade","varType":5,},
     {"$GMObjectProperty":"v2","%Name":"lerp_amount","filters":[],"listItems":[],"multiselect":false,"name":"lerp_amount","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"0.1","varType":0,},
     {"$GMObjectProperty":"v2","%Name":"choosen_cell","filters":[],"listItems":[],"multiselect":false,"name":"choosen_cell","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"noone","varType":4,},
     {"$GMObjectProperty":"v2","%Name":"cross_scale","filters":[],"listItems":[],"multiselect":false,"name":"cross_scale","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"0.0","varType":0,},

@@ -15,7 +15,7 @@
   "name":"snd_negative",
   "parent":{
     "name":"sounds",
-    "path":"folders/UI/upgrades system/sounds.yy",
+    "path":"folders/UI/menu system/sounds.yy",
   },
   "preload":false,
   "resourceType":"GMSound",

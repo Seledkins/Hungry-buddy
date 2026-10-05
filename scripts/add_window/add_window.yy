@@ -6,7 +6,7 @@
   "name":"add_window",
   "parent":{
     "name":"window system",
-    "path":"folders/UI/upgrades system/windows/window system.yy",
+    "path":"folders/UI/menu system/windows/window system.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

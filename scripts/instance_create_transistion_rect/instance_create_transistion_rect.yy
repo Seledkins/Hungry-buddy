@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"instance_create_transistion_rect",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"instance_create_transistion_rect",
+  "parent":{
+    "name":"transistion",
+    "path":"folders/UI/transistion.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

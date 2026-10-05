@@ -33,7 +33,7 @@
   "origin":4,
   "parent":{
     "name":"bubbles",
-    "path":"folders/UI/upgrades system/sprites/bubbles.yy",
+    "path":"folders/no use/bubbles.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

@@ -1,6 +1,6 @@
 if (choosen_cell != noone) {
-	x = lerp(x, choosen_cell.x - sprite_width / 2, lerp_amount);
-	y = lerp(y, choosen_cell.y - sprite_height / 2, lerp_amount);
+	x = lerp(x, choosen_cell.x, lerp_amount);
+	y = lerp(y, choosen_cell.y, lerp_amount);
 	
 	cross_scale = lerp(cross_scale, outline_color == global.color_dark_purple, lerp_amount * 2);
 } else if (inst_border != noone) {

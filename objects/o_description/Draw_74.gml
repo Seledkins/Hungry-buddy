@@ -1,3 +1,7 @@
+if (draw_ev != ev_gui_begin) {
+	exit;	
+}
+
 var _x = x_to_guix(x);
 var _y = y_to_guiy(y);
 

@@ -1,1 +1,1 @@
-set_room_permission()
+set_room_permission();

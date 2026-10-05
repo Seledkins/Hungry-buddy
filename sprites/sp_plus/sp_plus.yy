@@ -26,7 +26,7 @@
   "origin":4,
   "parent":{
     "name":"sprites",
-    "path":"folders/UI/upgrades system/sprites.yy",
+    "path":"folders/UI/menu system/sprites.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

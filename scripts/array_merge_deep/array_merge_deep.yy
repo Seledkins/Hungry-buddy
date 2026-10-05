@@ -5,8 +5,8 @@
   "isDnD":false,
   "name":"array_merge_deep",
   "parent":{
-    "name":"different scripts",
-    "path":"folders/different scripts.yy",
+    "name":"arrays",
+    "path":"folders/different scripts/arrays.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

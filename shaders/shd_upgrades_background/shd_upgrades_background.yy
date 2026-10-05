@@ -4,7 +4,7 @@
   "name":"shd_upgrades_background",
   "parent":{
     "name":"background_system",
-    "path":"folders/UI/upgrades system/background_system.yy",
+    "path":"folders/UI/menu system/background_system.yy",
   },
   "resourceType":"GMShader",
   "resourceVersion":"2.0",

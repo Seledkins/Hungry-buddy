@@ -15,7 +15,7 @@
   "name":"snd_loot_chest_nope1",
   "parent":{
     "name":"sounds",
-    "path":"folders/UI/upgrades system/windows/shop window/loot_chest/sounds.yy",
+    "path":"folders/UI/menu system/windows/shop window/loot_chest/sounds.yy",
   },
   "preload":false,
   "resourceType":"GMSound",

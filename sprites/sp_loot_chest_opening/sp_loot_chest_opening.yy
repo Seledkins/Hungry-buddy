@@ -31,7 +31,7 @@
   "origin":4,
   "parent":{
     "name":"sprites",
-    "path":"folders/UI/upgrades system/windows/shop window/loot_chest/sprites.yy",
+    "path":"folders/UI/menu system/windows/shop window/loot_chest/sprites.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

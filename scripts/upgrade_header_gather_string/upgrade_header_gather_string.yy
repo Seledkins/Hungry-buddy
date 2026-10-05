@@ -6,7 +6,7 @@
   "name":"upgrade_header_gather_string",
   "parent":{
     "name":"scripts",
-    "path":"folders/UI/upgrades system/scripts.yy",
+    "path":"folders/UI/menu system/scripts.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

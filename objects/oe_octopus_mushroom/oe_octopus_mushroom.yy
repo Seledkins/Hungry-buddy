@@ -7,7 +7,7 @@
   "managed":true,
   "name":"oe_octopus_mushroom",
   "overriddenProperties":[
-    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"oe_parent","path":"objects/oe_parent/oe_parent.yy",},"propertyId":{"name":"test_only_this_enemy","path":"objects/oe_parent/oe_parent.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"True",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"oe_parent","path":"objects/oe_parent/oe_parent.yy",},"propertyId":{"name":"test_only_this_enemy","path":"objects/oe_parent/oe_parent.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"False",},
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"o_creature","path":"objects/o_creature/o_creature.yy",},"propertyId":{"name":"max_spd","path":"objects/o_creature/o_creature.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"0.3",},
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"oe_parent","path":"objects/oe_parent/oe_parent.yy",},"propertyId":{"name":"sprite_idle","path":"objects/oe_parent/oe_parent.yy",},"resource":{"name":"sp_octopus_mushroom_idle","path":"sprites/sp_octopus_mushroom_idle/sp_octopus_mushroom_idle.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"sp_octopus_mushroom_idle",},
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"oe_mushroom","path":"objects/oe_mushroom/oe_mushroom.yy",},"propertyId":{"name":"image_index_to_attack","path":"objects/oe_mushroom/oe_mushroom.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"10",},

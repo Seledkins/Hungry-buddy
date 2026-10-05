@@ -12,7 +12,7 @@
   "overriddenProperties":[],
   "parent":{
     "name":"inventory window",
-    "path":"folders/UI/upgrades system/windows/inventory window.yy",
+    "path":"folders/UI/menu system/windows/inventory window.yy",
   },
   "parentObjectId":null,
   "persistent":false,

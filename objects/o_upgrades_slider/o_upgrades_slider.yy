@@ -16,7 +16,7 @@
   "overriddenProperties":[],
   "parent":{
     "name":"inventory window",
-    "path":"folders/UI/upgrades system/windows/inventory window.yy",
+    "path":"folders/UI/menu system/windows/inventory window.yy",
   },
   "parentObjectId":{
     "name":"o_button_parent",
@@ -50,8 +50,8 @@
     {"$GMObjectProperty":"v2","%Name":"choosen_up_inst","filters":[],"listItems":[],"multiselect":false,"name":"choosen_up_inst","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"noone","varType":4,},
     {"$GMObjectProperty":"v2","%Name":"cells_gap","filters":[],"listItems":[],"multiselect":false,"name":"cells_gap","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"10","varType":0,},
     {"$GMObjectProperty":"v2","%Name":"start_dragy","filters":[],"listItems":[],"multiselect":false,"name":"start_dragy","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"0.0","varType":0,},
-    {"$GMObjectProperty":"v2","%Name":"scroll_y","filters":[],"listItems":[],"multiselect":false,"name":"scroll_y","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"0.0","varType":0,},
-    {"$GMObjectProperty":"v2","%Name":"scroll_top_limit","filters":[],"listItems":[],"multiselect":false,"name":"scroll_top_limit","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"0","varType":4,},
+    {"$GMObjectProperty":"v2","%Name":"scroll_top_limit","filters":[],"listItems":[],"multiselect":false,"name":"scroll_top_limit","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"up_sprite_height / 2","varType":4,},
+    {"$GMObjectProperty":"v2","%Name":"scroll_y","filters":[],"listItems":[],"multiselect":false,"name":"scroll_y","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"scroll_top_limit","varType":4,},
     {"$GMObjectProperty":"v2","%Name":"scroll_bottom_limit","filters":[],"listItems":[],"multiselect":false,"name":"scroll_bottom_limit","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"200","varType":0,},
     {"$GMObjectProperty":"v2","%Name":"limit_lerp_amount","filters":[],"listItems":[],"multiselect":false,"name":"limit_lerp_amount","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"0.2","varType":0,},
     {"$GMObjectProperty":"v2","%Name":"drag_data","filters":[],"listItems":[],"multiselect":false,"name":"drag_data","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"0.0","varType":0,},

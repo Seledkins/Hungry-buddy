@@ -5,8 +5,8 @@
   "isDnD":false,
   "name":"init_upgrades",
   "parent":{
-    "name":"upgrades system",
-    "path":"folders/UI/upgrades system.yy",
+    "name":"global init",
+    "path":"folders/global init.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

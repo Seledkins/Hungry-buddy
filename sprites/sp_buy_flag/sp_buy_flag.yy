@@ -26,7 +26,7 @@
   "origin":4,
   "parent":{
     "name":"markers",
-    "path":"folders/UI/upgrades system/sprites/markers.yy",
+    "path":"folders/no use/markers.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

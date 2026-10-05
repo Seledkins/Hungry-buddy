@@ -16,7 +16,7 @@
   "overriddenProperties":[],
   "parent":{
     "name":"loot_chest",
-    "path":"folders/UI/upgrades system/windows/shop window/loot_chest.yy",
+    "path":"folders/UI/menu system/windows/shop window/loot_chest.yy",
   },
   "parentObjectId":{
     "name":"o_button_parent",

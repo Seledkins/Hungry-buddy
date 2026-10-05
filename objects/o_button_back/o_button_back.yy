@@ -11,8 +11,8 @@
   "name":"o_button_back",
   "overriddenProperties":[],
   "parent":{
-    "name":"buttons system",
-    "path":"folders/UI/buttons system.yy",
+    "name":"windows",
+    "path":"folders/UI/menu system/windows.yy",
   },
   "parentObjectId":{
     "name":"o_button_parent",

@@ -8,14 +8,17 @@ function init_save_values() {
 		
 		upgrades: {
 			collected: {
-				
+					
 			},
 			cells_count: 3,
 			selected: {},
 			
 		},
 		
-		
+		settings: {
+			music_gain: 1,
+			sfx_gain: 1,
+		},
 		
 		records: {
 			mushrooms: 0,

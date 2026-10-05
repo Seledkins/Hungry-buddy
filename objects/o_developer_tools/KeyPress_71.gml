@@ -1,0 +1,1 @@
+instance_create_transistion_rect(x, y, 2);

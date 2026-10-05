@@ -16,7 +16,7 @@
   ],
   "parent":{
     "name":"no use",
-    "path":"folders/UI/upgrades system/no use.yy",
+    "path":"folders/no use.yy",
   },
   "parentObjectId":{
     "name":"o_upgrade",
@@ -47,10 +47,7 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":{
-    "name":"sp_upgrade_prestige",
-    "path":"sprites/sp_upgrade_prestige/sp_upgrade_prestige.yy",
-  },
+  "spriteId":null,
   "spriteMaskId":null,
   "visible":true,
 }

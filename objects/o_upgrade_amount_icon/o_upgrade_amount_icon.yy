@@ -11,7 +11,7 @@
   "overriddenProperties":[],
   "parent":{
     "name":"no use",
-    "path":"folders/UI/upgrades system/no use.yy",
+    "path":"folders/no use.yy",
   },
   "parentObjectId":null,
   "persistent":false,

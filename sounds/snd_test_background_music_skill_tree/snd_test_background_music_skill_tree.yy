@@ -14,8 +14,8 @@
   "exportDir":"",
   "name":"snd_test_background_music_skill_tree",
   "parent":{
-    "name":"upgrades system",
-    "path":"folders/UI/upgrades system.yy",
+    "name":"menu system",
+    "path":"folders/UI/menu system.yy",
   },
   "preload":false,
   "resourceType":"GMSound",

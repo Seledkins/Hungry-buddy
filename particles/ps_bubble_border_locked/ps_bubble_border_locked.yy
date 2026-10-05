@@ -14,7 +14,7 @@
   "name":"ps_bubble_border_locked",
   "parent":{
     "name":"no use",
-    "path":"folders/UI/upgrades system/no use.yy",
+    "path":"folders/no use.yy",
   },
   "resourceType":"GMParticleSystem",
   "resourceVersion":"2.0",

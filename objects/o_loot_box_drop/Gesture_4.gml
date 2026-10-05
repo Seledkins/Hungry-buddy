@@ -1,6 +1,0 @@
-if (destroying) {
-	exit;
-}
-
-instance_create_description(x + sprite_width / 2, y + sprite_height / 2, ui_depth, dec_color(global.color_white) + name, fnt_curtsweeper, 1, dec_color(global.color_white) + description, fnt_pixeloid, 1, true, 5, sprite_width / 2, true);
-audio_play_sfx_random_pitch(snd_select_upgrade, 0.96, 0.94, 1.05);

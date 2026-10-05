@@ -26,7 +26,7 @@
   "origin":9,
   "parent":{
     "name":"backgrounds",
-    "path":"folders/UI/upgrades system/sprites/backgrounds.yy",
+    "path":"folders/UI/menu system/sprites/backgrounds.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

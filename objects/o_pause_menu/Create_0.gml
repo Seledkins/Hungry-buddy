@@ -13,7 +13,11 @@ buttons_info = [
 		
 	pause_button_config("RESTART", function(){game_over(); buttons_array_clear(); set_pause(false)}),
 	pause_button_config("SETTINGS", function(){}),
-	pause_button_config("MENU", function(){room_goto(rm_upgrades)}),
+	pause_button_config("MENU", function(){
+		instance_create_transistion_circle(mouse_x, mouse_y, Camera.view_width / 2, Camera.view_height / 2, function() {
+			room_goto(rm_menu) 
+			}, 1.5, true)
+		}),
 	
 ];
 
