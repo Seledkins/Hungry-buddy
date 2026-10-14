@@ -1,1 +1,1 @@
-instance_create_transistion_rect(x, y, 2);
+instance_create_transistion_rect(function() {}, 0.1);

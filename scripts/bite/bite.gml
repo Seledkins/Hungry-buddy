@@ -14,8 +14,6 @@ function bite(bite_width, bite_height, delay_time, callback_for_creatures, combo
 	
 	bite_list = ds_list_unique(bite_list); 
 	
-	
-	
 	for(var i = 0; i < bite_list_size; i++) {
 		var cur_bite_li_item = bite_list[| i];
 		var cur_bite_li_item_obj_index = cur_bite_li_item.object_index;
@@ -44,7 +42,7 @@ function bite(bite_width, bite_height, delay_time, callback_for_creatures, combo
 	}
 	
 	if (eated_enemies_during_bite >= enemies_amount_to_shake && !bite_shake) {
-		uc_shake(eated_enemies_during_bite * 1.5, 0.12);
+		uc_shake(eated_enemies_during_bite * 2.5, 0.1);
 		bite_shake = true;
 	}
 	

@@ -14,7 +14,7 @@ if (header != "") {
 	header_height = 0;
 }
 
-var scale_change = 0.1;
+var scale_change = 0.05;
 
 //var resize_ratiox = sign(previous_imagex_scale - max_image_xscale);
 

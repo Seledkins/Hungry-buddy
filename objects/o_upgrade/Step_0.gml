@@ -13,5 +13,4 @@ if (choosen_cell != noone) {
 	}
 	
 	cross_scale = lerp(cross_scale, outline_color == global.color_dark_purple, lerp_amount * 2);
-}
-
+}	

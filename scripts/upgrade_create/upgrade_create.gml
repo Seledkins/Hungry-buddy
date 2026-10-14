@@ -1,7 +1,8 @@
 function upgrade_create(_key, _chance, _index_sprite, _callback) {
 	
 	var info_struct = {
-		key : _key,
+		key: _key,
+		name: undefined,
 		callback: _callback,
 		chance: _chance,
 		index_sprite: _index_sprite,

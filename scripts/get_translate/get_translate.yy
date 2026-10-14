@@ -1,12 +1,12 @@
 {
   "$GMScript":"v1",
-  "%Name":"loc_init",
+  "%Name":"get_translate",
   "isCompatibility":false,
   "isDnD":false,
-  "name":"loc_init",
+  "name":"get_translate",
   "parent":{
-    "name":"global init",
-    "path":"folders/global init.yy",
+    "name":"localiztion system",
+    "path":"folders/localiztion system.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

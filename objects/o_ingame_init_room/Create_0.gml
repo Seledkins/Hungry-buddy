@@ -18,6 +18,7 @@ instance_create_depth(0, 0, 0, o_bonus_spawner);
 instance_create_depth(0, 0, 0, o_snd_manager);
 instance_create_depth(0, 0, 0, o_bubbles_ps_manager);
 
+
 generate_nature_in_arena();
 
 if (global.controls_type == "mobile") {

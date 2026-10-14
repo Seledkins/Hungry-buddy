@@ -3,4 +3,6 @@ function ingame_apply_upgrades() {
 		global.upgrades_info.upgrades[$ key].callback();
 	})
 	
+	
+	
 }

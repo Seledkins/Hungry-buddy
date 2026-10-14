@@ -9,6 +9,6 @@ if (scroll_y > scroll_top_limit) {
 
 with(o_upgrade) {
 	if (self.choosen_cell == noone && choosen_cell != undefined && inst_border == noone) {
-		self.y = other.surfy + other.scroll_y;
+		self.y = other.surfy + self.line_offset + other.scroll_y;
 	}
 }

@@ -11,6 +11,8 @@ else {
 ingame_apply_upgrades();
 ingame_things_init();
 
+show_debug_message(global.ingame_events);
+
 create_follow_fluctuation(id, x, y, "cur_spd", 0.5, "move_dir", sprite_width / 140, infinity);
 audio_play_sfx(snd_appearance);
 

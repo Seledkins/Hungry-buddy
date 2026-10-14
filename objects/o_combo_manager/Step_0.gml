@@ -18,6 +18,7 @@ x_previous = _x;
 y_previous = _y;
 
 if (combo > combo_previous) {
+	call_event(EVENTS.COMBO_INCREASED, {combo: combo});
 	size_ratio = clamp(size_ratio + size_ratio_increase, 0, max_size_ratio);
 	alarm[0] = clamp(get_combo_reset_time(), 200, infinity);
 	show_debug_message(get_combo_reset_time());

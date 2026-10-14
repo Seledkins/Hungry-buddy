@@ -11,6 +11,14 @@ switch (state) {
 		}
 		
 		if (taped) {
+			show_debug_message(global.save.upgrades.collected);
+			show_debug_message(global.upgrades_info.upgrades);
+			if (struct_names_count(global.save.upgrades.collected) == struct_names_count(global.upgrades_info.upgrades)) {
+				instance_create_message(x, y, $"{dec_color(global.color_red)}You collected all upgrades",,,,, 0.65 ,,, ev_gui_end);
+				audio_play_chest_nope_sound();
+				break;
+			}
+			
 			if (current_save.mushrooms >= current_save.loot_box_cost) {
 				state = "opening";
 				description_obj_destroy(all);
@@ -19,7 +27,7 @@ switch (state) {
 				audio_play_sfx_random_pitch(snd_loot_chest_open, 2.5, 0.98, 1.03, 1000);
 			} else {
 				instance_create_message(x, y, $"{dec_color(global.color_red)}Not enough [tsp_mushroom]",,,,, 0.65 ,,, ev_gui_end);
-				audio_play_sfx_random([snd_loot_chest_nope, snd_loot_chest_nope1], 0.88, random_range(0.95, 1.05));
+				audio_play_chest_nope_sound();
 				audio_play_sfx_random_pitch(snd_negative, 1.2, 0.98, 1.03);
 			}
 		}
@@ -29,8 +37,10 @@ switch (state) {
 		if (image_index > image_number - 1 && image_speed != 0) {
 			global.save.mushrooms -= current_save.loot_box_cost;
 			global.save.loot_box_cost += cost_increase;
-		
-			var _upgrade_info = get_random_upgrade_info();
+			
+			var available_upgrades = struct_unique_against(global.upgrades_info.upgrades, global.save.upgrades.collected);
+			show_debug_message(available_upgrades);
+			var _upgrade_info = get_random_upgrade_info(available_upgrades);
 			global.save.upgrades.collected[$ _upgrade_info.key] = _upgrade_info;
 		
 			instance_create_depth(x, y + 20, ui_depth, o_loot_chest_drop, { upgrade_info: _upgrade_info });	
@@ -38,8 +48,6 @@ switch (state) {
 			
 			image_speed = 0;
 		}
-		
-		
 	break
 	
 	case "awake": 
@@ -53,7 +61,6 @@ switch (state) {
 			state = "fall asleep";
 			audio_play_sfx_random_pitch(snd_loot_chest_fall_asleep, 2, 0.95, 1.05);
 		}
-		
 	break
 	
 	case "fall asleep":
@@ -68,7 +75,6 @@ switch (state) {
 			state = "sleep";
 			change_sprite(sp_loot_chest_sleep);
 		}
-		
 	break
 	
 	case "close":

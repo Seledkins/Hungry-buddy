@@ -7,9 +7,7 @@ image_yscale = surf_h;
 
 upgrades_surf = surface_create(surf_w, surf_h);
 
-showen_ups_arr = [];
-
-var collected_ups_arr = []
+var collected_ups_arr_sorted = []
 var keys = variable_struct_get_names(collected_ups);
 array_sort(keys, function(a, b) {
     if (a < b) return -1;
@@ -17,22 +15,28 @@ array_sort(keys, function(a, b) {
     return 0;
 });
 for (var i = array_length(keys) - 1; i >= 0; --i) {
-    array_push(collected_ups_arr, collected_ups[$ keys[i]]);
+    array_push(collected_ups_arr_sorted, collected_ups[$ keys[i]]);
 }
-array_copy(collected_ups_arr, 0, showen_ups_arr, 0, array_length(showen_ups_arr));
-var collected_ups_arr_len = array_length(collected_ups_arr);
 
-for(var line = 0; collected_ups_arr_len != 0; line++) {
-	for (var linex = 0; linex < max_upgrades_inline && collected_ups_arr_len != 0; linex++) {
-		var up_info = global.upgrades_info.upgrades[$ collected_ups_arr[collected_ups_arr_len - 1].key];
+show_debug_message(collected_ups_arr_sorted);
+
+var collected_ups_arr_sorted_len = array_length(collected_ups_arr_sorted);
+for(var line = 0; collected_ups_arr_sorted_len != 0; line++) {
+	for (var linex = 0; linex < max_upgrades_inline && collected_ups_arr_sorted_len != 0; linex++) {
+		var _key = collected_ups_arr_sorted[collected_ups_arr_sorted_len - 1].key;
+		var up_info = global.upgrades_info.upgrades[$ _key];
 		
-		var _x = surfx + up_sprite_width / 2 + ((up_sprite_width + surface_padding) * linex)
-		var _y = surfy + up_sprite_height / 2 + ((up_sprite_height + surface_padding) * line)
+		var _line_offset = ((up_sprite_height + surface_padding) * line);
+		var _x = surfx + up_sprite_width / 2 + ((up_sprite_width + surface_padding) * linex);
+		var _y = surfy + up_sprite_height / 2 + _line_offset;
+		
 		
 		var up_inst = instance_create_depth(_x, _y, 100, o_upgrade, {
 			image_index: up_info.index_sprite,
-			name: up_info.key,
 			key: up_info.key,
+			line_offset: _line_offset,
+			name: up_info.name,
+			description: up_info.description,
 			
 		});
 		
@@ -47,15 +51,15 @@ for(var line = 0; collected_ups_arr_len != 0; line++) {
 			
 			with(up_inst) {
 				self.choosen_cell = cell_inst.id;
-				self.inst_border = instance_create_depth(x, y, self.depth - 1, o_upgrade_border, { sprite_index: sp_upgrades, image_index: self.image_index });
+				self.inst_border = instance_create_border_upgrade(self, self.x, self.y, self.depth - 1);
 				
 				up_inst.x = cell_inst.x;
 				up_inst.y = cell_inst.y;
 			}
 		}
 		
-		array_pop(collected_ups_arr);
-		collected_ups_arr_len = array_length(collected_ups_arr);
+		array_pop(collected_ups_arr_sorted);
+		collected_ups_arr_sorted_len = array_length(collected_ups_arr_sorted);
 	}	
 }
 

@@ -19,8 +19,8 @@
   ],
   "name":"rm_init",
   "parent":{
-    "name":"global init",
-    "path":"folders/global init.yy",
+    "name":"inits",
+    "path":"folders/inits.yy",
   },
   "parentRoom":null,
   "physicsSettings":{

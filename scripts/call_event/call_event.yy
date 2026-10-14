@@ -1,12 +1,12 @@
 {
   "$GMScript":"v1",
-  "%Name":"loc_text_create",
+  "%Name":"call_event",
   "isCompatibility":false,
   "isDnD":false,
-  "name":"loc_text_create",
+  "name":"call_event",
   "parent":{
-    "name":"localiztion system",
-    "path":"folders/localiztion system.yy",
+    "name":"events system",
+    "path":"folders/ingame room system/events system.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

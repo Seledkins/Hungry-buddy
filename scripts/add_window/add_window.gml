@@ -1,5 +1,5 @@
 ///@desc _goto_func это функция вида funcction(click_data) {...}. Где click_data это структура с window_name на которую нажали
-function add_window(_name, _create_func, _exit_func, _sprite = noone, _goto_func = undefined) {
+function add_window(_name, _create_func, _exit_func, _sprite = noone, _goto_func = undefined, _transistion_use = true) {
 	if (is_undefined(_goto_func)) {
 		_goto_func = function(click_data) {
 			if (other.outline_color == c_black) {
@@ -16,6 +16,7 @@ function add_window(_name, _create_func, _exit_func, _sprite = noone, _goto_func
 		exit_func: _exit_func,
 		sprite: _sprite,
 		goto_func: _goto_func,
+		transistion_use: _transistion_use,
 		
 	}
 	

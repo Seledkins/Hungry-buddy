@@ -26,11 +26,10 @@ add_window("shop",
 
 
 buttons = array_map(struct_get_values_ordered(windows, windows_order), function(window_info) {
-	return {
-		name: window_info.name,
-		goto_func: window_info.goto_func,
-		sprite: window_info.sprite,
-	}
+	var btn_info = variable_clone(window_info);
+	struct_remove(btn_info, "exit_func");
+	struct_remove(btn_info, "create_func");
+	return btn_info;
 });
 
 array_push_front(buttons, {
@@ -38,7 +37,8 @@ array_push_front(buttons, {
 	sprite: sp_play_icon,
 	goto_func: function() {
 		instance_create_transistion_circle(other.x, other.y, room_width / 2, room_height / 2, function() { room_goto(rm_play);	}, 1.5, true);
-	}
+	},
+	transistion_use: false,
 });
 
 // init buttons
@@ -50,7 +50,20 @@ array_foreach(buttons, function(win_info, i) {
 		var _x = Camera.view_width - padding - icon_width / 2;
 		var _y = Camera.view_y + padding + icon_height / 2 + (icon_height + padding) * i;
 		
-		var btn = instance_create_simple_button(_x, _y, _x, _y, win_info.sprite, 0, win_info.goto_func ,,, { window_name: win_info.name });
+		var btn_func = win_info.goto_func;
+		
+		if (win_info.transistion_use) {
+
+		    btn_func = function(click_data) {
+		        if (other.outline_color ==  c_black) {
+					instance_create_transistion_rect(function(win_data) { window_goto(win_data.window_name) }, 0.2 ,, variable_clone(click_data));	
+				} else {
+					other.image_index = 1;
+				}
+		    };
+		}
+		
+		var btn = instance_create_simple_button(_x, _y, _x, _y, win_info.sprite, 0, btn_func ,,, { window_name: win_info.name });
 			
 		with(btn) {
 			image_xscale = global.ui_assets_scale;

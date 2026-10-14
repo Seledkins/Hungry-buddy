@@ -17,4 +17,6 @@ bonus_spawn_pattern_function(bonus_info.min_distance_to_border, bonus_info.max_d
 
 instance_create_spawn_appearance(spawn_x, spawn_y, bonus, o_play_values_manager.layid_bonuses);
 
+call_event(EVENTS.BONUS_SPAWNED, {obj: bonus});
+
 alarm[0] = spawn_delay;

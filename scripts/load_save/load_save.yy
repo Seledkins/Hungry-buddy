@@ -6,7 +6,7 @@
   "name":"load_save",
   "parent":{
     "name":"values save and load system",
-    "path":"folders/global init/values save and load system.yy",
+    "path":"folders/inits/values save and load system.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

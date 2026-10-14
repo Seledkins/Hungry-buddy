@@ -1,16 +1,5 @@
 function destroy_bonus_chest(){
 	
-	//var random_chance = random(total_drop_chances);
-	//var created_objs = 0;
-	
-	//for(var di = 0; di < drop_objs_array_length; di++) {
-	//	var current_drop_info = drop_objs[di];
-		
-	//	if (current_drop_info.chance < random_chance && created_objs < max_drop_objs_amount) {
-				
-	//	}
-	//}
-	
 	var created_objs = [];
 	var chest_drop_arr = global.save.bonuses_info.chest_drop_arr;
 	

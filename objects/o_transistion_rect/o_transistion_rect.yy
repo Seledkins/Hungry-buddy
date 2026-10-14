@@ -4,11 +4,13 @@
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":75,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
   "name":"o_transistion_rect",
   "overriddenProperties":[
-    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"o_transistion_parent","path":"objects/o_transistion_parent/o_transistion_parent.yy",},"propertyId":{"name":"transistion_speed","path":"objects/o_transistion_parent/o_transistion_parent.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"1",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"o_transistion_parent","path":"objects/o_transistion_parent/o_transistion_parent.yy",},"propertyId":{"name":"appearance_procent","path":"objects/o_transistion_parent/o_transistion_parent.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"0",},
   ],
   "parent":{
     "name":"transistion",
@@ -32,13 +34,22 @@
   "physicsShapePoints":[],
   "physicsStartAwake":true,
   "properties":[
-    {"$GMObjectProperty":"v2","%Name":"angle_start","filters":[],"listItems":[],"multiselect":false,"name":"angle_start","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"90","varType":0,},
-    {"$GMObjectProperty":"v2","%Name":"angle","filters":[],"listItems":[],"multiselect":false,"name":"angle","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"angle_start","varType":4,},
+    {"$GMObjectProperty":"v2","%Name":"starty","filters":[],"listItems":[],"multiselect":false,"name":"starty","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"0.0","varType":0,},
+    {"$GMObjectProperty":"v2","%Name":"endprocent","filters":[],"listItems":[],"multiselect":false,"name":"endprocent","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"1","varType":0,},
+    {"$GMObjectProperty":"v2","%Name":"padding","filters":[],"listItems":[],"multiselect":false,"name":"padding","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"-50","varType":0,},
+    {"$GMObjectProperty":"v2","%Name":"executed","filters":[],"listItems":[],"multiselect":false,"name":"executed","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"False","varType":3,},
+    {"$GMObjectProperty":"v2","%Name":"data","filters":[],"listItems":[],"multiselect":false,"name":"data","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"{}","varType":4,},
+    {"$GMObjectProperty":"v2","%Name":"surfw","filters":[],"listItems":[],"multiselect":false,"name":"surfw","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"Camera.view_width","varType":4,},
+    {"$GMObjectProperty":"v2","%Name":"surfh","filters":[],"listItems":[],"multiselect":false,"name":"surfh","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":" Camera.view_height","varType":4,},
+    {"$GMObjectProperty":"v2","%Name":"surf","filters":[],"listItems":[],"multiselect":false,"name":"surf","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"surface_create(surfw, surfh)","varType":4,},
   ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"sp_rect_transistion",
+    "path":"sprites/sp_rect_transistion/sp_rect_transistion.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }

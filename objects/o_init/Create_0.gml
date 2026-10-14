@@ -108,15 +108,14 @@
 
 #endregion
 
-//info inits
-objs_spawn_info_init();
 
+objs_spawn_info_init();
 init_upgrades();
+
 init_save_values();
+localization_init();
 
 load_save();
-
-//load_collected_upgrades();
 
 randomise();
 room_goto(rm_play);
